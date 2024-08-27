@@ -1,0 +1,10 @@
+broader project ideas
+  - creativity support
+  - research tools
+    - assist in collection, analysis, and dissemination of data, facilitating scientific experience research
+  - health and wellbeing
+  - education and learning
+
+discoverability
+  - the ability to figure out the functions of an interface
+feedback
