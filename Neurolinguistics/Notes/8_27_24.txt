@@ -1,0 +1,51 @@
+need to buy textbook
+
+neurons - cells in the brain
+  - ~100billion in the human brain
+  - if neuron fibers were connected end to end, would stretch for 150,000 km (4x circumference of the earth)
+  - cortex alone contains ~30bill w/ 1millbill connections
+
+neuron anatomy
+  - cell body (soma)
+  - neucleus
+  - dendrites (short branches from soma, recieve impulses from other axons)
+  - axon (usually one long branch per neuron, sends impulse to other dendrites)
+  - myelin sheaths (fatty tissue, insulates axon)
+  - nodes of Ranvier between myelin sheaths (allows ion exchange to strengthen impulses)
+
+impulse conduction
+  - pre-synaptic axons (active conduction)
+  - post-synaptic dendrites/soma (passive conduction)
+  - post-synaptic axon (active conduction)
+
+synapse
+  - interface between axon and dendrite
+
+impulse conduction action
+  - depolarization
+  - if threshold met, voltage gated Na+ channels open and Na+ pumped into the neuron making a positive potential
+  - Na+ channels close, voltage gated K+ channels open to pump K+ out of neuron
+  - K+ channels continue operating leading to overshoot of polarization
+
+impulse conduction
+  - at terminal buttons (end of axon), electrical impulses are converted to chemical neurotransmitters, cross synaptic cleft (gap)
+  - are picked up by dendrite and converted back to electrical impulses
+
+synapse
+  - junction of an axon of one neuron and dendrite of another
+  - terminal buttons
+  - dendrite receptors
+
+supply
+  - neuronal activity requires energy
+  - human brain is only 2-3% of body weight, but consumes about 20% of oxygenated blood
+  - arteries are 4-10mm in diameter
+  - arterioles are 20-50um
+  - capillaries 10um
+  - veins deoxygenated blood back to heart
+  - middle cerebral artery most important for language centers of brain
+  - also exist anterior and posterior cerebral arteries
+
+
+
+
