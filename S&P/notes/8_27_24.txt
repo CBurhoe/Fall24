@@ -1,0 +1,139 @@
+Harbor labs (both professors work there)
+*go to hackernews and ycombinator
+
+
+computer security
+	- have computers, legitimate users, and hackers
+	- legitimate users want to use computers for a service
+	- hackers want to find exploits for computing systems to use them in unintended ways
+	- some want to do this for malicious purposes, some want to understand the tech, some want to protect against malicious use
+
+special guest lecture on dominion voting machines later on (election year!)
+
+
+itinerary
+	- system security
+		- software
+	- internet security
+		- web
+		- XSS
+		- SQL injection
+	- real world applications
+		- end to end encryption
+		- openssl
+
+
+
+UNIX isolation:
+UNIX: an operating system
+	- 60s
+	- multitasking
+	- concurrent processes
+	- multi user environments
+	- shell, CLI
+Linux: UNIX-like
+	- monolithic kernel environment
+
+UNIX Isolation
+	- multiple users on a system
+	- other users shouldn't be allowed to arbitrarily access another user's resources
+	- root user has complete access to the system and other users resources
+	- this exists in userspace, not kernel space
+
+	when logging in, the first process run is a shell (bash, zsh, corn, etc.)
+	- spawns that shell process
+	- all processes after are a child process with the same UID
+	- this determines access privileges
+	- also exist groups
+	UIDs specify the access control policies for a user and group
+
+	processes have virtual memory address spaces
+	- provides an abstraction of memory so that a process can use it without knowledge of the rest of the physical memory
+	- unintentional security feature
+		- prevents users from overflowing into other areas of memory
+	- processes can share memory, but this has to be explicitly configured
+
+	* ps command shows all processes running
+
+hardware
+	abstract layer of isolation between hardware and users
+	- OS kernel
+	- hardware drivers
+		- software level interface for accessing hardware
+	- syscall interface
+		- talks on behalf of process to the kernel to provide hardware access
+	kernel isolation
+	- kernel itself runs processes
+userland and kernel land
+
+users:
+	seed@VM is the VM for the course
+	
+	filesystem exists as a tree, hierarchical
+	in Linux, everything is represented as a file
+	
+	UID - user id
+	GID - group id
+	groups - collection of groups that the user is in
+
+	first process run: /etc/bash (shell)
+
+	root
+	- UID = 0
+	- GID = 0
+	
+Groups:
+	- represent a group of users
+	- assigning similar permissions to several users
+	- users can belong to multiple groups
+	- primary groups in /etc/passwd
+	use groups or id to list a your user's groups
+	adduser to add users
+	groupadd to add a group
+
+file permissions:
+	types of access
+		- read (r)
+		- write (w)
+		- execute (x)
+	`ls -l xyz`
+		- lists details for a file
+		
+	types of access on directories (still represented as files)
+		- read - list contents (ls)
+		- write - make subdirectories
+		- execute - open directory
+more fine grained access control with getfacl/setfacl
+	- if you want to give access to 2 or more groups
+
+running commands as root: sudo (superuser do)
+	- prefixed to commands in shell
+	- by default runs as root, but can use -u to select a user
+	- user needs authorization to use sudo
+	- get full shell as root with sudo -s
+		- not recommended in general
+	- /etc/sudoers is a privileged access file
+
+user auth:
+	- verifies a user identity and is based on something...
+		- knows a password
+		- is a biometric (fingerprints, face id)
+		- security questions
+		- tokens
+		- has a device (key card, phone)
+		- MFA combines these
+	- UNIX auth is primarily done through a password
+		- user metadata stored in /etc/passwd
+		- password itself stored in a hashed format in /etc/shadow
+			- to prevent arbitrary access by users
+			- stores hashing algorithm, salt, password hash
+			- salt provides "randomness" to the algorithm to prevent similar passwords from being comprehensible
+
+todo:
+	- review syllabus on canvas
+	- read ch 1, 2, 3 of textbook
+	- read reflections on Trusting Trust
+	- access course VM
+	- read stuff on hackernews, lobste.rs, ars technica
+
+

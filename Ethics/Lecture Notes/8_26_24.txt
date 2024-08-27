@@ -1,0 +1,24 @@
+Ethics: 
+1. Morality -> action, right vs wrong
+2. code, 
+	- guidelines; best practices (by a company, community, etc.)
+	- regulations; legal aspect
+	- enforcement
+3. individual vs society
+	- consensus mechanisms
+4. law != ethics
+	- laws can be unethical
+5. ethics != emotionality or subjectivity
+6. standards, norms that are objective
+7. dynamic
+	- cultural influence
+	- geographical influence
+8. do no harm
+9. right to freedom
+
+AI Lifecycle
+
+design
+development
+deployment/integration
+monitoring

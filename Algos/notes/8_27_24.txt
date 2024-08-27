@@ -1,0 +1,24 @@
+ex1: multiplication
+
+given two n-bit integers X and Y, compute XY.
+	- since n-bits, each integer in [0,2^n-1]
+How to do this?
+
+def multiplication:
+	- add X to itself Y times (or inverse)
+running time:
+	- O(X) or O(Y)
+	- could be O(2^n) (exponential)
+
+better algorithm: grade school
+	- O(n) column additions, each takes O(n) time => O(n^2) time
+	- better than obvious algorithm
+
+even better algorithm? yes: Karatsuba Multiplication
+
+Segment X and Y into n/2 leading and trailing bits (A and B)
+	X = 2^(n/2)A + B
+	Y = 2^(n/2)C + D
+	XY = (2^(n/2)A + B)(2^(n/2)C + D)
+	   = (2^n)AC + 2^(n/2)AD + 2^(n/2)BC + BD
+Running Time: T(n) = 4T(n/2) + cn => O(n^2)
