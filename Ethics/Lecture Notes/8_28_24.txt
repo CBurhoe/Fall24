@@ -1,2 +1,43 @@
 Review of story reading:
 
+Computer Ethics:
+
+- data, privacy, IP
+- logical malleability
+- scale
+  - not constrained to a local domain, affects pontentially populations
+- bias
+
+AI:
+
+general consensus def
+- computational systems that process data/information;
+- that resembles intelligent behavior
+  - intelligent: reasoning, learning, perception, prediction, adaptability
+
+important considerations
+- limits
+- obligations
+- rights
+
+issues with attacking the issue of AI ethics
+- breadth of the topic
+- speed of evolution in technological progress
+
+taxonomy of approaches
+- principles-based
+  - come up with a set of principles from a consensus and use to guide approach
+- standards-based
+  - entities come up with a set of rules for industry best-practices
+- experimental-based
+  - regulatory sandbox/testbed for controlled innovation in collaboration with policy makers
+- enablement-based
+  - create environment in which you enable the development
+- adapting existing laws
+  - e.g. adapting discrimination laws to specify AI-enabled systems not being able to discriminate against protected groups
+- transparency
+  - corporations should disclose technology and algorithms
+- risk
+  - base framework around potential risks of a technology
+- liability
+  - know where to assign responsibility/liability in the case of a failure/issue/violations
