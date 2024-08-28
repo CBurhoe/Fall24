@@ -1,1 +1,6 @@
+3.a:
+Pf by Contradiction
+Suppose FTSOC that no more than ceiling(157/12) - 1 = 13 students have birthdays in the same month.
+
+The total number of students is at most 12(ceiling(157/12)-1) < 12((157/12 + 1) - 1) = 157. This is a contradiction because there are 157 students.
 
