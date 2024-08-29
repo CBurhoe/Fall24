@@ -1,7 +1,9 @@
 Today: Asymptotics, Recurrences
 
-Asymptotics
+Asymptotics:
 - Intuitively: hide constants and lower order terms since we only care about what happens "at scale" (asymptotically)
+
+Big notation
 - use big-oh, big-omega, bit-theta
 - big-oh
   - g(n) in O(f(n)) if there exist constants c, n0 > 0 s.t. g(n) <= cf(n) for all n > n0
@@ -35,6 +37,23 @@ thm: 2n^2 + 27 = O(n^2)
   - note: constants n_0, c can be different in the pfs for O(f(n)) and big-omega(f(n))
   - equivalent def: g(n) in big-theta(f(n)) if there are constants c_1, c_2, n_0 > 0 s.t. c_1f(n) <= g(n) <= c_2f(n) for all n > n_0
   - both lower and upper bound, so asymptotic equality
+
+Little notation
+- strict versions of big-oh and big-omega
+- little-oh
+  - g(n) in o(f(n)) if for every constant c > 0 there exists a constant n_0 > 0 s.t. g(n) < cf(n) for all n > n_0
+- little-omega
+  - g(n) in little-omega(f(n)) if for every constant c > 0 there exists a constant n_0 > 0 s.t. g(n) > cf(n) for all n > n_0
+
+e.g. 2n^{2} + 27 = o(n^{2}logn)
+e.g. 2n^{2} + 27 = little-omega(n)
+
+- if g(n) is big-omega(f(n)), then it cannot be o(f(n))
+- if g(n) is O(f(n)), then it cannot be little-omega(f(n))
+- g(n) = o(f(n)) implies g(n) = O(f(n)), same with omegas
+
+
+Sorting:
 
 
 
