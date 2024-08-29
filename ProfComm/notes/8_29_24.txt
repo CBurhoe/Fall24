@@ -1,3 +1,4 @@
+Reading notes:
 Five Factors of professional writing
 
 1. Audience related factors
@@ -41,3 +42,92 @@ Stages of the writing process
 3. Revising
 4. Editing
 5. Proofreading
+
+
+Class notes:
+review of shitty first drafts
+- student: "I know what I need to do each time, it just takes me an hour to get there"
+- lots of self criticism during the wriitng process when faced with writer's block
+- shortening sentences in some spots adds a rhythm and fun rhetoric
+- idea of a shitty first draft is to just dump everything out
+- even professional writers can have writer's block. struggle is independent of skill level/expertise
+- important to learn about your own habits and factor into the process of writing e.g. add in procrastination time
+- author gets up to study appearance in mirror, make snacks
+- some of our habits: eat, clean room, watch a short video for a mind break, take a brief nap, rotting in bed, run, shower, juggle
+- there are people who write elegant first drafts, but we don't talk about them
+
+In class exercise:
+My shitties first draft
+When I was writing my final paper for the Cognitive Neuropsychology of the Visual System, I had no idea what I was going to write for my intro or conlusions, so I went through the entire scientific paper and wrote down brief bullet points of each section, the main goals, expirimental setup, and major findings. This was almost exactly the same for roughly half of the sections, so it became very repetitive (the study consisted of about 15 sub-experiments). It was a lot of "subject x was instructed to do y", "the goal was to find out if x is correlated to y", "observation x occurred", etc. I then had about 15 section of very similar notes, but they progressively got more trimmed as I went along due to writing fatigue. Towards the end, I felt like the first few sections contained too much detail, and could be pared down into more brief outlines of the experiments.
+
+Workplace writing:
+- what are the rules that you know about?
+
+- what do you struggle with in prof writing?
+I struggle with knowing what tone to have in my emails to colleagues, superiors, etc when there is not an already established rapport with them.
+I also struggle with writing cover letters and resumes
+- what do you already feel confident with?
+Writing emails and messages to colleagues that I work with frequently.
+When to add personal details (contact info)
+- how is professional writing different from writign for school?
+
+
+Workplace vs School:
+- in school you are writing to be evaluated
+- in professional contexts people use your writing to do something
+- focus on audience and purpose
+
+Think of a time you had to deliver bad news to a superior:
+When I messed up a large bulk of entries in my department's inventory database, I had to email my engineer and our QA/QC department staff to inform them of my error and how we could resolve this. It was a minor mistake (not mission critical for our workplace necessarily) so I explained my error and what I did that caused it, explained why it occurred but did not take away the blame from myself, and asked for suggestions on how to address it.
+
+Key steps with writing bad news/apology emails:
+- Dimensions of workplace genres
+  1. textual featues: structure, style, tone, etc.
+    - identify what happened
+    - take responsibility
+    - state what is going to change (for the better ideally)
+    - tone of formal sincerity
+    - offer solutions
+  2. composing process: how data is collected and analyzed, how drafts are revised, what tools are used
+    - have someone connected proofread
+    - collect yourself emotionally
+    - check for too many promises, etc
+    - check applicable policies (syllabus, code of conduct)
+    - check last email to/from recipient and see how it was constructed
+  3. reading practices: how users of the text will interpret and apply the information
+    - put yourself in the recipient's shoes
+  4. social role: power dynamic vs sender and recipient, who SHOULD send the email
+
+some textual features:
+1. Foreground the news
+2. Provide an honest explanation
+3. Apologize or express empathy
+4. Offer a resolution or follow-up action
+
+
+
+
+A. You are a project manager for an app development company. You told your client that your
+team would be able to meet an April 15 deadline for a new feature for their mobile app. As of
+April 3, the developers are significantly behind schedule because the client’s design needs turned
+out to be more difficult to execute than expected. The team could complete the feature as
+requested by May 1, or complete a different, simpler version of the feature by April 15.
+1. What do you do to prepare to write and send this email?
+Communicate 
+2. What do you want the client to do/feel?
+Instill confiedence in the capabilities of our dev team and that we can deliver on the new promises
+3. Draft your email delivering the bad news.
+
+Dear [client],
+
+Due to difficulties implementing the requested features of [application], our development team will not be able to fully implement [feature] by the agreed upon date of [date].
+
+We sincerely apologize for this oversight when setting our release date with you. Our development team is working hard on implementing the essential functionalities of the feature by the agreed upon date, and will have a fully implemented version completed by May 1st.
+
+
+
+
+
+
+
+
