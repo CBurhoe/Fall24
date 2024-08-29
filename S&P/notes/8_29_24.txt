@@ -40,3 +40,42 @@ WordPress WPML multi lingual plugin - https://www.securityweek.com/code-executio
 Thompson's Reflections on Trusting Trust
 - Demonstrates a Trojan in which a self producing program can reproduce a bugged self, infecting a compiler and perpetuating even when the compiler is recompiled
 - suggests that breaking into computers (hacking) should be treated as breaking into a neighbor's house when the door is unlocked or drunk driving
+
+
+Lab Notes:
+
+Lynis
+- security audit tool for linux systems
+- enumerate firewall systems, services, access control policies
+
+env variables
+- key-value pairs that store information for the environment
+
+Processes
+- a running process can spawn child processes
+- this makes the first process a parent process
+- one way is using the fork() syscall
+  - this creates a copy of the parent's memory space
+
+set-uid
+- privileged program
+  - gives user extra privileges beyond those assigned to them
+- set-uid program runs with the permissions of its owner
+  - set-uid bit indicates the program is a set-uid program
+e.g. want to reset passwords
+- real and effective user IDs
+  - real UID identifies real ownership of a process
+  - effective UID identifies access control
+- root owned set-uid means that set-uid program runs as root
+  - non set-uid program real id and effective id?
+  - set-uid program real id and effective id?
+- how do these environment variables (PATH, LD_LIBRARY_PATH) interact with Set-UID?
+
+VMs
+- user{01-60}@10.161.161.15
+- pass: tempS&P2024
+must be on hopkins network
+
+
+
+
