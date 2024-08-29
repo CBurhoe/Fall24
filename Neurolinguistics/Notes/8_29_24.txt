@@ -3,4 +3,88 @@ Synapses
 - axons carry signals away from the cell
 - Synapses are the interface between denrites and axons
 
+Hierarchical representation
+- neurons representing elementary features project to multiple layers of higher-order "conjunctive neurons" representing increasingly complex stimuli
+
+
+Parts of the brain:
+- brainstem
+- cerebellum
+- cerebrum
+  - frontal lobe
+  - parietal lobe
+  - occipital lobe
+  - temporal lobe
+  - insula
+
+Orientation:
+- planes
+  - sagittal
+    - bisect left and right portions
+  - coronal
+    - bisect anterior (Rostral) and posterior (Caudal) portions
+  - horizontal
+    - bisect inferior (ventral) and superior (dorsal) portions
+    - aka axial or transverse
+- coordinates
+  - X-axis: left(-) to right(+)
+  - Y-axis: posterior(-) to anterior(+)
+  - Z-axis: inferior(-) to superior(+)
+
+Brainstem:
+- medulla
+- pons
+- midbrain
+  - control homeostasis
+  - houses cranial nerves to head and neck
+- colliculi
+- pulvinar
+- thalamus
+  - top of brainstem
+  - sensory relay on the way to cortex
+  - has reciprocal connections with all regions of the cortex
+
+Hippocampus:
+- located in medial temporal lobe
+- essential for consolidating long-term declarative memories
+
+Amygdala:
+- almond-shaped structure in medial temporal lobe
+- processing of emotionally and socially relevant info
+- essential for fear conditioning
+
+Basal ganglia:
+- interconnected nuclei beneath frontal and temporal lobes
+- receive input from cortex, send output to frontal lobes via thalamus
+- important for acquisition of habits
+
+Cerebellum:
+- behind medulla and pons
+- regulating muscle tone, timing, coordination of movement
+- contributes to cognition
+
+Cerebrum:
+- 2 hemispheres connected by corpus callosum
+- interior commisure is the (0,0,0) point for coordinate systems
+
+Corpus callosum:
+- thick band of fibers
+- connects hemispheres
+
+Ventricles:
+- 4 ventricles: 2 lateral, 3rd, and 4th
+- contain cerebro-spinal fluid (CSF)
+
+Cerebral Cortex:
+- gyri: ridges
+- sulci: valleys
+- fissure: very deep valley
+- same major gyri and sulci
+  - differences in precise size and locations across individuals
+
+- Made of 6 layers (I-VI)
+  - cytoarchitectonic organization
+  - similarities and differences between cortical areas with respect to the presence/absence, packing densitym abd layering of various cell types
+Brodmann's areas
+- based on cytoarchitectonic differences among areas of cortex
 
