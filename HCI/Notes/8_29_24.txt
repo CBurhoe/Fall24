@@ -1,0 +1,144 @@
+Housekeeping:
+- assignment 1 due soon
+- project interest form
+- exit ticket today 4:30-11:50pm to complete
+
+Review of Tuesday lecture
+- Norman doors
+  - poorly and unintuitively designed doors
+  - we make push/pull decisions everyday
+  - we all encounter doors that do this poorly
+  - we all see signs that don't change how we act/behave
+
+This course about process
+- identifying problems with design
+- understanfing user needs
+- designing
+
+what is a process?
+- a way of doing something
+- it must be
+  - definable
+  - repeatable
+  - measurable
+- it is a critical component of quality, along with customer satisfaction
+
+process
+- understand
+- design
+- develop
+- test
+==> quality
+
+design starts with empathy
+
+this is not a typical CS class
+- designer vs developer
+- we won't spend much time on learning developers languages
+- we deal with user understanding
+- ideation
+- prototyping
+- user eval
+- rapid iteration and exploration
+
+design paradigms and HCI history:
+
+things from reading
+- activity-centered design
+- taskonomy vs taxonomy
+  - taskonomy: arranging things around how we get our work done
+  - taxonomy: system of classification
+- we are concerned more with taskonomy
+- UX design not equal to graphic design
+- test with users
+  - how can you get this information
+- according to Norman good design
+  - discoverability
+  - feedback
+
+ways of design:
+
+appropriation
+- a simple observation about some object to a different vision for how that object might be used to achieve a goal
+- appropriation is the process by which people adopt and adapt technologies, fitting them into their working practices
+e.g. Gmail as an online storage, or...
+
+bricolage
+- creating new things from a diverse range of other things
+- something constructed or created from a diverse range of available things
+- TV show MacGyver is an example of bricolage
+- Apollo 13 is another example
+- collaging
+
+human-centered design
+- an approach to problem solving in design
+  - develops solutions by involving the human perspective
+- understand users needs
+- ideate and design
+- test usability
+- put rigor into design process
+
+participatory design
+- collaborative approach to design that involves users in the design process to create products, services and systems that meet their needs
+- the goal is to create an egalitarian environment where users and designers work together to create products that are usable and have collective ownership
+- users are designers
+
+activity-based design (contextual inquiry)
+- a type of ethnographic that involves in-depth observation and interviews
+- it helps UX researchers understand how people work in the context of their natural environment
+e.g. during a CI interview, a researcher will observe and interview users while they perform assigned tasks
+e.g. google maps (what people need on the map when they travel)
+
+value-sensitive design
+- accounts for human values in a principled and comprehensive manner
+- goal is to develop products that respect the values of the targeted end users
+- identify those values early in the development process
+e.g. privacy in social media, autonomy in healthcare, sustainable product design, fairness in algorithms
+
+universal design
+- empower people with diverse abilities
+- create products, environments, and services accessible and usable by the widest range of people
+
+ability-based design
+- focuses on accomodating and leveraging the abilities of users rather than focusing on their limitations
+
+universal vs ability based designs
+- universal aims to create accessibility regardless of ability
+  - creating one solution tht works for many
+- ability aims at specific abilities of users and dyamically adapts them
+  - adapts to users
+
+
+HCI history:
+- early on, highly trained people failing to effectively control the machinery they operate (e.g. airline pilots crashing planes)
+- moves to information systems
+- late stage, computer-human interaction and antecedents
+- the most profound technologies are those that disappear
+
+the 40s
+- memex, 1945
+  - stores records/articles/communications
+  - items retrieved by indexing, keywords
+  - information linked through associative trails
+
+the 60s
+- sketchpad, 1963
+- the mouse, 1968
+
+the 70s
+- xerox alto, 1973
+  - the desktop metaphor
+- apple II, 1977
+  - first mass production
+  - color graphics
+
+the 80s
+- graphical interfaces (GUIs)
+- knowledge navigator
+- 3d pressure sensing multi-touch interfaces
+
+the 90s
+- AT&T visions of the future
+
+modern
+- chemical haptics in VR (UChicago)
