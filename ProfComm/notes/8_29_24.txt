@@ -1,1 +1,43 @@
+Five Factors of professional writing
 
+1. Audience related factors
+  - take into account your audience (reader, listener, hiring manager, etc.) point of view, goals, desires, etc
+  - disabilities or needs of a specific community
+  - language ability
+  - expertise level
+  - cultural experience and beliefs
+
+2. Purpose related factors
+  - what message are you trying to convey to the audience
+  - what information do you want to relay
+  - what is the priority hierarchy of your purposes
+
+3. Setting related factors
+  - is there a lot at stake in the situation
+  - budget vs technical notes
+  - context in which audience will consume the communication
+  - established norms of ethical behavior
+
+4. Document related factors
+  - kind of content of the document
+  - does subject dictate medium, kind, format of the document
+  - is supplemental/secondary documentation required
+
+5. Process related factors
+  - what process will be used to produce the document
+  - is there an established process, or does it need to be developed
+  - is there sufficient time to do research, analysis, background reading
+  - will there be required maintenance on the document
+
+Three important skills of successful technical communicators
+
+1. Ability to perform research
+2. Ability to analyze information
+3. Ability to speak and write clearly
+
+Stages of the writing process
+1. Planning
+2. Drafting
+3. Revising
+4. Editing
+5. Proofreading
