@@ -88,3 +88,14 @@ Cerebral Cortex:
 Brodmann's areas
 - based on cytoarchitectonic differences among areas of cortex
 
+Classic language areas:
+- Broca's area (speech production)
+  - posterior 2/3 of inferior frontal gyrus (IFG), Brodmann's 44,45
+- Wernicke's areas (speech perception)
+  - posterior 1/3 of superior temporal gyrus (STG), Brodmann's 22,37,39,40,41,42
+
+Cerebrum:
+- Fasciculi: white matter fiber tracts that interconnect different cortical areas within the same hemisphere
+  - arcuate fasciculus
+    - connects Broca's to Wernicke's
+
