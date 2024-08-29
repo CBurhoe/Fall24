@@ -54,9 +54,88 @@ e.g. 2n^{2} + 27 = little-omega(n)
 
 
 Sorting:
+- many algorithms recursive, so running time naturally a recurrence relation (karatsuba, strassen).
+sorting
+- Let T(n) denote (worst-case) running time on an array of size n
+  - Selection Sort
+    - find smallest unsorted element, put it just after sorted elements. repeat.
+    - running time: takes O(n) time to find smallest unsorted element, decreases remaining unsorted elements by 1
+    ==> T(n) = T(n - 1) + cn
+    - T(n - 1) is the recursive call
+    - cn is the time it takes for the current level
+  - Mergesort
+    - split array into left and right halves, recursively sort each half, then merge.
+    - running time: merging takes O(n) time. two recursive calls on half the size.
+    ==> T(n) = T(\frac{n}{2}) + T(\frac{n}{2}) + cn = 2T(\frac{n}{2}) + cn
+- Also need a base case. For algorithms, constant size input takes constant time.
+==> T(n) <= c for all n <= n_0 for some constants n_0, c > 0
+
+
+Solving Recurrences:
+
+Guess and Check
+- T(n) = 3T(\frac{n}{3}) + n    T(1) = 1
+- Guess: T(n) <= cn
+- Check: assume true for n' < n, prove true for n (strong induction)
+  - T(n) = 3T(\frac{n}{3}) + n <= \frac{3cn}{3} + n = (c + 1)n
+    - in this case, c scales with n, so c is not a constant, t.f. the pf fails to prove that T(n) <= cn
+- Better Guess? what goes up by 1 when n goes up by a factor of 3? log_3(n)
+- Guess: T(n) <= nlog_3(3n)
+- Check: assume true for n' < n, prove true for n (strong induction)
+  - T(n) = 3T(\frac{n}{3}) + n <= 3(\frac{n}{3})log_3(\frac{3n}{3}) + n = nlog_3(n) + n = n(log_3(n) + log_3(3)) = nlog_3(3n)
+
+e.g. Selection Sort. T(n) = T(n - 1) + cn
+- Idea: "unroll" the recurrence
+  - T(n) = cn + T(n - 1)
+  - = cn + c(n - 1) + T(n - 2)
+  - = cn + c(n - 1) + c(n - 2) + T(n - 3)
+  ...
+  - = cn + c(n - 1) + c(n - 2) + ... + c
+- n terms, each of which at most cn ==> T(n) <= cn^{2} = O(n^{2})
+- At least \frac{n}{2} terms which are at least \frac{cn}{2} ==> T(n) >= c\frac{n^{2}}{4} = big-omega(n^{2})
+==> T(n) = big-theta(n^{2})
+
+Recursion Tree: Mergesort
+- Generalizes unrolling: draw out full tree of "recursive calls"
+- Mergesort: T(n) = 2T(\frac{n}{2}) + cn
+***
+(tree in lecture slides)
+***
+- number of levels: log_2(n)
+- contribution of level i: 2^{i - 1}\frac{cn}{2^{i - 1}} + cn?
+
+Recursion Tree: Strassen
+- T(n) = 7T(\frac{n}{2}) + cn^{2}
+***
+(tree in lecture slide 15)
+***
+- number of levels: 
+- contribution of level i: 7^{i - 1}c(\frac{n}{2^{i - 1}})^{2} = (\frac{7}{4})^{i - 1}cn^{2}
+- Total: cn^{2} \SUM{i=1}{log_2(n+1)}(\frac{7}{4}^{i-1})
+==> T(n) = ... = O(n^{log_2(7)})
+
+Master Theorem
+- T(n) = aT(\frac{n}{b}) + cn^{k}       T(1) = c
+- a,b,c,k constants with a >= 1, b > 1, c > 0, 
+***
+(see lecture slide 17,18)
+***
+
+***NOTE ON LOGARITHMIC FUNCTIONS***
+- log_2 takes an input of 2 and returns an output of 1
+- log_3 takes an input of 3 and returns an output of 1
+- in general, logarithmic functions take an input of their base, and return an output of 1
+  - OR, takes the order of magnitude of their base, and returns the exponent
+  - e.g. log_2(2^4) = 4
 
 
 
 
-Recurrences
-- 
+
+
+
+
+
+
+
+
