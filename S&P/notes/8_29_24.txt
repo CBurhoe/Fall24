@@ -36,3 +36,7 @@ WordPress WPML multi lingual plugin - https://www.securityweek.com/code-executio
     - can be exploited using a server-side template injection by an attacker with contributor-level permissions
     - gain RCE
   
+
+Thompson's Reflections on Trusting Trust
+- Demonstrates a Trojan in which a self producing program can reproduce a bugged self, infecting a compiler and perpetuating even when the compiler is recompiled
+- suggests that breaking into computers (hacking) should be treated as breaking into a neighbor's house when the door is unlocked or drunk driving
