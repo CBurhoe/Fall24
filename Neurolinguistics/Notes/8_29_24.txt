@@ -1,0 +1,6 @@
+Synapses
+- dendrites carry signals to the cell
+- axons carry signals away from the cell
+- Synapses are the interface between denrites and axons
+
+
