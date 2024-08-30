@@ -1,3 +1,39 @@
+Section 1:
+
+a. false
+b. false
+c. true (c=2, n_0=1)
+d. true (c=\frac{1}{9}, n_0=1)
+e. true (c_1=1, c_2=\frac{1}{15}, n_0=1)
+f. 
+
+
+
+
+
+
+
+
+
+
+Section 2:
+
+T(n) = 5T(n - 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Section 3:
+
 3.a:
 Pf by Contradiction
 Suppose FTSOC that no more than ceiling(157/12) - 1 = 13 students have birthdays in the same month.
