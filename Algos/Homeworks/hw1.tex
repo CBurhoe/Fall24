@@ -23,7 +23,13 @@ Section 2:
 
 T(n) = 5T(n - 3)
 
+b. (use master theorem II from lecture slides)
 
+c. T(n) = 6T(\frac{n}{4}) + n
+Master theorem: a=6, b=4, c=1, k=1   \alpha = 1.5 > 1, big-theta(n^{log_{4}(6)})
+
+d. T(n) = T(n - 2) + 10
+unrolling, \frac{n}{2} terms each of which is at most 10, so 10*\frac{n}{2}, so big-theta(n) (linear)
 
 
 
