@@ -1,0 +1,67 @@
+\begin{document}
+
+\noindent {\large {\bf 601.433/633 Introduction to Algorithms} \hfill {{\bf Fall 2024}}}\\
+{{\bf Homework \#1}} \hfill {{\bf Due:} September 3, 2024, 9am} \\
+\rule[0.1in]{\textwidth}{0.4pt}
+
+Remember: you may work in groups of up to three people, but must write up your solutions entirely on your own. Solutions must by typeset (\LaTeX\ preferred but not required). Collaboration is limited to discussing the problems -- you may not look at, compare, reuse, etc.~any text from anyone else in the class. Please include your list of collaborators on the first page of your submission. You may use the internet to look up formulas, definitions, etc., but may not simply look up the answers online. 
+
+Please include proofs with all of your answers, unless stated otherwise.
+
+\noindent \rule[0.1in]{\textwidth}{0.4pt}
+
+\section{Asymptotic Notation (32 points)}
+
+For each of the following statements say if it true or false and prove your answer. The base of $\log$ is $2$ unless otherwise specified, and $\ln$ is $\log_e$.
+
+\begin{enumerate}
+\item $n \tan n = O(2^n)$
+
+\item $e^n = \Theta(2^{n})$
+
+\item $n \cos n = O(n)$
+
+\item $3^n = \Omega(3^{(n+2)})$
+
+\item $\log(n^{1/5}) = \Theta(\log (n^{3}))$
+
+\item Let $f,g$ be positive functions. Then $f(n)+g(n) = \Omega(\max(f(n),g(n)))$
+
+\item Let $f,g$ be positive functions, and let $g(n) = o(f(n))$. Then $f(n)+g(n) = \Theta(f(n))$
+
+\item $2^{(5/2) \log n} = O(n^2)$
+
+\end{enumerate}
+
+
+\section{Recurrences (32 pts)}
+
+Solve the following recurrences, giving your answer in $\Theta$ notation (so both an upper bound and a lower bound). For each of them you may assume $T(x) = 1$ for $x \leq 5$. Justify your answer (formal proof not necessary, but recommended).
+
+\begin{enumerate}
+\item $T(n) = 5 T(n-3)$
+
+\item $T(n) = n^{1/4} T(n^{3/4}) + n$
+
+\item $T(n) = 6 T(n/4) + n$
+
+\item $T(n) = T(n-2) + 10$
+
+\end{enumerate}
+
+
+\section{Basic Proofs (36 pts)}
+\begin{enumerate}
+
+\item There are currently $157$ students registered for the class ($92$ undergrad, $65$ grad). Prove that there are at least $14$ students who have birthdays in the same month.
+
+\item Prove \textbf{by induction} that $\sum_{i=1}^n (2i-1) = n^2$ for all positive integers $n$.
+
+\item I have a bucket with $32$ balls, 20 of which are white and 12 of which are black. If I draw $9$ balls at random from the bucket (all at one time), what is the probability that exactly three of them are white?
+
+\end{enumerate}
+
+
+
+
+\end{document}
