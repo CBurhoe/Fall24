@@ -21,7 +21,8 @@ h. false (simplify to g(n) = n^{\frac{5}{2}}, n^{\frac{5}{2}} <= cn^{2} fails fo
 
 Section 2:
 
-T(n) = 5T(n - 3)
+a. T(n) = 5T(n - 3)
+unrolling yields one term which is 5^{\frac{n-5}{3}}*c. Can then prove that T(n) = \Theta (5^{\frac{n}{3}})
 
 b. (use master theorem II from lecture slides)
 
@@ -45,13 +46,27 @@ Section 3:
 
 3.a:
 Pf by Contradiction
-Suppose FTSOC that no more than ceiling(157/12) - 1 = 13 students have birthdays in the same month.
+Suppose FTSOC that no more than ceiling(157/12) - 1 = 13 students have 
+birthdays in the same month.
 
-The total number of students is at most 12(ceiling(157/12)-1) < 12((157/12 + 1) - 1) = 157. This is a contradiction because there are 157 students.
+The total number of students is at most 12(ceiling(157/12)-1) < 12((157/12 + 1) - 1) = 157.
+This is a contradiction because there are 157 students.
 
 3.b:
 Pf by Induction
 For n = 1, SUM{1,1}(2i - 1) = (2(1) - 1) = (2 - 1) = 1 = 1^2
-Assume that for some n = k, SUM{1,k}(2i - 1) = (2(k) - 1) + (2(k - 1) - 1) + ... + (2(1) - 1) = k^2
-For n = k + 1, SUM{1,k + 1}(2i - 1) = (2(k + 1) - 1) + (2(k) - 1) + ... + (2(1) - 1) = (2(k + 1) - 1) + SUM{1,k}(2i - 1) = (2(k + 1) - 1) + k^2
+Assume that for some n = k, SUM{1,k}(2i - 1) = (2(k) - 1) + (2(k - 1) - 1)
++ ... + (2(1) - 1) = k^2
 
+For n = k + 1, SUM{1,k + 1}(2i - 1) = (2(k + 1) - 1) + (2(k) - 1) + ... + 
+(2(1) - 1) = (2(k + 1) - 1) + SUM{1,k}(2i - 1) = (2(k + 1) - 1) + k^2
+= (2k + 2 - 1) + k^2
+= (2k + 1) + k^2
+= k^2 + 2k + 1
+= (k + 1)^2. QED
+
+
+3.c
+Combination problem
+Want number of ways to complete the wanted outcome, divided by the number of total possible ways to complete any outcomes.
+(20C3 * 12C6) / 32C9 = ~3.755%
