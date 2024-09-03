@@ -1,0 +1,171 @@
+Intro to sorting and randomized algorithms:
+
+Sorting: given an array of comparable elements, put them in sorted order
+Today: more advanced sorting (randomized quicksort)
+Next week: Sorting lower bound and ways around it
+
+#Randomized Algorithms and Probabilistic Analysis#
+
+First lecture: "Average-case" problematic.
+- what is "average case"?
+- want to design algorithms that work in all applications
+
+Instead of assuming random distribution over inputs (average-case analysis, machine learning),
+add randomization *inside* algorithm!
+- still assume worst-case inputs, give bounds on worst-case *expected* running time
+
+many fall semesters: 601.434/634 Randomized and Big Data Algorithms. Great class! (/s?)
+
+Today: adding randomness into quicksort
+
+
+
+quicksort basics review:
+input: array A of length n.
+
+algorithm:
+1. if n = 0, return A (already sorted)
+2. pick some element p as pivot
+3. compare every element of A to p. let L be the elements less than p, let G be the elements larger than p. create array [L,p,G]
+4. recursively sort L and G
+
+not fully specified: how to choose p
+- trad: some simple deterministic choice (first element, last element, etc.)
+- next lecture: better deterministic choice (not very practical)
+- now: first element
+
+
+
+quicksort analysis:
+
+upper bound:
+if p picked as pivot in step 2, then in correct place after step 3
+==> step 2 and 3 executed at most n times.
+
+step 3 takes time O(n) (compare every element to pivot)
+==> total time at most O(n^2)
+
+lower bound:
+suppose A already sorted
+==> p = A[0] is smallest element ==> L = {} and G = A[1..n-1]
+==> in one call to quicksort, do Big-Omega(n) work to compare everything to p, then recurse on array of size n-1
+==> running time is T(n) = T(n - 1) + cn ==> T(n) = Big-Theta(n^2)
+
+
+
+randomized quicksort: pick p uniformly at random from A
+
+Today: prove that *expected* running time at most O(nlogn) for *every* input A
+- better than average-case bound: holds for every single input!
+- maybe in one application inputs tend to be pretty well-sorted: original deterministic quicksort bad, this still good!
+- today only expectation: can be more clever to get high probability bounds
+
+before doing analysis quick review of basic probability theory
+
+
+
+probability basics:
+only semi-formal here: look at CLRS ch.5 and appendix C
+
+big-omega: sample space. set of all possible outcomes
+- roll two dice. big-omega = {1,2,...,6}x{1,2,...,6}. NOT {2,3,...,12}
+
+event: subset of big-omega
+- "event that first die in 3": {(3,x):x in {1,2,...,6}}
+- "event that dice add up to 7 or 11": {(x,y) in big-omega: (x + y = 7) or (x + y = 11)}
+
+random variable: X:big-omega -> R(eal numbers)
+- X_1: value of first die. X_1(x,y) = x
+- X_2: value of second die. X_2(x,y) = y
+- X = X_1 + X_2: sum of dice. X(x,y) = x + y = X_1(x,y) + X_2(x,y)
+
+random variables very important! running time of randomized quicksort is a random variable
+
+want to define probabilities. should use measure theory. won't.
+
+for each e in big-omega let Pr[e] be probability of e (probability distribution)
+- Pr[e] >= 0 for all e in big-omega, and sum of Pr[e] for all e in big-omega = 1
+- probability of an event A is Pr[A] = sum of (Pr[e]) for each e in A
+
+conditional probability: if A and B are events:
+
+$Pr[B|A] = \frac{Pr[A \bigcap B]}{Pr[A]}$ (see slide 8)
+
+expectation of a random variable:
+
+E[X] = sum of X(e)Pr[e] for all e in big-omega 
+i.e. value times probability 
+"average" of the random variable according to probability distribution
+
+can be useful to rearrange terms to get different equation:
+
+E[X] = sum of X(e)Pr[e] = (sum of sum of y*Pr[e] for all e in big-omega: X(e) = y for all y in the set of real numbers)
+= sum of y*Pr[X = Y] for all y in the set of real numbers (break some mathematicians brains)
+
+(see conditional expectation in slide 9)
+
+
+linearity of expectations:
+amazing feature of expectation: linearity!
+
+Thm:
+* for any two random variables X and Y, and any constants alpha and beta:
+E[alpha*X + beta*Y] = alpha*E[X] + beta*E[Y] *
+
+consider rolling two dice. let X be sum. what is E[X]?
+- E[X] = sum of X(e)Pr[e] for all e in big-omega
+- E[X] = sum of y*Pr[X = y] for all y in the set of real numbers. what is Pr[X = 2], Pr[X = 3], ...?
+
+instead: X = X_1 + X_2. so E[X] = E[X_1 + X_2] = E[X_1] + E[X_2]
+
+E[X_1] = E[X_2] = sum of y/6 from y={1 to 6} = 21/6 = 3.5
+
+(proof of linearity of expectations in slide 11)
+
+holds no matter how correlated X and Y are!
+
+
+
+randomized quicksort:
+Thm:
+* the expected running time of randomized quicksort is at most O(nlogn) *
+
+assume for simplicity all elements distinct. running time = big-theta(# of comparisons)
+
+definitions:
+- X = # of comparisons (random variable)
+- e_i = i'th smallest element (for i in {1, ..., n})
+- X_{ij} random variable for all i,j in {1, ..., n} with i < j
+
+X_{ij} = {1 if algorithm compares e_i and e_j at any point in time | 0 otherwise}
+
+algorithm never compares same two elements more than once ==> X = sum of sum of X_{ij} from j = {i+1 to n} from i = {1 to n-1}
+
+using linearity of expectations, = E[X] = sum of sum of E[X_{ij}] from j = {i+1 to n} from i = {1 to n-1}
+
+so just need to understand E[X_{ij}]
+
+simple cases:
+- j = i+1: X_{ij} = 1 no matter what, so E[X_{ij}] = 1
+- i = 1, j = n: e_1 and e_n compared iff first pivot chosen is e_1 of e_n ==> E[X_{1,n}] = 2/n
+
+general case (i < j):
+if p = e_i or p = e_j: X_{ij} = 1
+if e_i < p < e_j: X_{ij} = 0
+if p < e_i or p > e_j: ? both e_i, e_j in same recursive call
+- condition on e_i <= p <= e_j: E[X_{ij} | e_i <= p <= e_j] = 2/(j-i+1)
+- condition on p not in [e_i,e_j]: still undetermined
+
+general case (formally):
+
+let Y_k be event that k'th pivot is in [e_i,e_j] and all previous pivots not in [e_i,e_j]
+==> by definition, the Y_k events are disjoint and partiiton same sample space
+
+showed that E[X_{ij} | Y_k] = 2/(j-i+1) for all k
+
+(see slide 15)
+
+
+(see slide 16 for proof of randomized quicksort analysis)
+
+E[X] <= O(n log n)
