@@ -1,0 +1,103 @@
+***brain mapping methods***
+
+
+- neuropsychology
+- functional neuroimaging (PET & fMRI)
+- electrophysiology (EEG/ERP)
+- transcranial magnetic stimulation (TMS)
+no ideal "brainscope", each method has advantages and disadvantages, and each has its ideal scope
+
+neuropsychology:
+- oldest method in cognitive neuroscience
+- behavioral and lesion data from neuro patients
+- use these data to determine
+  - which mental abilities can be imapaired independently of others - cognitive architecture of language
+  - which neural structures are necessary to support them - neural architecture of language
+
+dissociations
+  - single dissociation
+    - patient A performs significantly worse on task X than on task Y
+    - suggests that the lesions selectively disrupted some mental representations and/or computations that are required by task X but not by task Y
+    - however, task X may just be a lot harder than task Y, and the lesion may have induced greater sensitivity to this difference in difficulty
+  - double dissociation
+    - patient A performs significantly worse on task X than on task Y; patient B performs significantly worse on task Y than on task X
+    - reduces likelihood that either patient's performance may be due to differences in task difficulty
+    - support view that each task requires at least some mental representations and/or computations that can be selectively disrupted
+
+e.g. patient KSR (Rapp & Caramazza, 2002)
+- noun vs verb
+- spoken vs written
+- homonyms
+  - "give me the _fish_"
+  - "I like to _fish_"
+
+hypotheses:
+A.
+- semantic system
+  - object concepts: "the fish"
+  - action concepts: "to fish"
+- modality
+  - phonological output lexicon
+  - orthographical output lexicon
+B.
+- semantic system
+- phonological output lexicon
+  - nouns
+  - verbs
+- orthographical output lexicon
+  - nouns
+  - verbs
+
+
+case studies:
+- difficult to make generalizations
+- but can give a general idea of architecture models for further investigation
+- useful for identifying unusual patterns of dissociation
+group studies:
+- useful for testing the reliability of deficit-lesion correlations
+- but nature of deficit that is putatively shared by all the patients in a group must be specified as precisely as possible 
+(note Caramazza's critique of syndrome-base approaches)
+
+
+neuropsychology: visualization
+- MRI
+  - the protons in the hydrogen atoms of water molecules have randomly oriented spins
+  - scanner creates a strong magnetic field that causes some of the protons to become aligned with it
+  - a radio wave is then passed through the volume, causing the aligned protons to absorb some of this energy and shift their orientation by 90 degrees
+  - when radio wave is turned off, protons release the energy as they "relax" back into alignment with the magnetic field of the scanner
+  - this "relaxation" process generates the signals that are used to create brain images
+  - different tissues like gray vs white matter have different densities of hydrogen and this leads to different relaxation rates of protons
+  - spatial resolution of scans can be <1mm
+
+types of brain damage:
+- strokes: blood supply to particular part of the brain is cut off, depriving the downstream tissue of oxygen
+  - ischemic (thrombotic or embolic): blood clot blocks a vessel
+  - hemmhoragic: blood vessel ruptures, blood escapes into surrounding tissue
+  - if blood flow not restored quickly, tissue will die, leaving a cavity that gets filled with CSF
+  - results in focal lesions depend on the functions that are normally subserved by the affected regions
+- TBI
+  - closed head TBI: a sudden blow that damages the brain while leaving the skull intact
+  - open head TBI: both brain and skull are penetrated by an object such as a bullet or shrapnel
+- neurodegenerative and infectious diseases
+  - progressive in nature and involve atrophy in specific regions or sets of regions of the brain
+- tumors
+  - masses of tissue that grow abnormally and serve no physiological purpose
+  - most common - gliomas, originate in WM
+
+voxel-based morphometry (VBM)
+- measures relative concentrations of gray and white matter in particular areas
+- VBM analyses can reveal the different distributions of significant cortical thinning in the three variants of primary progressive aphasia (PPA)
+
+
+
+behavioral vs lesion data:
+
+lesion overlap and subtraction analysis
+- recruit two groups of patients: one with deficit and another without
+- for each group, superimpose the lesion sites and determine the degree of overlap at every voxel
+- contrast overlap map for impaired patients against one for unimpaired patients to disclose the regions where damage is linked specifically to the deficit
+e.g. Tranel & Kemmerer, 2004
+  - all 4 tasks given to 78 patients
+  - impaired group (N=6) failed all 4 tasks
+  - unimpaired group (N=9) failed on only 1 task
+  - contrasted lesion overlap map for the impaired group against the lesion overlap map for the unimpaired group
