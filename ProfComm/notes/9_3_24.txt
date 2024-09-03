@@ -1,1 +1,70 @@
 Job for mock resume/cover letter: https://job-boards.greenhouse.io/tailscale/jobs/4443896005
+
+
+Tailoring your resume to the job ad:
+
+"lamp" job search strategy
+- "L"ist the companies of interest
+- "A"lumni, contacts at company
+- "M"otivation, rank jobs to decide where to allocate effort
+- "P"ostings, how much are they hiring, how often, etc.
+Make a spreadsheet to compare these aspects across postings
+
+
+deciphering the job description
+- company culture
+- priorities
+- preferences
+how can I align?
+
+analyzing a sample job description:
+what to look for when breaking down and analyzing an advertisement
+
+- job purpose [underline]
+- roles and responsibilities [checkmark]
+- technical/field-specific skills or requirements [square brackets]
+- transferrable/"soft" skills and other requirements [angle brackets]
+- company image/values/culture [circle]
+
+
+In class activity:
+
+Keywords, skills, and concepts from advertisement:
+1. Work as part of a team of engineers
+2. Familiarity with authentication/authorization protocols and frameworks 
+3. Familiarity with networks (IP addressing, routing, etc.)
+4. Ability to give and process constructive feedback, as well as work independently
+5. Most of the non-front-end portions of the system are developed in the Go programming language. Experience with Go is a plus.
+
+Evidence of your ability from your past experiences:
+1. At my current job I work on a team of systems engineers to conduct our IT operations, as well as collaborate with engineers in other departments
+2. In my current role, we work with user authentication and security certificates
+3. Concepts covered in computer systems fundamentals classes, also learned about in self study material and used working knowledge in job, home lab, etc
+4. In my current job I work under a systems engineer who has mentored me on concepts I was not familiar with, and my manager has provided good critique on my work before
+5. Not familiar with coding in Go, but familiar with many of the novel concepts it utilizes
+
+
+
+designing a resume:
+
+basic sections
+- header
+- objective
+- education
+- prof or work experience
+- research
+- volunteer experience
+- relevant coursework
+- skills
+
+structure
+- chronological
+- functional/skill-based
+
+additions and omissions
+
+bullet points under sections
+- numbers: demonstrate quantifiable experience/qualification/results
+- action verbs
+- result statements
+
