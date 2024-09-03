@@ -1,2 +1,158 @@
-News:
+News: read hackernews and lobste.rs
 
+
+Lecture notes:
+
+Introduction to x86
+book dives into buffer overflow and memory attacks, we want more fundamental understanding of the underlying systems
+
+the IA-32 (x86) architecture (Intel-32)
+- 64-bit extension - AMD64
+
+ARM is another popular architecture
+- arguments about efficiency vs x86 ("ARM more efficient than x86")
+- actually depends on implementation
+
+x86 most widely used in PC and server use cases
+
+Intel currently experiencing issues
+AMD very reliable as of late
+Apple coming out of nowhere with high-performant chips
+- takeaway: lots happening in the processor development space
+
+history:
+- intel 8086
+  - ~1979
+  - first x86 processor
+  - relevance: everything compatible with x86 architecture is backwards compatible with 8086
+- intel 80286
+  - ~1982
+- i386
+- AMD opteron 250
+  - first with 64-bit extensions to architecture - AMD64
+
+historical x86 motherboard layout:
+- CPU
+[connected with front side bus]
+- northbridge chip - high speed peripherals
+  [DDR2 channel A and B]
+  - RAM modules (system memory)
+  [separate connection]
+  - PCIe x16 graphics
+[connected with DMI interface]
+- southbridge chip - low speed peripherals
+  - BIOS (flash memory)
+  - SATA ports
+  - USB pors
+  - power management
+  - clock generation
+  - PCI Bus
+
+translation occurs in OS between physical memory and []
+
+port based I/O and memory mapped I/O
+
+
+more modern layout: (see slides)
+- a lot more of the interfaces connect directly to CPU chip
+  - closer together = better performance
+  - memory controller moved into CPU
+- combined northbridge/southbridge chippy thing
+  - peripheral functionality baked in
+  - multiplexing
+
+
+
+x86 modes of operation:
+- real mode
+  - 8086 is the default mode that x86 processors boot into
+- protected mode
+  - allows access to extended memory
+  - CPU has to run in protected mode to allow access
+  - separates processes from actual memory
+
+x86 memory layout:
+- mapped from 0x0 to 0xFFFFFFFFFF
+  - accessible RAM
+  - legacy video card
+  - expansion area (ROMs for old peripheral devices)
+  - extended system BIOS
+  - system BIOS
+  - accessible RAM memory
+  - PCI address space (DMI interfaces, GPU, APIC)
+  - high BIOS
+
+
+professor's work is with architectural security
+
+
+memory address translation:
+- process through which memory addresses get turned into actual address computer uses to access memory
+  - assembly instructions in program
+  -> logical address
+  - segmentation unit
+  -> linear address ->
+  - paging unit
+  -> physical address ->
+  - northbridge chip
+  - RAM modules
+
+
+  x86 privilege levels
+  - rings 0-3 from most privileged to least privileged
+    - ring 0: kernel, sometimes device drivers
+    - ring 1: device drivers (not used)
+    - ring 2: device drivers (not used)
+    - ring 3: applications
+    implications
+    - device drivers with kernel mode access can cause the kernel to crash
+      - crowdstrike driver causing segfault and BSOD in Windows
+    - things running in ring 0 have access to all system resources
+    - things running in ring 3 cannot access memory used by other processes in ring 3
+      - many attacks aim to get from ring 3 to ring 0
+
+
+virtual address layout:
+- mapped from 0x0 to 0xc0000000 == TASK_SIZE
+  - text segment (linux ELF, windows PE: executable file code)
+  - data segment (initialized static variables)
+  - BSS segment (uninitialized static vars)
+  - heap (dynamic memory allocation, grows up) 
+  - memory mapped region (grows up)
+  - stack (static memory allocation, grows down)
+  - kernel space (1gb)
+
+
+
+x86 register layout:
+- register: space on processor to store data
+- bonus point: see if 8086 chip used registers A,B,C,D 8-bit registers
+- E means "extended", XX is 16 bit segment of register, H means "high 8 bits" and L means "low 8 bits"
+- EAX - access register?
+
+- ESI - source index
+- EDI - destination index
+- EBP - base pointer
+- ESP - stack pointer
+
+
+x86 instructions:
+- important for assembly code attacks
+- format (AT&T syntax for lectures, Intel may be easier)
+  - typically: instruction  source, dest
+  - immediate values: $[values]
+  - registers: %[register]
+  - pointer dereference: (%[register])
+  - pointer indexed before dereference: [index](%[register]) = (%[register] + [index])
+
+
+call stack:
+- grows down
+- memory used by functions stored here
+- args
+- return vals
+- return addresses
+each function call pushes a return address to the stack
+
+x86 call stack:
+ 
