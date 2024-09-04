@@ -3,3 +3,45 @@ Notes on readings:
 West et al 2019:
 - proliferation of female voice assistants
 
+
+lecture notes:
+
+CA ai bill:
+- will be one of the most significant pieces of legislature for AI
+- debated because of the requirements set forth
+  - "too strict on companies"
+  - may deflate/decrease innovation in the field
+- requirements mentioned
+  - implementing a kill switch capability, else developer can be held liable to damages caused by machine
+  - implement a written separate safety and security protocol
+  - retain an unredacted sopy of said protocol
+  - grant attorney general access to said protocol
+  - prohibit a developer from using a covered model or derivative for a purpose not exclusively related to the training or reasonable evaluation of the covered model 
+  - annually retain a third party auditor for auditing compliance
+
+moral philosophy
+3 areas:
+- metaethics
+  - where our ethical principles come from and what they mean
+  - identify the nature of ethical knowledge
+  - what is good
+- normative ethics
+  - development of norms and standards/rules of conduct regarding rights and wrongs of actions
+- applied ethics (our concern)
+  - how moral outcomes are achieved in particular situations
+  - applying beliefs and values in practice
+  - "is genetic engineering with CRISPR tech right?"
+
+robot and machine ethics
+type 1:
+- us as creators (roboethics)
+  - design and development of ai: human biases, data privacy and security, algorithmic transparency
+  - use of ai: replacement (unemployment), inclusion (economic distribution), accessibility (disability), sustainability (climate)
+  - management of ai: accountability, responsibility
+type 2:
+- ai itself as a being (machine ethics)
+  - ai's ethical obligations to us and the environment
+  - our obligations to the ai
+  - future whereby machines have consciousness and become humanlike moral decision makers
+    - articial moral agents
+
