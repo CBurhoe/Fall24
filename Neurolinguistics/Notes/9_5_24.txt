@@ -1,0 +1,94 @@
+neuropsychology: behavioral vs lesion data
+
+lesion overlap and subtraction analysis:
+e.g. Tranel & Kemmerer, 2004
+  - all 4 tasks given to 78 patients (all have lesions and deficits)
+  - impaired group (N=6) failed all 4 tasks
+  - unimpaired group (N=9) failed only 1 task
+  - contrasted lesion overlap map for the impaired group against the lesion overlap map for the unimpaired group
+  key landmarks:
+    sylvian fissure
+    supramarginal gyrus
+    inferior frontal gyrus
+    anterior temporal lobe?
+
+voxel based lesion symptom mapping (VLSM):
+  - administer a task of interst to a sample of patients with widely distributed lesions
+  - for each voxel form two groups of patients, one with damage and another wihtout damage at that location
+  - use t-tests to compare the behavioral data of the two groups at each voxel
+  - resulting t-values provide continuously varying measures...
+
+e.g. Wu et al., 2007: The meaning of locative prepositions
+  - 14 patients with left hemisphere lesions perform a sentence-picture matching task
+  - using a modified VLSM, identifies the voxels where patients with damage performed significantly worse that patients without damage
+
+
+neuropsychology: caveats
+  - types of deficit-lesion correlations manifested in the chronic period can be different from those manifested in the acute period
+    - because acute patienst with relatively small lesions often recover rapidly due to intact areas "taking over" affected functions
+  - some impariments may be attributable not to areas of damage visible on conventional MRI, but to other areas that are dysfunctional due to
+    - hypoperfusion: still receive blood supply necessary to survive, but not enough to funciton normally
+    - diaschisis: they depends on axonal input from the site of structural damage but that input is no longer available
+  - to infer a causal relationship between impairment and lesion site, need to demonstrate not only that patients with the deficit have lesions at that site,
+    but also that patients with damage at that site tend to have the deficit (biconditional/bidirectional)
+
+e.g. Dronkers, 1996: speech apraxia (AoS)
+  - 25 chronic patients with AoS (A) versus 19 chronic patients without AoS (B)
+  - contrast of lesion overlap maps implicated the superior anterior part of the left insula (lobe underneath frontal lobe)
+
+e.g. Hillis et al., 2004b: speech apraxia (AoS)
+  - 40 acute patients with left insular damage and 40 acute patients without
+  - scanned for areas of structural damage and/or hypoperfusion
+  - AoS was not significantly related to abnormalities in the superior anterior part of the left insula
+    - actually is the case that insula is very commonly damaged during strokes
+  - looked at Broca's area, much stronger correlation found
+
+
+
+functional neuroimaging:
+  - look at function vs just anatomy (structural neuroimaging)
+  - hemodynamic methods: measure regional changes in blood flow associated wiht neural activity
+    - positron emission tomography (PET)
+    - functional magnetic resonance imaging (fMRI)
+  fMRI
+    - when brain is engaged in a cognitive process the active neurons rapidly consume oxygen that is already available (0.5-1.5% change for active regions)
+    - during next few seconds, overabundance of oxygen in blood?
+
+  PET
+    - 15O labeled water is injected into blood stream (half-life ~2 min, eliminated in 10 min)
+    - travels in blood to the areas with higher metabolism
+    - 15O molecule is unstable, loses positron
+    - positron attracted to electron, collide 2-3mm away, both annihilated creating 2 photons moving in opposite directions
+    - radiation detectors detect the photons
+    - algorithmically compute location of annihilation
+    - where number of events is large there is greater blood flow indicating more neural activity
+    - spatial resolution ~10mm
+    - temporal resolution ~30 seconds at best
+  
+  fMRI
+    - measure the blood oxygen level dependent (BOLD) signal which decreases when blood is deoxygenated and increases when blood is oxygenated
+    - hemodynamic response function (HRF) shows how the BOLD signal evolves over time
+      - initial dip as immediately available oxygen is consumed (1-2s)
+      - steady rise as freshly oxygenated blood is delivered (5s)
+      - gradual drop as the signal returns to baseline (5s)
+    - spatial resolution ~3mm or less depending on magnet
+    - temporal resolution ~6-9s, even shorter than the HRF (50-100 ms)
+
+functional neuroimaging: co-registration
+  - imaging data are typically combined across subjects, which requires warping each subjects brain so that it fits a standard template brain (stereotaxic space)
+  - significant activations are reported with reference to the voxels of the standard template brain
+  - some studies plot functional data directly on each subjects anatomical data
+  - Talairach & Tourneaux, 1988 template
+  - Montreal Neurological Institute (MNI)
+  - coordinate system of the human brain
+  - anterior commissure (0,0,0)
+  - 1mm increments
+
+functional neuroimaging: experimental design
+  - block design
+    - stimuli from same condition presented consecutively together
+    - required for PET, optional for fMRI
+  - event-related design
+    - stimuli from one condition are randomly interspersed with stimuli from another condition
+    - impossible for PET, possible/preferred for fMRI
+
