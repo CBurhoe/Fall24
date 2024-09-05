@@ -1,0 +1,99 @@
+buffer overflow
+
+exploitation steps:
+  1. identify target buffer
+  2. figure out where we want to go
+  3. overwrite buffer to change control flow of program
+  4. program then moves to where we want to go
+
+buffer
+  has fixed length
+  writing too much data into buffer causes it to overflow into adjacent memory?
+    memory between return address and buffer is overwritten
+  program terminates with SIGSEGV (seg fault)
+  want to inject shellcode
+
+  can use command line data
+  can use a file, point to another part of a program, socket for network data
+    any user controlled data
+
+  mitigations
+    stackguard
+      effective only against "carpet bombing" style attacks
+    put bounds on buffers
+    non-executable stack
+    containerization (separate root file system from OS itself)
+
+
+pop quiz: 3 questions answered as a class team
+  what is a buffer overflow
+  what are mitigations
+  what is the desired payload
+
+
+return-to-libc attack
+  variant of buffer overflow that doesn't use shellcode or an executable stack
+  jumps to existing code already loaded into process memory such as system() function in libc library
+  libc library: library of standard functions used by C programs
+
+today's lab
+  conduct return-to-libc attack and gain root privilege
+
+turn off countermeasures
+  address space randomization
+    makes guessing exact addresses difficult by randomizing the starting address of heap and stack
+
+    $ sudo sysctl -w kernel.randomize_va_space=0
+
+  stackguard protection scheme
+    implemented by gcc
+    a small value (canary) inserted between stack variables and return address
+    function return checks the canary value; if overwritten, program is terminated
+
+    $ gcc -m32 -fno-stack-protector...
+
+  non-executable stack
+    programs and shared libraries declare stack is executable or not
+
+    $ gcc -m32 -z noexecstack -o test test.c
+
+
+configuring /bin/sh
+  /bin/sh symlink points to /bin/dash shell
+  dash shell has a countermeasure that prevents itself from being executed in a set-uid process -> changes EuID to RuID and drops privileges
+  lab uses set-uid program -> need to link to another shell like zsh
+    $ sudo ln -sf ...
+
+gdb
+  debugger distributed alongside gcc
+  gdb allows to see what is going on inside another program while it executes
+
+catching bugs with gdb
+  start program, specifying anything that might affect its behavior
+    set break points
+  examine what happens when program reaches breakpoint
+  change things in program so you can experiment with correcting effects of one bug
+
+compiling
+  prep program with -g flag in gcc
+    gcc -g -o name fileName.c
+
+  gcc -m32 -fno-stack-protector -z noexecstack -o retlib retlib.c
+
+running gdb
+  $ gdb <program>
+  (gdb) set arg <arg>
+  (gdb) run
+  (gdb) kill
+  (gdb) break <line number>
+  (gdb) delete <breakpoint #>
+  (gdb) clear
+  (gdb) step / (gdb) stepi
+  (gdb) next / (gdb) nexti
+  (gdb) continue
+  
+valgrind
+  finding buffer overflows
+  $ valgrind ./bufferoverflow 123456
+  give info about stack and heap
+
