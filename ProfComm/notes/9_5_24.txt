@@ -1,0 +1,65 @@
+objective statements
+  what are you good at?
+  what is an achievement, accomplishment, or major responsibility you had in class, extracurriculars, of work?
+  what is something you are passionate about that you want to be part of your career?
+
+
+e.g. "motivated, highly-rated customer service professional with 2+ years of experience helping resolve customer product and service issues. 
+  eager to support bookme in providing top-class customer support."
+
+
+  assessing the security of systems, empathizing with and understanding the needs of end users/clients
+
+  executing the successful validation and deployment of new office software products
+
+  passionate about security, open source software
+
+  [adjectives/strong character traits][your job title][your experience]. Eager to support/help/assist/etc. 
+  [company name][what you want to help the employer achieve and how you want to do it]. [your key achievements]
+
+  "empathetic, adaptable CS student with experience in security and systems programming. Eager to help Tailscale redefine the internet with security-by-design
+  as a primary focus, while accounting for the needs of end users."
+  feedback:
+    - expand on "empathetic" and move around
+      - put after "CS student"?
+    - split up longer sentences into shorter sentences
+    - make it somewhat personal, unique
+
+
+
+notes on feedback for writing:
+bad feedback
+  - harsh w/o suggestion
+  - your language is too complex
+  - looks great
+  - condescending tone
+  - too vague
+  - do/change this
+  - new idea/proposal that is unrelated to purpose of writing or specific message you are trying to convey
+  - too much/too little
+
+good feedback
+  - specific
+  - examples
+  - feedback in form of question
+  - clarification
+  - positive feedback
+  - direct
+  - meaningful
+  - conversational
+
+
+peer feedback:
+  - aligned with job ad
+  - action and result statements/STAR method
+    - situation
+    - task
+    - action
+    - result
+  - what do you still want to know about the person
+  - what makes them seem like the best candidate
+  - what's their strongest experience/strength to highlight
+
+partner: milton diaz
+
+
