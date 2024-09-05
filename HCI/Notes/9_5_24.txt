@@ -1,0 +1,105 @@
+assignment 1 due 9/8 (sunday)
+project proposal due 9/11 (wednesday)
+
+what did you learn about brainstorm?
+
+don't forget exit ticket
+
+
+project proposal
+  - submit by 9/11
+  - green light or receive feedback
+  - revise and greenlight by 9/18
+  
+
+contextual inquiry (CI)
+  - field data to practical innovation
+  - leave your office to find design ideas
+  - method for gathering and representing data about the user and their work
+
+the user is not liking me
+  according to Don Norman:
+  - designers are much more familiar with the interface and with the problems being solved than users
+  - designers work in settings that are different than the context in which the product may be used
+  - designers may have different skills than users (e.g. perceptual, cognitive, and domain skills)
+
+we design from data & context
+  - understand the users work
+  - requires design team to agree on common observations and their representation
+  - observations reveal hidden aspects of work that may be implicit in the user's understanding
+  - challenge: "the users cannot describe what they really do because they are not conscious of it and do not reflect on it"
+
+purpose of ci
+  - obtain data from a user in their context
+  - insights about the users environment, their many tasks, the people they work with, cultural influences in their work (starbucks vs dunkin as study space)
+  - understanding of breakdowns in current processes
+  - to help define requirements, plans/designs, and priority
+
+go where the customer works, observe the customer as he or she works, talk to the customer about their work- gain a better understanding of your customer
+
+involves: participatory design, social sci, cog sci, ethnography
+
+people usually cannot say what innovations they would like, and even when they can, are sometimes wrong about what could be helpful
+  e.g. x-ray example, beyer & holtzblatt
+  
+are you solving the right problem?
+
+ci approach
+  - have conversations with users in the context of their work
+  - direct obeservation is best
+  - when not possible, cued recall of past experiences or re-creation of related experiences
+
+failure points
+  - context
+    - must be performed in the setting of the participant
+    - ongoing experience
+      - retrospective accounts are often summaries
+      - by being present in the time and place of an activity we can access much richer data from ongoing activities
+    - abstract/concrete data
+      - humans also have a tendency to abstract, save time, and convey points they feel are important
+      - reduces amount and quality of data in ci
+      - focus on real tasks and artifacts
+
+  - partnership
+    - master/apprentice model, investigator is humble
+      - you are the apprentice, user is the master
+      - teaching while doing means that the user doesn't have to think in advance what to convey
+      - allows discovery of subtle details which may be overlooked in canned discussion
+      - reduces need for a formal set of interview questions
+    interview data & what to look for
+      - concrete answers no generalities
+      - think aloud
+      - avoid summaries
+      - be aware of 
+        - workarounds
+        - mismatch between what people say and do offhand under the breath comments
+        - sights
+        - rolling of eyes
+        - confessions
+
+  - interpretation
+    - it is good to regularly check your interpretations
+    - i saw you just do X, is that because of Y?
+    - if you had a technology that did X, would it solve this problem
+    - as long as you check your interpretations in context, participants will respond accurately
+    - vet you design ideas
+    - 
+  
+  - focus (modeling)
+    - group interpretation
+      - max of 48 hours after interview, group interpretation is conducted
+      - outputs of this meeting are: notes, questions, design ideas and breakdowns, indexed by user number (important to keep anon)
+      - a set of work models
+      
+what to avoid
+  - not being inquisitive/nosy enough
+  - if you have the impulse to ask, do it right away
+  - overly disrupting a task
+  - turn into a regular interview
+  - if you could have done it in a coffee shop or your office, it wasn't a CI
+
+CI summary
+  - why? design products to meet users needs
+  - how? observe real work/play in aciton
+  - four principles: context partnership, interpretation, focus
+  - focus-setting meeting: team, brainstorm, affinity, generalize, review
