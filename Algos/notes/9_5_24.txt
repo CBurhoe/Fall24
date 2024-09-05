@@ -1,0 +1,144 @@
+linear time selection/median
+
+- mind bender algorithm today
+- professor loves it
+
+last time:
+- soritng in expected O(nlogn) time (rand quicksort)
+- should alr know from DS deterministic O(nlogn) algs for sorting (mergesort, heapsort)
+
+today: two related problems
+- median: given an array A of length n, find the median: [n/2]nd smallest element
+- selection: given array A of length n and k in [n] = {1,2,...,n}, find k'th smallest element
+
+
+warmup:
+
+k = 1: iterate through, keep track of smallest element, O(n) time
+k = n: scan through array, keeping track of largest, O(n) time
+k = O(1) or k = n - O(1): keep track of k smallest or n - k largest, O(n) time
+
+does this work when k = n/2?
+- need to keep track of n/2 smallest
+- when scanning, see an element, need to determine if one of k smallest. if yes, remove prev max of the n/2 we've been keeping track of
+  - not easy to do
+  - which data structure to use: heap, big-theta(logn) worst case time
+  - big-theta(nlogn) worst case time
+
+
+randomized quickselect:
+- main idea: randomized quicksort, but only recurse on side with the element we're looking for
+- r-quickselect(A,k)
+  1. if |A| = 1, return the element
+  2. pick a pivot element p uniformly at random from A
+  3. compare each element of A to p, creating subarrays L of elements less than p and G of elements greater than p
+  4. a) if |L| = k - 1: return p
+     b) if |L| > k - 1: recurse on L, i.e. return r-quickselect(L,k)
+     c) if |L| < k - 1: recurse on G, but change which element we're looking for, i.e. return r-quickselect(G, k - |L| - 1)
+
+quickselect: correctness
+
+pf by induction (loop invariant) that on any call to r-quickselect(X,a), the element we're looking for is a'th smallest of X
+  base case: first call r-quickselect(A,k). correct by definition
+  inductive case: suppose was true for call r-quickselect(Y,b)
+    - if we return element (case a): correct
+    - if we recurse on L (case b): correct
+    - if we recurse on G (case c): correct
+
+
+quickselect: running time
+intuition:
+- like quicksort, expect pivot to be somewhere near the middle
+- would expect roughly O(nlogn)
+- suppose true that pick pivot exactly in the middle, so splits array "approximately in half"
+  - we don't recurse on both sides, only 1 side
+  - O(logn) recursive calls, but each one on an array of half the size
+  ==> T(n) = T(n/2) + cn ==> O(n) time
+
+formalize this: let T(n) be expected # of comparisons on array of size n
+  - splitting around pivot: n-1 comparisons
+  - recurse on either L or G ==> recursion costs at most max(T(|L|), T(|G|)) = T(max(|L|, |G|))
+  - |L|, |G| distributed uniformly among [0, n - 1]
+    T(n) <= (n - 1) + sum_{i=0}^{n - 1}((1/n)T(max(i, n - i - 1)))
+         <= (n - 1) + sum_{i=0}^{n/2 - 1}((1/n)T(n - i - 1)) + sum_{i = n/2}^{n-1}((1/n)T(i)) = (n - 1) + (2/n)sum_{i = n/2}^{n-1}(T(i))
+
+    want to solve recurrence relation T(n) <= (n - 1) + (2/n)sum_{i=n/2}^{n-1}(T(i))
+    guess and check: T(n) <= 4n
+    (see slide 7 for math)
+    T(n) <= (n - 1) + 4(3n/4) <= 4n
+
+
+
+deterministic algorithm for O(n):
+intuition:
+- randomization worked because it got us a "reasonably good" pivot
+- simple determinsitic pivot (first element, last element, etc) bad because might not split array well
+- deterministically find a pivot that's "close" to the middle?
+  i.e. can we find the median element deterministically?
+
+median-of-medians:
+- split A into n/5 groups of 5 elements each (not sorted subarrays)
+- compute median of each group (trivial, only 5 elements so doesn't take a significant amount of time)
+- put medians in another array
+- let p be the median of the n/5 medians, find through recursion
+  - this p will be a "good" pivot, and can be found efficiently
+
+
+thm: |L| and |G| are both at most 7n/10 when p is median of medians
+i.e. p cannot be way towards one side or the other (3n/10 smallest <= p <= 7n/10 smallest)
+
+let B be a group (of 5 elements), m median of B:
+  - if m < p: at least three elements of B (m and two smaller) are in L
+  - if m > p: at least three elements of B (m and two greater) are in G
+  
+  by definition of p, n/10 (half) groups have m < p, and n/10 groups have m > p
+
+  |L| >= n/10 * 3 = 3n/10 ==> |G| <= 7n/10
+  |G| >= n/10 * 3 = 3n/10 ==> |L| <= 7n/10
+
+  i.e. neither can be too big, meaning the other cannot be too small
+  implies that p is a "good" pivot, somewhere in the middle
+
+finding median of medians:
+  have n/5 elements (median of each group), want to find median
+  what problem is this? median / selection!
+  recursion! use same algorithm on array of medians
+
+
+BPFRT: algorithm due to Blum-Pratt-Floyd-Rivest-Tarjan
+
+BPFRT(A,k)
+  |A| = 1: trivial
+
+  1. group A into n/5 groups of 5, and let A' be an array of size n/5 containing the median of each group
+  2. let p = BPFRT(A', n/10), i.e., recursively find the median p of A' (median of medians)
+  3.  split A using p as a pivot into L and G
+  4.  recurse on the appropriate piece:
+    a) if |L| = k-1: return p
+    b) if |L| > k-1: return BPFRT(L,k)
+    c) if |L| < k-1: return BPFRT(G, k - |L| - 1)
+
+
+BPFRT analysis:
+let T(n) be worst-case running time on A of size n
+  1. O(n) time
+  2. T(n/5) time
+  3. O(n) time
+  4. T(7n/10) time
+
+  T(n) <= T(7n/10) + T(n/5) + cn
+
+  guess and check: T(n) <= 10cn:
+    
+    T(n) <= 10c(7n/10) + 10c(n/5) + cn = 7cn + 2cn + cn = 9cn + cn = 10cn
+
+
+deterministic way to find "good" median (pivot) ==> deterministic O(nlogn) quicksort:
+use BPFRT(A, n/2) to choose median of pivot
+
+let T(n) be time on input of size n
+  - BPFRT to find pivot takes O(n) time
+  - splitting around pivot takes O(n) time
+  - each recursive call takes T(n/2) time
+
+    T(n) = 2T(n/2) + cn ==> T(n) = big-theta(nlogn)
