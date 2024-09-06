@@ -1,0 +1,20 @@
+P1: State the main point: West et al. 2019 “I’d blush if I could” Ch. 6, subchapter “Tolerance of Sexual Harassment and Verbal Abuse”
+Gendered voice assistants can have a sociological/psychological impact on the end-users, e.g., normalizing (by a lack of prevention) the sexual harassment and verbal abuse of women
+P1: Explain why the point stood out to me:
+I had not considered the psychological and sociological implications of interacting with gendered voice agents, and that the virtualization of a human-like entity that gives reasonably realistic albeit tailored responses to requests could heavily skew social norms and what is deemed acceptable treatment of people.
+P1: Respond to the point with a technical answer, i.e., what could be a technical solution that needs to be innovated and what would be a first design step to take:
+
+P1: what could be an overall regulatory policy solution? What type of legal or company-best practice-type solution needs to be proposed? Include reasoning for choosing one over the other and the goal of the solution:
+
+P2: State the main point: Siau & Wang 2020 “Ethics of AI and Ethical AI” Section 3.1.3, CA Senate Bill 1047 
+
+Who is accountable when an AI agent fails? The developer, the data owner, or the end user?
+P2: Explain why the point stood out to me:
+This is a topic I had considered and it is clear that the answer depends on a variety of factors, including societal/cultural standards as well as current laws. The CA bill recently 
+P2: Respond to the point with a technical answer, i.e., what could be a technical solution that needs to be innovated and what would be a first design step to take:
+
+P2: what could be an overall regulatory policy solution? What type of legal or company-best practice-type solution needs to be proposed? Include reasoning for choosing one over the other and the goal of the solution:
+
+P3: State the main point: Cave et al., 2018 “Motivations and Risks of Machine Ethics” Section IV.A
+The potential failure and corruptibility of ethical AI systems may lead to major consequences.
+P3: Explain why the point stood out to me:
