@@ -18,3 +18,8 @@ P2: what could be an overall regulatory policy solution? What type of legal or c
 P3: State the main point: Cave et al., 2018 “Motivations and Risks of Machine Ethics” Section IV.A
 The potential failure and corruptibility of ethical AI systems may lead to major consequences.
 P3: Explain why the point stood out to me:
+I had not previously considered the intricacies of training AI systems to make ethical decisions, for instance the fact that being able to make ethical decisions does not imply a guarantee of making ethically correct decisions. After reading section IV.A of Cave et al., 2018, it is apparent that a sufficiently trained moral reasoning system could be capable of making complex ethical justifications of it’s decisions and actions.
+P3: Respond to the point with a technical answer, i.e., what could be a technical solution that needs to be innovated and what would be a first design step to take:
+
+
+P3: what could be an overall regulatory policy solution? What type of legal or company-best practice-type solution needs to be proposed? Include reasoning for choosing one over the other and the goal of the solution:
