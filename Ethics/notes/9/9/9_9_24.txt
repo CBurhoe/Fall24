@@ -41,7 +41,31 @@ global representation
 global representation: languages
 - alignment for English can improve multilingual performance
   - for reading comprehension, alignment for English produces significant improvements across most languages, and no significant decreases in performance
-  - 
+  - for TyDiQA extractive QA task, Tulu and Starling improved in most languages
+    - Zephyr performance decreases singificantly in 6/9 languages, all models worsen in Bengali
+- multilinguality in Tulu SFT data explains improvement in multilingual QA performance
+global representation: opinions
+- alignment increases relative agreement with the USA vs Jordan, China, and Nigeria
+  - for all models, initially agree with Nigeria more before alignment, and after alignment agree more with USA
+- alignment does not increase relative agreement with USA vs western nations like Germany or Australia
+- LLMs align wiht western preferences, exacerbated by alignment
+reward model probing
+- Starling RM learns to prefer US opinions
+- reward models have little influence on out-of-distribution preferences
+  - pre-training data defines model behavior on out-of-distribution preferences
+  - if opinionated country preferences don't show up in preference-tuning, reward signal doesn't steer the LLM and it retains the preferences of the base model
+discussion and conclusions
+- alignment of language models is not a one-size-fits-all solution
+  - each step of alignment adds additional complexities and impacts on end users
+  - transparency of the entire alignment process is of high importance
+- slightly multilingual SFT data can have an outsized impact
+  - any languages can benefit from multilingual data
+  - 13.1% of Tulu dataset is in any language other than English, yet this multilingual data leads to performance improvements for 6/9 tested languages for extractive QA,
+    and all 9 languages for reading comprehension
+  - this improvement is not a trade-off - English still improves the most on reading comprehension with multilingual data
+- reward models do not shape model preferences on out-of-distribution settings
+  - beyond the reward model itself, selection of the original SFT data and PT prompts significantly shape the possible impacts of PT
+
 
 
 
