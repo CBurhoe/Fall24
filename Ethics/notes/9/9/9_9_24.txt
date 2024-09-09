@@ -1,1 +1,47 @@
 
+Reading notes:
+
+Awad et al. 2018
+global preferences
+  - prefer sparing humans over animals
+  - prefer to spare more lives
+  - prefer to spare younger lives
+- German ethical guidelines for automated and connected driving
+  - states that human life should be preserved over other animal life in dilemmas
+  - ambiguous on question of sacrificing the few to save the many
+  - very clear about not discriminately saving lives based on personal features such as age
+individual variations
+- not greatly significant, other than stronger affinity towards a decision vs more variation
+culutural clusters
+- Southern cluster much more likely to spare young rather than old, eastern cluster opposite
+  - same for sparing higher status characters
+- southern cluster has much weaker preference for sparing humans over pets than other two clusters
+- all in agreement on sparing pedestrians (weak) and the lawful (moderate)
+- southern cluster strong preference for sparing women and fit people
+country level predictors
+- countries closer in culture play the Moral Machine game more similarly
+- individualistic cultures, emphasizing the distinct value of each individual, prefer sparing the greater number of characters
+- collectivistic cultures, which emphasize respecting elders in a community, have a weaker preference for sparing younger people
+- economic prosperity and quality of rules and institution correlate with a stronger preference against sparing the illegally crossing pedestrian
+- countries with higher economic inequality correlate with a greater difference in the treatment of characters of different social status
+- differential treatment of male and female characters in the MM correspond to country level gender gap in health and survival
+
+Ryan Held & Yang 2024
+- fine tuning phase of LLM training in which developers have a much higher degree of control over the behavior and character of a chat bot
+  - who will give feedback
+  - what prompts/tasks are in domain
+  - who will provide exemplar responses
+  - i.e. whose preferences are we aligning LLMs with and whose preferences are we missing?
+global representation
+- alignment improves performance in all dialects but increases disparity between dialects
+  - whenever changes to performance are significant (p<0.05), alignment steps increase US English performance much mroe significantly than other global English dialects
+  - before alignment, all base models perform about the same across dialects
+  - Supervised Fine Tuning improves performance across the board, bu for Indian English the least, Nigerian English second, and American English the most
+  - Preference Training shows weaker differences, but still suggests an improvement to the disparity between US English and other dialects
+global representation: languages
+- alignment for English can improve multilingual performance
+  - for reading comprehension, alignment for English produces significant improvements across most languages, and no significant decreases in performance
+  - 
+
+
+
