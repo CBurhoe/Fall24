@@ -67,5 +67,116 @@ discussion and conclusions
   - beyond the reward model itself, selection of the original SFT data and PT prompts significantly shape the possible impacts of PT
 
 
+lecture notes:
+
+distinction between ethical AI vs AI ethics
+
+AI ethics/roboethics
+- ethics we've identified for us
+- our values
+- biases
+- data privacy
+- identify for us, integrate within the system
+
+ethical AI/machine ethics
+- if/when these system acquire a human-like level of consciousness/agency, what will their values be
+- they could have human-like ethics
+  - using human data, should have human values
+- they could be separate machine ethics, possibly in contradiction to human ethics
+  - could interpret our data differently than the human brain
+- legal system
+  - how does it apply to machines
+  - will it be the same or contradict ours
+
+start with AI ethics (address ethical AI later)
+
+why is it important
+- current issues
+  - results of generative AI
+    - deepfakes
+      - politics - attribute statements to political figures, fake news/disinformation
+      - pornography - no current laws to deal with criminal pornographic material that is deepfaked (CP)
+  - bias/discrimination
+    - healthcare
+    - FRT - facial recognition technology
+    - finance, banking, (insurance?)
+  - human rights violations
+  - job displacement/replacement
+    - autonomous systems taking over human tasks
+    - do we need measures to make different types of jobs
+    - universal basic income?
+  - life vs death situations
+
+levels of autonomy
+- autonomy
+  - acting on your own
+  - control
+  - decision making
+  - agency
+  - partial vs complete
+    - where does accountability lie?
+    - beneficial
+      - human machine interaction
+
+universal declaration of human rights
+- not legislation, but a charter
+- inspires human rights laws around the world
+- article 2: protected classes
+
+2017 asilomar AI conference
+- safety
+  - should be safe and secure throughout lifecycle
+- failure transparency
+- judicial transparency
+- responsibility
+  - designers are stakeholders 
+etc.
+
+2016 GDPR (general data protection regulation) - data privacy, xAI
+- california consumer protection act modeled after GDPR
+
+
+AI ethics principles to address
+1. safety and reliability
+2. transparency (xAI)
+3. privacy and security
+4. bias, discrimination
+5. responsibility, accountability
+6. environment, sustainability
+7. enablement of AI access
+
+2019
+>= 15 docs related to AI guidelines/principles created in US,EU
+~5 for UK, Japan
+0 for rest of world
+
+1. West (US + EU) making technology
+2. human values - US
+  - alignment with humanity?
+3. latin america, carribean, african nations, asia, china, middle east...
+
+
+2021
+US data centers focused partly in mid-atlantic, but mainly silicon valley
+1. West -> US
+2. everything developed with US interests in mind
+3. kinda ignore everyone else
+
+silicon valley has a lot of shell companies
+- hire global south workers to hand label data for cheap
+ACM FAT conference
+
+industry
+- in 1950s, government funded academia was developing AI
+- now, shifted to industry
+- concerned more with profit than technological development for the sake of knowledge
+
+moral machine paper
+
+trolley problem
+1. more vs fewer
+2. agency/active vs passive/fate
+3. agency --> responsibility
+4. priorities
 
 
