@@ -16,3 +16,61 @@ from the expert
   - know about job description
   - know about the company
 
+
+writing cover letters
+
+format
+- contact info
+- addressee info
+- purpose and context
+- using narrative to unpack resume, and connect to position
+- invitation/request for further conversation
+
+star method
+- situation
+- task
+- action
+- result
+
+memo
+- explain process including research about company and priorities
+- reflect on how specific choices you made in materials are linked to employer's needs/values as represented by job description
+- use appropriate memo formatting and mechanics
+
+
+interviews
+- answers should sound structured, not rambling
+- be confident
+- be clear
+- keep things relevant to job
+- behavioral : tell a story
+- technical : explain thought process
+- be enthusiastic
+- maintain eye contact
+- don't be too scripted
+- learn who the interviewer is beforehand
+
+
+anecdotes activity
+
+when I was the president of rugby I had a player get into an accident with our rented vans on the way to a match. I had to deal with relaying this information
+to our club advisor, and make sure that the players were able to make it to the match. I collected the necessary information about the accident and immediately
+told our advisor, without calling out the individual player and placing the blame on them. I then arranged for one of the players to use their personal car, offering
+to reimburse for the gas expense from our club budget. We were able to make it to the match on time.
+
+At work, I had to figure out a way to get the version info about a piece of software we use. I created scripts to automate this, consulting docs to figure
+out exactly what was needed in the scripts. I also consulted with my supervisor to gather the exact details of what was needed. The scripts I created were used
+to automate a part of my supervisors tasks, making us both more efficient with our jobs.
+
+
+- talk about my background more, where I use these interests/skills/abilities
+- I am a problem solver
+- I can assess a problem and figure out what is needed, and ask follow up questions to figure this information out
+- I like to take simple tasks and automate them to make myself and others more efficient
+
+
+questions to practice
+- tell us about yourself
+- tell us about a time when you overcame a setback, dealt with conflict, made a mistake, or failed
+- what questions do you have for us
+
