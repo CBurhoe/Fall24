@@ -1,0 +1,122 @@
+lots of ways to sort in O(nlogn) time
+
+is it possible to do better? no! and yes!
+
+comparison model: we're given a constant time algorithm which can compare any two elements. no other information about elements.
+- all algos we've seen so far have been in this model
+
+no: every algorithm in the comparison model must have worst case running time big-omega(nlogn)
+yes: if we assume extra structure for the elements, can do sorting in O(n) time*
+
+
+sorting lower bound
+
+thm: any sorting algorithm in the comparison model must make at least log(n!) = big-theta(nlogn) comparisons in the worst case
+
+lower bound on the number of comparisons- running time could be even worse!
+allows algorithm to reorder elements, copy them, move them, etc for free
+
+why is this hard?
+- lower bound needs to hold for all algorithms
+- how can we simultaneously reason about algorithms as different as mergesort, quicksort, heapsort, ...?
+
+sorting as permutations:
+
+think of an array A as a permutation: A[i] is the pi(i)'th smallest element
+A = [23, 14, 2, 5, 76]
+corresponds to pi = (3,2,0,1,4):
+
+pi(0) = 3, pi(1) = 2, pi(2) = 0, pi(3) = 1, pi(4) = 4
+
+lemma: given A with |A| = n, if can sort in T(n) comparisons then can find pi in T(n) comparisons
+
+pf sketch:
+- tag each element of A with index
+- sort tagged A into tagged B with T(n) comparisons
+- iterate through to get pi
+
+corollary: if need at least T(n) comparisons to find pi, need at least T(n) comparisons to sort
+
+generic algorithm:
+want to show that it takes big-omega(nlogn) comparisons to find pi in comparison model
+- only comparisons cost us anything
+
+arbitrary algo:
+- starts with some comparison
+- rules out some possible permutations
+  - if A[0] < A[1], pi(0) < pi(1)
+  - if A[0] > A[1], pi(0) > pi(1)
+- depending on outcome, choose next comparison to make
+- continue until only one possible permutation
+
+decision trees:
+model any algorithm as a binary decision tree
+- internal nodes: comparisons
+- leaves: permutations
+
+e.g. n = 3. six possible permutations
+
+(tree on slide 9)
+
+max # comparisons = 3
+
+scale to general n. consider arbitrary decision tree.
+max # comparisons = depth of tree >= log(# of leaves) >= log(n!) = big-theta(nlogn)
+
+
+bypassing the lower bound:
+what if we're not in the comparison model?
+- can do more than just compare elements
+
+main example
+- what is the 3rd bit of A[0]
+- is A[0] << k larger than A[1] >> c
+- is A[0] even
+same idea applies to letters, strings, etc
+
+
+counting sort:
+suppose A consists of n integers, all in {0, 1, ..., k-1}
+
+counting sort
+- maintain an array B of lenght k initialized to all 0
+- scan through A and increment B[A[i]]
+- scan through B, output i exactly B[i] times
+running time O(n + k)
+
+bucket sort: counting sort ++
+often want to sort objects based on keys
+- each object has a key: integer in {0, 1, ..., k-1}
+- A consists of n objects
+
+bucket sort
+- same idea of counting sort, but B[i] is bucket of objects with key i
+- bucket is a linked list with pointers to beginning and end
+- insert at end of list, using end pointer
+- for output, go through each bucket in order
+running time: O(n + k)
+
+radix sort: setup
+what if k is much larger than n, e.g. k = big-theta(n^2)?
+
+radix sort: O(n) time* for this case
+
+setup
+- numbers represented in base 10 for historical reasons
+- assume all numbers have exactly d digits (for simplicity)
+
+if you were sorting cards with a number on each card, what might you do?
+
+algorithm
+- divide into 10 buckets by first digit, recurse on each bucket by second digit, etc
+works but clunky
+
+algorithm 2:
+- one bucket, sorting from least significant digit to most significant digit
+for iteration i, use bucket sort where key is i'th digit and object is number
+
+thm: radix sort from least significant to most significant is correct if the sort used on each digit is stable
+
+(pf on slide 19)
+
+
