@@ -1,0 +1,107 @@
+housekeeping:
+- project proposal due wednesday 9/11 by midnight
+- feedback from teaching team by 9/15
+- approval by 9/18
+
+
+work models
+- flow
+  - directions of communication and coordination
+- sequence
+  - detailed sequence of steps
+- artifact
+  - physical objects that support work
+- culture
+- physical
+
+
+
+flow
+- focus on roles of different users and how they communicate and coordinate to get work done
+- each flow model is generated form a specific individual perspective
+- includes the places the artifacts used for communication, and breakdowns in communication that negatively impact work
+
+sequence
+- includes intent behind the action, the trigger that led the user to this action, and breakdowns that create problems
+- low-level, step-by-step information on how work is actually done
+- captured at level of detail appropriate for focus of the design team
+
+artifact
+- 
+
+physical
+- document physical environment where work happens
+- includes organization of space, grouping of people, and their movement in the space
+- focuses on aspects of relevance to the work/focus and not on complete fidelity
+
+cultural
+- external influences
+
+
+opportunities for design
+- breakdowns
+- workarounds
+- mismatch between what people say and do
+- offhand comments
+- sights
+- rolling of eyes
+- confessions
+
+
+interaction fundamentals I
+
+what is interaction?
+- two-way
+- communicative: info is sent
+- receptive: info is received
+- effective: the parties are changed as a result
+
+
+thought experiment
+- click a submit button on webpage
+- type in login credentials
+- press esc on a screen that does not allow it
+
+interaction model
+- a way of describing interaction and its component parts
+- interaction models
+  - help us define and describe an interaction
+  - help us isolate areas where problems occur
+  - help us design new interaction
+
+execution - evaluation
+1. establish goal
+2. form intention
+3. specify action sequence
+4. execute action sequence
+5. perceive system state
+6. interpret system state
+7. evaluate system state with respect to the goals and intentions
+
+e.g. turning on the light
+1. increasing light in the room
+2. to turn on desk lamp
+3. walk to the lamp; reach for the knob; twist knob
+4. walk; reachl twist
+5. hear click sound; see light from lamp
+6. knob rotated; lamp is emitting light
+7. the turned-on lamp did increase the light in the room
+
+context
+social and organizational
+- office work
+- social setting
+- on the go
+user characteristics
+- bank managers don't like to type
+- care providers
+cultural norms
+- red and green
+- reading direction
+- what may be offensive
+- yes nods
+
+
+interaction styles
+- CLI
+
