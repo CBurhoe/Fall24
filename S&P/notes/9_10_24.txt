@@ -1,0 +1,44 @@
+race conditions
+
+Dirty CoW:
+
+mmap() : create a memory mapping between a process address space and file address space
+- allows interprocess communication
+
+
+void *mmap(void *addr, size_t length, int prot, int flags, int fd, off_t offset);
+
+- addr: starting address for mapped memory
+- length: size of mapped memory
+- prot: if mem is readable or writeable
+- flags: if this is visible to other processes or the file
+- fd: file descriptor to map
+
+
+copy-on-write
+technique that allows virtual memory in different processes to map to the same physical memory pages, if they have identical contents
+
+madvise()
+
+MADV_DONTNEED: tells kernel we no longer need the claimed section from addr to addr+length
+
+writing to read-only files
+- normally cannot do this (read-only!)
+- if file is mapped using MAP_PRIVATE, OS allows us to write to the mapped memory
+- we have to use a different route
+
+
+make copy of mapped memory
+update page table
+write to memory
+
+
+write():
+make a copy of mapped memory
+change the page table so the memory now points to (2)
+write to the memory
+
+
+madvise() --> MADV_DONTNEED: change the page table so virtual memory now points back to (1)
+
+
