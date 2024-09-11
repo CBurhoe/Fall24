@@ -1,0 +1,21 @@
+Policies
+
+UK: 
+- not concerned wiht regulating technology per se, but rather the principles regarding the development of technology
+- sandbox approach as well
+- view is very business centric, enable business and economic development
+
+US:
+blueprint for ai bill of rights
+- not business centric view
+- human centered, concerned with civil liberties and rights
+
+executive order
+- government needs to know and be kept in the loop on development
+
+
+EU/EC
+- comprehensive law-based approach
+- lays out principles
+- ultimately says we need to regulate based on possible risks that result from different types of technology within AI
+- 
