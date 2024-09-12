@@ -1,0 +1,20 @@
+interview prep
+
+
+1. tell us a bit about yourself
+my name is casey, I am an undergraduate computer science student at Johns Hopkins. I really love problem solving, and more specifically finding the best way
+to solve a problem
+
+
+2. tell us about a time when you overcame a setback or failed
+In high school I was very bad with remembering deadlines and scheduled events. once I had an exam for a course I was taking at a community college
+and I just forgot about the exam. I realized a few hours too late, and probably would have failed the course, but the professor was extremely graceful
+and made accomodations with me to avoid that. Since then, I have been hyperattentive to deadlines; everything I schedule goes into my calendar where I can't miss it,
+and I never get complacent with thinking I don't have anything going on until I triple check my calendar.
+
+3. what questions do you have for us
+what does a typical day look like for your engineers? do they have a standard day?
+
+Tailscale is a fully remote company. what does Tailscale do to improve collaboration between employees?
+
+Open source software is an important aspect of the company. what kinds of other open source projects do employees contribute to?
