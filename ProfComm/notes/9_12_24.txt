@@ -2,7 +2,7 @@ interview prep
 
 
 1. tell us a bit about yourself
-my name is casey, I am an undergraduate computer science student at Johns Hopkins. I really love problem solving, and more specifically finding the best way
+my name is casey, I am an undergraduate computer science student at Johns Hopkins. I really love problem solving, and more specifically finding the best ways
 to solve a problem
 
 
