@@ -1,0 +1,222 @@
+housekeeping:
+- assignment 2 released tomorrow
+- exit ticket released after class, 10min time limit
+- feedback from teaching team about proposals by sept 15th
+- approval from teaching team on proposals by sept 18th
+
+
+
+gulf of execution
+- what the user is expecting
+- some action should exist in order to complete a task or use a function
+
+gulf of evaluation
+- user completes an action, expects feedback
+- no feedback on action to report to user the status of the task or function
+
+CLI
+strengths:
+  - direct access
+  - efficient if we know how to use
+  - can pipe/aggregate together actions for efficient task execution
+  - customizable with aliases
+  - can be scripted easily (with knowledge)
+weaknesses:
+  - not much feedback unless explicitly programmed
+  - not beginner friendly, initiation barrier
+
+
+graphical interfaces
+
+WIMP (windows icons menus and pointing devices)
+strengths:
+  - support direct manipulation using pointing device (mouse, touchscreen, etc) to click a button
+  - support high visibility of objects
+  - standardized object designs that lend to easy understanding of element functions, bridging gulf of execution
+  - relies on recognition rather than recall; see a button that says "search", assume that button executes a search function
+  - usually easy/intuitive to learn
+weaknesses
+  - do not support repetitive tasks
+  - sometimes slower than CLIs; need to look for elements needed to perform task and execute function
+  - difficult to aggregate commands; need to click elements one by one with pointing device
+
+
+Pen
+strengths
+  - flexibility of actions; draw, write
+  - allows for direct writing
+  - drawing is natural and fluid
+  - facilitates pointing anywhere quickly
+weaknesses
+  - lacks cursor and related interactions
+  - text entry slower (typing on keyboard usually faster)
+
+
+multi-touch
+strengths
+  - enables a variety of interaction styles
+  - intuitive operations are possible
+  - offers high portability
+  - scalable (iPad vs Microsoft Surface)
+weaknesses
+  - precise operation is difficult
+  - usually requires two hands
+  - text entry is error-prone
+  - hands block screen
+
+
+voice assistants
+strengths
+  - intuitive, natural language commands
+  - hands-free actions
+weaknesses
+  - have to say things out loud (privacy concerns with saying passwords)
+  - speech to text errors
+
+
+
+conceptual model
+- a user's conceptual model (aka mental model) is their view of a system as they believe it to be, especially concerning how they can act upon
+  it and what the system's responses mean
+
+exercise: 8 5 4, what are the next 3 numbers? integers listed alphabetically: 1 9 7
+exercise: what i if told you : you the read first line wrong : same the with second : and also the third
+
+
+Cooper's models:
+
+implementation model
+  - how it actually works
+manifest model
+  - how it represents itself
+mental model
+  - how the user thinks it works and what it means
+
+conceptual models
+  - what can i do
+  - how can i do it
+  - what result will it have
+  - what is it telling me
+
+remote:
+implementation model: mapping between buttons and what they do
+manifest model: grouping of buttons with different or similar functions
+mental model: how I think the remote works
+
+
+conceptual models
+- a good conceptual model is crucial for users to have a successful interaction
+- 
+
+
+styles matter
+- different interaction styles employ different conceptual models
+  - how do I execute a command in cmd vs WIMP?
+- a users conceptual model is informed by the interaction style, the physical characteristics, and the available actions
+
+
+
+discoverability and feedback
+
+
+overcoming the gulf of execution and the gulf of evaluation
+execution
+  - make commands and actions for controlling the system match the thoughts, language, and goals of user
+  - users understanding of how the system works
+evaluation
+  - make the output displays present a clear manifest mdoel of the system that is readily perceived...
+
+
+model formation
+- as a user interacts, their conceptual model is revised whenever they must explicitly revisit it, usually because of a breakdown
+  such as unfulfilled expectations or unclear representations
+- during a breakdown, the conceptual model is revisited as the system with which we interact goes from ready-to-hand to present-at-hand
+
+
+direct relation to technology adoption
+
+how to design matching models
+
+
+inform conceptual model design through design elements
+
+
+metaphors
+- help build positive association between an interface and known conceptual models
+e.g. desktop metaphor
+  - files
+  - documents
+  - folders
+  - cabinets
+e.g. trash/recycle on desktop
+  - immediately know you can move unwanted/unneeded files into trash to get rid of them
+
+
+modes
+- switches that change the state of an interactive system such that the same actions have different effects
+e.g. VIM (modal text editor)
+  - insert
+  - visual
+e.g. plane interface with autopilot
+  - direct control
+  - autopilot mode
+e.g. caps lock
+  - change from default lowercase characters and default uppercase characters
+
+- two types of modes
+  - active: requires constant action to maintain; once action is retired, so does the mode. e.g. shift
+  - passive: requires an action to set, and requires a separate action to unset or set again. e.g. caps lock
+generally, active modes are preferred
+  - in passive modes, sometimes it is difficult to realize which mode user is in
+  - in active modes, it requires constant effort to maintain the state
+use of modes
+- modes often discouraged, but when are they useful
+  - when the means for control are outnumbered by the number of necessary outcomes
+  - imagine a keyboard with distinct keys for lowercase and capital letters. it is helpful to consolidate actions to a smaller set of multipurpose elements
+- if oyu are going to have a mode, it is imperative that its status and activation are visible
+  - modes in CLIs are dangerous for this reason
+- modes should be invertible
+  - if i can get to mode B from mode A, i should be able to get back from mode A to to mode B (ideally with the same action)
+
+
+
+affordances
+- possible actions that a person can readily perceive
+e.g. an elevator button "affords" being pressed; a chair "affords" being sat on
+e.g. knurling provides a visual affordance for "gripping"
+
+metaphors are meant to jumpstart a user's conceptual model for a system
+affordances are meant to jumpstart ...
+
+
+hidden affordance
+- when there is not perceptual information for an existing affordance
+false affordance
+- when there is perceptual information for an affordance that does not exist
+
+want consistent affordance
+
+sequential affordance
+- acting on a perceptible affordance leads to information indicating new affordances
+
+
+affordances vs conventions
+- icons do not afford "pushing" of "clicking"
+- icons do not communicate "pushability" by their attributes. they do not give an indication of their intended use, except by convention
+
+visibility vs feedback
+- visibility is what you can see on a system
+- feedback is ...
+
+
+three kinds of visibility
+1. visibility of objects of interest
+2. visibility of available actions
+3. visibility of 
+
+
+constraints
+- prevent some actions by users
+
+mappings
+- use analogies to draw the connection between a control and the display 
