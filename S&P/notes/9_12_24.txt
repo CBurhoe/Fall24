@@ -1,0 +1,29 @@
+syn flooding attack
+
+idea: fill the queue storing half-open connections so that there will be no space to store TCB for any new half-open connection
+basically server cannot accept any new SYN packets
+
+steps to achieve
+- continuously send a lot of SYN packets to the server to consume space in the queue
+- need to spoof IP
+
+
+before the attack
+- check TCP states
+
+TCP states
+- listen: waiting for 
+
+
+countermeasures
+- SYN cookies
+
+
+TCP reset attack
+- to disconnect a connection: A sends out FIN packet, B replies with ACK
+- now, B sends a FIN packet to A, and A replies with ACK
+
+
+TCP session hijacking attack
+- inject arbitrary data into established connection with a spoofed packet
+
