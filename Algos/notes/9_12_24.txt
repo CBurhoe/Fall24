@@ -1,0 +1,149 @@
+data structures: next 2-3 weeks
+
+since DS is a prerequisite of algos, we focus on advanced data structures and interesting analysis
+
+today and later: dictionaries
+
+dictionary: supports the following operations
+- insert(key,object)
+- lookup(key): return associated object
+- delete(key): remove the key and its object from the data structure
+
+obvious approaches
+1. keep a sorted array
+  - lookup: O(logn)
+  - insertion: big-omega(n)
+2. keep an unsorted linked list
+  - insert: O(1)
+  - lookup: big-omega(n)
+
+goal: get O(logn) for both lookup and insert
+
+approach today: search trees (later hashing)
+
+
+balanced search trees:
+- all nodes have at most 2 children
+- each node stores key-object pair
+- all descendants to left have smaller keys
+- all descendants to right have larger keys
+
+lookup: follow path from root
+
+insert(x):
+- if tree empty, place at root
+- else if x < root.key recursively insert into left child
+- else (if x > root.key) recursively insert into left child
+
+
+pluses: easy to implement
+
+(worst case) running time: if depth d, then big-theta(d)
+- if very unbalanced d could be big-omega(n)
+want to make tree balanced
+
+rest of today
+- B-trees: perfect balance, not binary
+- Red-black trees: approximate balance, binary
+- turn out to be related
+
+
+B-trees
+
+definition:
+parameter t >= 2
+
+1. each node has between t-1 and 2t-1 keys in it (except root has between 1 and 2t-1 keys). keys in a node are stored in a sorted array
+2. each non-leaf has degree (number of children) equal to the number of keys in it plus 1. if v is a node with keys [a1, a2, ..., ak] and the children are
+  [v1, v2, ..., vk+1] then the tree rooted at vi contains only keys that are at least ai-1 and at most ai (except edge cases: )
+3. all leaves are at the same depth
+
+when t=2 this is known as a 2-3-4 tree since number of children either 2, 3, or 4
+
+
+e.g. t=3
+- root has between 1 and 5 keys, non-roots have between 2 and 5 keys
+- non-leaves have between 3 and 6 children (root can have fewer)
+
+lookups: binary search in array at root. finished if find item, else get pointer to to appropriate child, recurse.
+
+insert(x)
+- obvious approach (almost correct): do a lookup, put x in leaf where it should be
+  - but what if leaf is full (already has 2t-1 keys in it)
+- split
+  - only used on full nodes whose parents are not full
+  - pull median of its keys up to its parent
+  - split remaining 2t-2 keys into two nodes of t-1 keys each. reconnect appropriately
+
+fixed insert(x)
+- do a lookup and insert at leaf, but when we encounter a full node on way down, split it
+- since split on way down, guarantee that parents are never full
+
+correctness of insert:
+induction: start wiht B-tree, insert x
+third property (all leaves at same depth): tree grows up
+first property (all non-leaves other thna root have between t-1 and 2t-1 keys):
+(see notes)
+
+
+
+B-tree running time:
+suppose n keys, depth d <= O(log_t n)
+
+lookup: 
+- binary search on array in each node we pass through ==> O(log t) time per node
+- total time O(d log t) = O(log_t n log t) = O(log n/ log t * log t) = O(log n)
+insert:
+- same as lookup, but need to split on the way down, and insert into leaf
+- total: lookup time + split time + time to insert into leaf
+  - insert into leaf: O(t)
+  - split: O(t) per split ==> O(td) = O(t log_t n) total = O(t/log t * log n)
+
+
+B-tree notes:
+- used a lot in databases
+  - large t: shallow trees. fits well with memory hierarchy
+
+- t=2
+  - 2-3-4 tree
+  - can be implemented as binary tree using red-black trees
+
+red-black trees:
+B-trees great, but binary tree is nice: lookups simple!
+want binary balanced tree
+  - classical and super important data structure
+  - many solutions
+red-black
+  - default in linux kernel
+  (see slide 19)
+
+2-3-4 trees to binary:
+can we turn a 2-3-4 tree into a binary tree with all the same properties
+  - no, can't have perfect balance
+  - just need depth O(log n)
+
+nodes in 2-3-4 trees have degree 2, 3, or 4
+- degree 2: good!
+- degree 4: (see slide 20)
+- degree 3: (see slide 20)
+basically can translate 2-3-4 tree into binary tree with red glue (phantom edges)
+
+important properties
+1. never have two red edges in a row
+  - red edge is internal, never have more than one internal edge in a row
+2. every leaf has the same number of black edges on path to root (black depth)
+  - each black edge is a 2-3-4 tree edge
+  - all leaves in 2-3-4 tree at same distance from root
+==> path from root to deepest leaf <= 2 * path to shallowest leaf
+==> depth <= O(log n)
+
+insert:
+want to insert while preserving these two properties
+2-3-4 trees: split full nodes on way down
+
+easy cases:
+(slide 22)
+hard cases:
+(slide 22)
+
+to fix issues in hard cases: use tree rotations
