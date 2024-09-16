@@ -1,1 +1,107 @@
+Human centered design:
+
+physical principles (physical ergonomics)
+- consider biomechanics
+- comfort
+psychological principles (cognitive ergonomics)
+- behavior
+- abilities
+- limitations
+- other characteristics
+
+crucial for AI development
+- OpenAI so influential because of the novel "chat" interface with ChatGPT
+- good UI/HCI is important to AI/autonomous systems development because some may have immense consequences
+  - autonomous weapons systems
+  - self driving cars
+  - aircraft autopilot
+
+1956 Dartmouth conference on AI
+- initiation of AI development
+
+modern HCI problems
+- rise of the non-professional (lay) user
+  - untrained in sys operation
+  - no technical understanding of automation
+  - no understanding of system limitations and vulnerabilities, risks
+- naive understanding of automation
+  - automated systems take over execution of tasks from humans
+  - less amount of work, less attention needed from humans
+  - misplacing trust in the system 
+- global competition
+  - industry - major players, monopolies, SMEs
+  - "arms race" between nations, tool to wield power, not just economic development, more complex situations, more data,
+    more knowledge to advance a posture of advantage
+
+cultures: individualist vs collectivist
+
+culture affects mental frameworks and behaviors
+
+individualistic culture: emphasizes needs of the individual, your personal freedom and achievements; 
+  social status is equivalent to your personal achievements
+key traits: autonomous, self-sufficient, independent, unique, individual rights
+concpets of self: independence & uniqueness vs interdependence & shared similarities -> entails the self is self-complete
+
+sustain dynamic capitalist economic rationality, utilitarian, competitive, profit maximizing mentality
+support retributive justice, punishment to correct wrongdoing and assert dignity of human life
+
+
+western tools for thinking about ethics and AI
+- normative purpose: how to act
+- virtue ethics
+  - doing the right act that aligns with goal trying to achieve
+  - who should I be
+  - aristotle in 340 BCE
+  - Nichomachean ethics: science of the good for human life
+  - developing habits or dispositions that lead to doing the right thing, leads to flourishing of the individual
+  - a guide for living life, but difficult to relate with solving ethical dilemmas
+- deontological
+  - following moral law
+  - what is my duty
+  - Immanuel Kant in 18th century
+  - law-based ethics; ancient roots in Israelite religion, basis of the Abrahamic religions
+  - idea of imposing an obligation or a "sacred" duty to do no evil or harm
+  - coming up with axiomatic systems
+  - what are the right rules/actions to put into place to achieve our desired social goals
+- utilitarianism
+  - harm reduction to maximize good
+  - outcome matters, not the motive
+  - what is the greatest possible good for the greatest number
+  - Jeremy Bentham & John Stuart Mill in late 18th-19th centuries
+  - best moral action is that which maximizes happiness or wellbeing
+  - what is happiness and how do you measure it  - whose happiness is prioritized
+
+
+collectivist culture: emphasize needs of the group as a whole entity
+
+key traits: selflessness, group interaction, dependable, generous, helpful
+
+concepts of self: social relationships and roles, membership within a group
+
+underlying make-up of society: conformity
+
+rights of families and communities vs individuals
+
+
+
+sub-saharan african ubuntu: personhood is relational
+- ubu: state of being and becoming
+- ntu: continuous being or becoming a person oriented towards cosmic unity and creative purpose
+- rational self becomes a relational self through ethical maturity as demonastrated by fulfilling one's social duties and responsibilities to others
+- the individual self becomes the communal self
+- relationality: acceptance of the individuality of others, all are interconnected
+  in general it is the acceptance of the interconnectedness of all independent parts...
+
+applying ubuntu as a framework
+- human dignity is based on the interconnectedness of all people -> how one relates to others
+- principles for determining ethical decisions
+  ...
+
+
+confucianism
+- personhood requires a certain kind of community
+- living morally good life involves having rich social relations
+- different kinds of communal attachments within our circle of commitments
+
+
 
