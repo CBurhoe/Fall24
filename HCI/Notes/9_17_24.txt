@@ -1,0 +1,124 @@
+housekeeping
+- assign 1 graded
+- assign 2 released, due sunday 9/22
+- assign 3 released 9/30
+
+project
+- deadline for revised proposal sept 20
+
+
+inform conceptual model design through design elements
+
+(...)
+
+novices
+- unfamiliar with system
+- possibly unfamiliar with system and domain
+- often aprehensive about tech
+- often unwilling to explore the interface
+- confidence develops slowly at first
+- 
+
+experts
+(...)
+
+
+can we design for both
+- how can we smoothly transit from novice to expert users in the same system
+- can we include both novice and expert functionality in the same space
+- can adaptive user interfaces change dynamically over time
+
+indirect manipulation interface
+- provide menu accelerators, keyboard shortcuts, command lines
+- reveal complexity over time
+- nest complexity in space
+- make first tier actions most apparent
+
+
+design elements
+- metaphors
+- modes
+- affordances
+- constraints
+- mappings
+- prior experiences
+
+
+prototype
+
+why prototype
+- users often can't say what they want
+- if you give them something that they get to use, they know what they don't want
+- need a bridge between talking to users in the abstract about what they might want and building a full blown system
+
+benefits of prototyping
+- get quick feedback on design
+- experiment with alternatives
+- fix problems before writing code
+- keep design centered on customer
+- bring subtleties and nuances into the light
+
+what counts as a prototype
+- sketches
+- storyboards
+- wizard of oz prototypes
+- videos
+- paper
+- role-playing scripts
+- animations
+- photoshop screens
+- alpha, beta versions
+
+prototyping approaches
+- throwaway vs evolutionary
+  - test specific ideas or questions about a specific design vs 
+    designed to be built upon as the project moves forward
+- horizontal vs vertical
+- high fidelity vs low fidelity
+
+throwaway
+- built, tested, and thrown away- useful in early stages
+- gather requirements and data
+
+evolutionary
+- some requirements are well understood
+- danger of initially bad designs persisting
+
+horizontal
+- broad range of features but less depth
+- superficial functionality
+
+vertical
+- cover reduced number of features but in greater depth
+
+low fidelity
+- not fully functional
+- design may have sketch like quality
+- quick to create and revise
+- low associated cost
+
+high fidelity
+- fully funcitoning
+- polished design
+- more labor intensive to create and revise
+- high associated cost
+
+quantity vs quality
+- quantity typically yields better end results because many iterations reveals mistakes and how to fix them
+
+
+rapid iteration and exploration is the most effective and important tool for effective design
+
+lo-fi prototypes
+- design is not done
+  - explore instead of confirm
+  - the more done something appears, the more narrow and incremental the feedback
+
+testing prototypes
+- give people tasks or scenarios to use
+- ask them to use the interface to complete the task
+- ask them to think aloud as they walk through the task
+- observe breakdowns, shortcuts, confusions
+- ask users why they think breakdowns occur, why they take shortcuts, etc.
+
+
