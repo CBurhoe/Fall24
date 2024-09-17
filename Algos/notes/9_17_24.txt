@@ -1,0 +1,192 @@
+Amortized analysis
+
+typically considered static or one-shot problems: given input, compute correct output as efficiently as possible
+
+data structures: sequance of operations
+  - dictionary: insert, inseert, insert, lookup, insert, lookup, lookup...
+
+last time: analyzed worst case cost of each operation
+what about the worst case cost of sequence of operations?
+
+
+definition: the amortized cost of a sequence n operations is the total cost of the sequence divide by n
+
+"average cost per operation" (but no randomness!)
+
+e.g. 100 operations for cost 1, 1 operation of cost 100
+- normal worst case analysis: 100
+- amortized cost: 200/101 ~= 2
+
+if we care about total time (e.g. using data structure in larger algorithm) then worst-case too pessimistic, not super useful
+
+still want worst case, but worst case over sequence rather than single operation
+
+maybe the only way to have an exprensive operation is to have a bunch of cheap operations: amortized cost is always small
+
+def: if the amortized cost of every sequence is at most f(n), 
+     then the amortized cost or amortized complexity of the algorithm is at most f(n)
+
+
+e.g. stack from array
+
+stack:
+- LIFO (last in first out)
+- push: add element to top
+- pop: take element off of top
+
+build a stack with an array A:
+- initialize: top = 0
+- push(x): A[top] = x; top++
+- pop(x): top--; return A[top]
+
+what if A is full (n elements)?
+
+make new, bigger array, copy old array over
+- cost: free to create array, each copy costs 1
+- worst case: a single push could cost big-omega(n)!
+
+new array is size n+1:
+- very bad; have to copy over whole array every insertion after n
+- sequence of n pushes. total cost big-theta(n^2)
+- amortized cost: big-theta(n) (same as single worst case operation)
+
+better idea:
+instead of increasing from n to n+1: increase to 2n
+
+consider any sequence of n operations:
+- have to double when array has size 2,4,8.16,32,64,...,[2^logn]
+- total time spent doubling: at most big-theta(n)
+- any operation that doesn't cause a doubling costs O(1)
+- total cost at most O(n) + n*O(1) = O(n)
+- amortized cost at most O(1)
+
+amortized analysis explains why we want to double rather than add 1
+- this is obvious, but from the POV of traditional wort-case analysis, it doesn't seem that exprensive
+  - only scrutinizing one operation
+- looking at operation over a sequence of n, we see that it adds up
+
+
+more complicated analysis: piggy banks and ...
+
+basic bank: informal
+
+can be hard to give good bound directly on total cost
+- lots of variance; some operations very expensive, some very cheap
+- idea: smooth out the operations
+  - pay more for cheap operations, pay less for expensive ones
+
+use a bank to keep track of this
+- cheap operation: add to the bank
+- expensive operation: take from bank
+
+charge cheap operations more, use extra to pay for expensive operations
+
+
+basic bank: formal
+
+bank L.
+- initially L = 0
+- L_i = value of bank after operation i (so L_0 = 0)
+operation i:
+- cost c_i
+- amortized cost c'_i`= c_i + (delta)L = c_i + L_i - L_{i-1} ==> c_i = c'_i + L_{i-1} - L_i
+
+total cost of sequence (see slide 11)
+beautiful telescoping sum of terms that cancel out except (+)L_0 and (-)L_n
+
+so if L_0 = 0 and L_n >= 0 (bank not negative): sum of c_i from (1:n) <= sum of c'_i from (1:n)
+- if c'_i <= f(n) for all i, then true amortized cost also at most f(n)
+
+
+variants:
+
+multiple banks
+- sometimes easier to keep track of/think about
+- no real difference: one bank = sum of all banks
+
+potential function
+- bank analogy: we choose how much to deposit/withdraw
+- new analogy: potential energy; function of state of the system
+- rename L to phi: all previous analysis works the same!
+- sometimes easier to think about: just define once at the beginning, instead of for each operation
+
+
+binary counter:
+super simple setup: binary counter stored in array A
+- least significant bit in A[0], then A[1]...
+- don't worry about length of array (infinite or long enough)
+- only operation is increment
+- cost 1 to flib any bit
+
+n increments. cost of most expensive increment: big-theta(logn)
+what about amortized cost?
+
+bank for every bit A[i]
+
+flip bit i from 0 to 1: add $ to bank for i
+flip bit i from 1 to 0: remove $ from bank for i
+- no bank ever negative (induction)
+
+analysis:
+do an incrment, flips k bits ==> true cost is k
+- # 0s flipped to 1: 1
+- # 1s flipped to 0: k - 1
+flipping 1 to 0 paid for by bank! costs 1, bank decreases by 1
+==> amortized cost at most 1 (cost of flipping 0 to 1) plus 1 (increase in bank for that bit)
+= 2
+
+global: change in total bank is -(k - 1) + 1 = -k + 2
+==> amortized cost = c + (delta)L = k + (-k + 2) = 2
+
+potential function: let phi = # 1s in counter
+==> amortized cost = c + (delta)(phi) = k + (-k + 2) = 2
+
+example: simple dictionary
+
+setup
+same dictionary problem as last lecture (insert, lookup)
+- can we do something simple with just arrays (no trees)?
+- give up on worst-case: try for amortized
+  - sorted array: inserts big-omega(n) amortized (i'th insert could take big-omega(i))
+  - unsorted array: lookups big-omega(n) amortized
+
+solution: array of arrays
+- A[i] either empty or a sorted array of exaclty 2^i elements
+- no relationship between arrays
+e.g. insert 1-11
+
+note: with n inserts, at most logn arrays
+
+lookup(x): 
+- binary search each non-empty array
+- time at most big-theta(log^2 n)
+
+insert(x):
+- create array B = [x]
+- i = 0
+- while A[i] != []
+  - merge B and A[i] to get B
+  - set A[i] = []
+  - i++
+- set A[i] = B
+
+
+concrete costs
+- merging 2 arrays of size m costs 2m
+worst case
+- might need to do a merge for every array if all full
+- time big-theta(n)
+
+amortized
+- merge arrays of length 2^i one out of every 2^i inserts
+- so after n inserts, have merged arrays of length 1 at most n times, arrays of length 2 at most n/2 times,
+  arrays of length 4 at msot n/4 times...
+- total cost at most big-theta(nlogn)
+- amortized cost at most big-theta(logn) !
+
+
+def: if a structure supports k operations, say that operation i has amortized cost at most alpha_i
+  if for every sequence which performs with at most m_i operations of type i, the total cost is at most
+  the sum from i=1:i alpha_i*m_i
+
+(see slide 21 for notes of this)
