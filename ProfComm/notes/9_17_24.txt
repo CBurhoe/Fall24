@@ -1,0 +1,41 @@
+research skills for prof writing and comm
+
+assignment:
+- minimum 6 sources, at least 3 peer reviewed
+- relevant to research topic
+- data and statistics
+
+peer reviewed:
+- academic article or paper is scruitinized by independent scholarly peers
+- checking for factual correctness
+- assess usefulness
+
+when choosing sources, want something that adds to your arguments
+
+
+developing and researching a problem statement
+- phrase
+  - e.g. gen Z displays a lack of digital literacy esp when it comes to cybersecurity
+- separate
+  - break your search into separate concepts
+    e.g. 1. "generation z" OR "adolescent*" OR "young adult*"; 2. "data literac*"; 3. cybersecurity
+  - * for wildcard 
+  - "" to get matches on an exact string/phrase
+  - AND, OR, NOT for compound search operation sets
+- separate more
+  - put each concept on a different search row in the database. you may have to change your terms based on what you find
+
+sheridan libraries
+- interlibrary loan: get PDFs of articles emailed to you
+
+database searches
+
+
+databases for finding peer reviewed articles:
+- ABI/Inform
+- Academic Search Ultimate
+
+database for finding demographics or statistics
+- Statista
+
+
