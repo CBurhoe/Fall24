@@ -1,0 +1,96 @@
+jessica, cog sci grad
+
+
+aphasia (cont)
+
+broca's aphasia (motor/expressive/nonfluent)
+- production
+  - nonfluent, sometimes with apraxia of speech and/or dysarthria
+  - strong reliance on memorized formulaic expressions
+  - worse retrieval of verbs than nouns
+  - marked impairment of closed-class elements (function words)
+  - reduced syntactic complexity
+- comprehension
+  - relatively preserved understanding of colloquial conversation
+  - poor comprehension of some types of syntactically complex grammatical constructions
+- repetition
+  - disrupted, especially for multi-word sequences and closed-class items
+
+morphemes: smallest part of language that carry meaning
+
+
+wernicke's aphasia (sensory/receptive/fluent)
+- production
+  - fluent, sometimes excessively so
+  - frequent phonemic paraphasias, which may be so sever as to constitute neologistic jargon
+  - morphological and syntactic substitution errors sometimes occur
+  - patients often unaware of their deficits
+- comprehension
+  - impaired for sentences, phrases, and in many cases even single words
+- repitition
+  - disrupted with errors involving word choice, phonological structure, and grammatical structure
+
+
+conduction aphasia (associative)
+- production
+  - more fluent than broca's, less fluent than wernicke's
+  - frequent phonemic paraphasias
+  - recurrent attempts to correctly produce the sound structure of the desired expression
+- comprehension
+  - relatively preserved
+  - difficulties may arise when confronted with long, complex sentences with high short-term memory demands
+- repitition
+  - disrupted for multi-word sequences and sometimes also for single words
+
+
+global aphasia (mixed)
+- production
+  - severely impaired
+- comprehension
+  - severely impaired
+- repitition
+  - severely impaired
+
+
+anomic aphasia (amnesic)
+- production
+  - fluent with hesitations
+  - word-finding difficulties, sometimes category specific
+- comprehension
+  - relatively preserved
+- repitition
+  - relatively preserved
+
+
+transcortical aphasias
+- intact repition 
+- deficits involving the mappings between the forms and meanings of utterances
+
+3 types:
+
+TCMA (transcortical motor aphasia)
+- production
+  - poor planning and initiation
+- comprehension
+  - relatively preserved
+- repetition
+  - good
+
+TCSA (transcortical sensory aphasia)
+- production
+  - phonemic paraphasias
+- comprehension
+  - impaired
+- repitition
+  - good
+
+MTCA (mixed transcortical aphasia)
+- production
+  - combination of the other two
+- comprehension
+  - imapaired
+- repitition
+  - good
+
+
+
