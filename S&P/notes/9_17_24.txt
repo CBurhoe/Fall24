@@ -1,0 +1,86 @@
+cross-site chicanery: web attacks
+
+web architecture basics:
+
+HTML 
+- content markup (hypertext markup language)
+- structure
+
+CSS
+- content styling
+- style
+
+cookies
+- store persistent state
+- because HTTP is stateless
+- state
+
+JavaScript + DOM
+- dynamic content
+- Document Object Model
+- script actions (requests to other pages)
+- behavior
+
+
+HTTP GET Request
+- GET {location+data} {protocol}
+
+
+HTTP POST Request
+- POST {location} {protocol}
+
+same-site request
+- make request to the website
+- gives results/content/data on same website (may be different page)
+- cookies given by site are given back to site (store info about being authenticated by site)
+
+cross-site request
+- make request to a website
+- website retrieves resource from another website
+- sends along data, cookies, etc.
+- server cannot distinguish between same-site and cross-site requests
+
+
+cross-site request forgery (CSRF)
+
+environment
+- target website (bank etc)
+- victim user who has an active session on target website (banking user logged into bank account)
+- malicious website controlled
+
+requirements
+- the attacker crafts a webpage that can forge a cross-site request to be sent to the target website
+- the attacker needs to attract the victim user to visit the malicious website
+- the victim is logged into the targeted website
+
+
+CSRF on HTTP GET:
+
+HTTP GET Request
+GET /transfer/?to=4761&amount=489 HTTP/1.1
+Host: bank.example.com
+
+Data in URL: http://bank.example.com/transfer/?to=4761&amount=489
+
+if target is logged in to bank.example.com then following the link will transfer $489 to the attacker's account 4761
+
+we can get the user to automatically request this by using <img> http tag
+
+- images are automatically retrieved when loading website
+
+CSRF on HTTP POST
+
+POST /transfer/ HTTP/1.1
+(...)
+
+(see slide)
+
+
+Samy Kamkar (security researcher): The Samy Worm
+- used XSS to add "but most of all, samy is my hero" to MySpace profiles in 2005
+  - you were infected as soon as you saw a profile that was infected
+- self-propagating
+- led to plea agreement to a felony charge in 2007
+
+
+
