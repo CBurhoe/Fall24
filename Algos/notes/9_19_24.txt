@@ -1,0 +1,185 @@
+priority queues and heaps
+
+priority queue / heaps: like a queue/stack but instead of FIFO/LIFO, by priority
+- insert(H,x): insert element x into heap H
+- extract-min(H): remove and return an element with the smallest key
+- decrease-key(H,x,k): decrease the key of x to k
+- meld(H1,H2): replace heaps H1 and H2 with their union
+
+extra ops
+- find-min(H): return the element with the smallest key
+- delete(H,x): delete element x from heap H
+
+min-heap, but can also do max-heap
+
+note: x is a pointer to an element. no way to lookup, so need a pointer to an element to change it
+
+
+obvious approaches:
+- linked list
+  - insert: O(1)
+  - extract-min: O(n)
+  - decrease-key: O(1)
+  - meld: O(1)
+- sorted array
+  - insert: O(n)
+  - extract-min: O(1)
+  - decrease-key: O(n)
+  - meld: O(n)
+- balanced search tree
+  - insert: O(logn)
+  - extract-min: O(logn)
+  - decrease-key: O(logn)
+  - meld: O(n)
+
+goal: get as many of these to O(1) as possible
+
+question: can we make insert and extract-min both to O(1), even amortized?
+- no! this would break the O(nlogn) lower bound of the comparison model of sorting
+- but maybe we can make one O(1), other O(logn)
+
+
+today and state of the art
+
+state of the art: strict fibonacci heap
+- complicated, not practical, see clrs 19 for fibonacci heaps
+
+today: binary heaps, then binomial heaps
+- binomial heaps not quite as complicated as fib heaps, many of the same core ideas
+
+
+binary heaps
+- complete binary tree except possibly at the bottom level
+- heap order: key of every node is no larger than the key of all its children
+
+properties
+- since almost complete binary tree, depth big-theta(logn)
+- min must be at root
+representation
+- pointers to root and rightmost leaf
+- every node has pointers to parent and children
+
+insert(H,x)
+- preserve heap structure: insert x into next open spot (bottom right or left of new level if bottom level full)
+  - might violate heap order!
+  - swim up until heap order is restored by swapping inserted element with its parent if parent is larger
+  - O(logn) worst case via depth (and amortized)
+
+extract-min(H)
+- min is definitely at root. want to remove while stil having a binary tree
+  - swap root with final heap element, remove former root
+  - sink down: swap root with smaller of its children until heap order restored
+  - O(logn) worst case via depth, amortized O(1) (not obvious)
+
+decrease-key(H,x,k)
+
+
+meld(H1,H2)
+- assume both heaps have size n
+  - obvious approach: insert each element from H2 into H1, O(nlogn)
+- better
+  - insert all elements of H2 all at once (not fixing heap order)
+  - instead of fixing by swimming up: iterate from bottom up and sink down to fix heap
+  - O(n)
+
+amortized extract-min
+- weights: w(x) = depth of x
+  - root has weight 0, its children have weight 1, etc.
+- potential: phi(H) = sum of the weights of all x's
+insert
+- delta-phi = O(logn) ==> amortized cost <= O(logn) [true cost] + O(logn) [change in potential] = O(logn)
+- use this later to "pay for" extract-min
+extract-min
+- true cost: height h = big-theta(logn) of tree, plus O(1) for initial swap
+- delta-phi: one less node at depth h ==> delta-phi = -h
+- amortized cost: h + O(1) - h = O(1)
+  - uses inserts to "pay for" extract-mins
+
+improvements:
+downsides of binary heaps
+- do at least as many inserts as extract-mins! want O(1) insert, O(logn) extract-min (reverse of binary heaps)
+- meld in O(n) is better than trivial, but still not great
+
+binomial heaps
+- get insert down to O(1) (amortized)
+- meld in O(logn) (worst-case and amortized)
+- downside: O(logn) extract-min, O(logn) find-min
+fibonacci heaps
+- everything O(1) amortized, except O(logn) extract-min amortized
+
+
+
+binomial heaps
+- not based on binary trees anymore!
+  - based on binomial trees
+
+binomial tree
+- B0: single node
+- Bk: one B{k-1} linked under another B{k-1}
+
+structure lemma: the order k binomial tree Bk has the following properties
+1. height of Bk is k
+2. Bk has exactly 2^k nodes
+3. the degree of root is k
+4. if we delete the root, we get k binomial trees B{k-1}, ..., B0
+
+binomial heap def: a binomial heap is a colleciton of binomial trees so that each tree is heap ordered,
+  and there is exactly 0 or 1 tree of order k for each integer k
+- keep roots of trees in linked list, from smallest order (not key!) to largest
+- with n items, no choices about which binomial trees exist in heap
+  - write n in binary: ba b{a-1} ... b1 b0
+  - tree Bk exists iff bk = 1
+  e.g. if n = 101 (base 2), have 1 B0 tree, 0 B1 tree, 1 B2 tree
+==> as most logn trees, and by lemma each has height <= logn
+
+analysis: beginning
+analyze all operations both worst-case and amortized
+
+potential function: phi(H) = # of trees in H (binomial heap)
+- initially 0
+- never negative
+
+find-min(H)
+- scan through roots of trees in H, return min
+  - correct: each tree heap ordered, so global min one of roots
+  - worst-case: O(logn)
+  - amortized: doesn't change potential, also O(logn)
+
+meld(H1,H2)
+- key operation: we'll use meld to do insert and extract-min
+- warmup: H1,H2 both single trees of same order k
+  - union has size 2^k + 2^k = 2^{k+1}: just a single B{k+1}
+  - easy to make a B{k+1} out of two Bk's
+- link of two trees
+  - worst-case: O(1) to create a single link. normalize: call 1
+  - delta-phi: two trees to one: -1
+  - amortized cost: 1-1 = 0 = O(1)
+
+meld(H1,H2): general case
+- (almost) just like binary addition
+- running time
+  - worst-case: O(1) per "order" k ==> <= O(logn)
+  - amortized: potential does not go up, but could stay the same
+  ==> O(logn) amortized (better than binary heaps)
+
+insert(H,x)
+- use meld
+  - create new heap H' with one B0 consisting of just x
+  - meld(H,H')
+- running time
+  - worst-case: O(logn) (via meld)
+  - amortized: like incrementing a binary counter
+    - if we link k trees, potential goes down by k-1
+    - cost = # links plus 1 (for making new heap)
+    - amortized cost = k + 1 + delta-phi = k + 1 - (k-1) = 2 = O(1) (think about the binary counter)
+
+extract-min(H)
+- use meld again
+  - O(logn) to find-min: one of the roots
+  - delete and return this root: tree turns into a new heap!
+  - meld with original heap (minus the tree)
+- running time
+  - worst-case: O(logn) from creating new heap, meld
+  - amortized:
+    - potential can go up! but by at most logn
+    - amortized time at most O(logn) + logn = O(logn)
