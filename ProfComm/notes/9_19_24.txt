@@ -1,0 +1,63 @@
+leave 4 comments on each peer review of problem statements
+
+problem statement ~= white-paper
+
+different from an academic literature review
+- meant for lay-people (primarily)
+
+the smartphone generation needs computer help
+- journalist voice
+- sponsored (by Grow with Google)
+
+
+making a story sticky: SUCCES applied to todays article
+- simple
+  - gen Z has a gap in digital literacy as it relates to workforce productivity
+  - can solve it using Grow with Google
+- unexpected
+  - Gen Z is a digital native generation; grew up using smartphones, yet don't know basic skills like creating powerpoints and resumes
+  "For kids who are often glued to their smartphones, these types of digital tasks, surprisingly, can be new experiences."
+- concrete
+  - 
+- credible
+  - data from McKinsey about the growing need for digital skills
+  - 
+- emotional
+  - 
+- stories
+  - success stories about kids at B&G club learning how to use digital skills
+  - apply to jobs using resumes, 
+
+
+establish novelty with four rhetorical moves
+1. explain significance of issue
+2. describe the status quo
+3. identify a gap
+4. fill that gap with your present research
+
+summarizing and synthesizing our sources lets us frame our research problem (and sometimes helps us find it)
+
+
+literature reviews:
+1. explain relevant background info
+2. group research into trends
+3. take a stance on prior work
+
+
+notice how trends appear in topic sentences
+"prior research comparing search patterns on different devices has found that searches are more constrained on mobile devices than on PCs"
+...
+"these studies indicate that there are unique patterns to user activity on different devices that can be mined to predict cross-device search"
+
+
+use phrases that clearly indicate a research trend or theme
+"one trend in the research focuses on..."
+"several studies emphasize..."
+
+disagreement can also be a research trend or theme
+"research has failed to come to a consensus"
+"findings are inconclusive"
+"there are competing explanations/theories"
+
+
+
