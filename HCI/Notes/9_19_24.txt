@@ -1,0 +1,154 @@
+housekeeping
+- assignment 1 released
+- assignment 2 due sunday 9/22 11:59pm
+- project groups proposal due friday 9/20 11:59pm
+- exit ticket 4 due tonight 9/19 11:59pm
+
+
+today: scenarios
+
+scenario-based design
+- persona
+- scenario
+- storyboard
+
+
+why use scenarios
+- descriptions of people using technology that is essential in discussing and analyzing how the technology is used to reshape their activities
+- scenarios can be created before a system is built
+- scenarios can be used to prototype the whole experience
+
+common uses of SBD
+- interface design
+- marketing
+- software engineering
+- advertising
+- etc.
+
+tasks, personas, scenarios
+- task: design-agnostic objective
+- persona: a fictional person with a backstory
+- scenario: narrative that demonstrates a persona completing a task using a particular design
+
+writing scenarios
+- identify people involved in scenario
+- identify starting state/context
+- list the goals a user may have as they pertain to your product or service
+- prioritize the goals based on your understanding of your users
+- craft stories
+
+what is a persona
+- a representative character meant to reoresent a group of users in a role who share common goals, attitudes, and behaviors
+  when interacting with a particular product or service
+- describes user demographics, education, income, tech experience, job, goals, needs, desires, etc.
+- answers the question "who are our users?"
+
+persona goals; each persona should capture user goals at different levels
+- life goals: personal aspirations ("I would like to retire before 50")
+- experience goals: how the user wants to feel while using a product
+- end goals: tangible outcomes of using the product ("I would like to see my emails and facebook messages in one display")
+
+how to create personas
+1. collect data about users
+2. segment the users
+3. develop archetypal characters who represent a universal pattern e.g. "hero, creator, sage"
+
+
+step 1: collect data
+- personas should come from real data from users
+  - should help us identify range of behavioral patterns, environmental factors/constraints
+- data could be of any type
+  - qualitative data from ethnography, observations, interviews with real users
+  - quantitative data from large scale surveys, studies, marketing & customer support reports
+  - logical characterizations ...
+
+step 2: segment users
+- analyze data to identify emerging categories of users
+  - focus particularly on grouping users based on goals or motivations for technology
+- qualitative data analysis e.g. affinity diagramming
+
+step 3: develop archetypal characters
+- represent each segment with a character
+- describe the archetype
+- find archetypal image
+- give persona a name
+- describe user goals related to the product
+- create a bio and describe personal information that affects usage
+- describe technology use, emphasizing skills and needs
+
+warnings
+- personas are not stereotypes
+  - stereotypes might be formed by prejudice, cultural and historical factors
+  - personas must represent data from the real world as it is right now
+- personas are not the same as roles
+  - people with the ...
+
+
+what are scenarios
+- a story that describes ...
+
+scenario characteristics
+- described from users POV and captures aspects of their goals and needs
+- concrete descriptions of a user interacting with a system in a work-driven manner, focusing on a particular path that user takes
+- does not include implementation details but may include details of the workplace environment, socio-cultural situation, constraints
+
+personas in scenarios
+- personas are the actors in each scenario and provide the motivation constraints knowledge and other details about users performing actions in the scenario
+- scenarios describe a persona's goal-driven behavior
+
+what do we do with scenarios
+- use to communicate ideas to other designers
+- describe design specifications to clients
+- evaluate ideas with users
+
+scenario presentation
+- narrative scenarios (book)
+  - written accounts and narratives
+- video scenarios (movies)
+  - richer visual storytelling
+- storyboards (comics, picture books)
+
+video scenarios
+advantages
+  - can be more engaging
+  - prototypes are shown more easily
+disadvantages
+  - requires actors
+  - more resources to create
+
+storyboards
+- used in movies, multimedia design, product and software development
+elements of a storyboard
+- level of details
+- inclusion of text
+- inclusion of people and emotions
+- number of frames
+- protrayal of time
+
+
+guideline 1: detail
+- too much detail can lose universality
+
+guideline 2: text use
+- often necessary, but keep it short
+
+guideline 3: people and emotions
+- include people experiencing the design and their reactions to it (good or bad)
+- point of storyboards is to convey the experience of using a system
+
+guideline 4: number of frames
+- 4-6 frames is ideal
+- more is not always better, may lose focus of story, may lose reader's attention
+
+guideline 5: time
+- only use if it is necessary to understand story
+- order of frames implies movement of time
+
+drawing not necessary! can use pictures, generative AI images, etc
+
+lecture activity: create personas and scenarios for a news aggregator website
+
+persona: brian is a university student. he is intersted in news about artificial intelligence regulations and development around the world.
+scenario: brian needs to get news about a recent development in AI technology from the US or EU within the last week to present in his ethics class.
+
+
