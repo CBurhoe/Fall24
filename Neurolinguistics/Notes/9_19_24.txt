@@ -1,0 +1,71 @@
+primary progressive aphasia
+- acquired language deficit (aphasia) that is due to a neurodegenerative disease
+
+three main PPA syndromes
+- progressive nonfluent aphasia (PNFA)
+- semantic dementia (SD)
+- logopenic progressive aphasia (LPA)
+
+often related to frontotemporal dementia (FTD)
+- FTD - 2.7-15.0 per 100,000
+- 20-40% of FTD cases have PPA
+- average age of onset in late 50s
+- average survival rate of ~7 years
+- PPA first described in late 1800s but wasn't systematically studied until late 1900s
+
+
+
+progressive nonfluent aphasia
+- production
+  - nonfluent
+  - hesitant
+  - agrammatic, often with phonological disturbances and/or apraxia of speech
+- comprehension
+  - mostly intact for single words and simple sentences
+  - impaired for complex sentences
+- repetition
+  - impaired
+- atrophy
+  - (see slides)
+
+
+semantic dementia
+- production
+  - fluent but with semantic errors
+- comprehension
+  - impaired
+- repetition
+  - intact
+- atrophy
+  - anterior temporal lobes bilaterally but emphasized in left hemisphere
+  - posterior extension over time
+
+
+logopenic progressive aphasia
+- production
+  - profound word-finding difficulties sometimes accompanied by phonemic paraphasias
+- comprehension
+  - mostly intact for single words and simple sentences
+  - imapired for complex sentences
+- repetition
+  - usually normal for words but impaired for sentences
+  - poor recall of sequences of digits, letters, words
+- atrophy
+  - wernicke's area
+  - extends superiorly into supramarginal gyrus
+  - posteriorly into angular gyrus
+  - inferiorly into posterior middle temporal gyrus
+
+
+
+speech perception
+
+wernicke-lichtheim-geschwind model (house model) (see book for labels)
+- two pathways from center for the "sound images" of words (A)
+  - one to center for word meaning (B)
+  - another to center for speech production (M)
+
+
+dual stream model (hickok and poeppel, 2000, 2007)
+- dorsal stream sound for articulation
+- ventral stream sound for meaning
