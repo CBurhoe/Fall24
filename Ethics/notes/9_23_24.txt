@@ -1,0 +1,52 @@
+Human autonomy: 
+Q1: why is it important?
+  tech is affecting our lives in myriad ways -> changing our autonomy
+    agency is positively correlated with wellbeing
+  tech should align with human values
+  threatens trust, competence, skills, time; changing control
+  data, privacy, security
+
+Definition: autonomy
+- capacity to make decisions
+- willfully and volition -> personal goals
+- independence
+- self-determination, self-expression
+
+Q2: how do we design autonomous systems?
+  what control should be taken over from you
+  who should determine your level of control
+  what is the tradeoff for gaining or losing that control
+    amount of data collection vs trust in company
+    personalization, customization; double edged sword for personalized suggestions
+
+Self Determination Theory
+- autonomy
+  see above
+- competence
+  - understanding of the system
+- relatedness
+  - connection with others
+
+
+Laws of Conflict
+
+Lethal autonomous weapons systems
+- able to identify, select, and kill target(s) autonomously
+  - target: individual or group of individuals selected to be eliminated
+
+4 laws of conflict agreed upon internationally
+- make warfare "fair"
+1. military necessity
+  - won't use military action unless absolutely necessary
+  - already exhausted diplomacy
+  - there is a legitimate necessity for direct action
+  e.g. conflict in Ukraine is a violation of this on Russia's part
+2. proportionality
+  - use only the force necessary
+3. distinction
+  - distinguish between military forces and civilians
+  - no indiscriminate violence
+4. minimize suffering
+
+for wednesday readings, thing about how autonomy fits into the laws of conflict
+
