@@ -1,0 +1,174 @@
+bilateral organization
+
+dual stream model
+- ventral stream for processing sound for meaning
+- dorsal stream for processing sound for action/speech
+
+functional anatomical [] is hierarchical and bilateral
+
+word deafness
+- disorder in which speech perception is impaired
+- intact hearing and sometimes intact recognition of non-speech sounds
+- crucially, it usually requires bilateral lesions to the middle and posterior portions 
+  of STG and underlying white matter, while often sparing Heschl's gyrus
+
+
+organization is bilateral, but also assymmetric
+- assymmetric sampling in time hypothesis
+  - LH dominance for rapid changes ~20-80ms (phonemic contrasts)
+  - RH dominance for slower changes ~150-300ms (syllabic contrasts)
+
+Liebenthal et al. 2005
+- discrimination of tokens along /ba/-/da/ continuum (phonetic) and continuum between
+  /ba/-/da/ with inverted F1, F3 (non-phonetic)
+- greater activation in left STS for phonetic vs non-phonetic discrimination
+
+
+summary: early cortical stages
+- early cortical stages of speech perception depend on a pathway projecting from the dorsal STG to the lateral STG/middle STS
+- auditory processing along this pathway is organized hierarchically
+  - dorsal STG: elementary spectrotemporal analyses
+  - lateral STG and middle STS: extraction of increasingly complex phonological patterns
+auditory processing along this pathway is also organized bilaterally
+  - LH dominance for phonemic info 20-80ms range
+  - RH dominance for syllabic info 150-300ms range
+
+
+
+
+comprehension & repetition: double dissociation
+
+Miceli et al. 1980
+- impaired comprehension but intact repetition
+  - transcortical sensory aphasia
+- intact comprehension but impaired repetition
+  - conduction aphasia
+  - logopenic progressive aphasia
+- impaired comprehension but intact phoneme discrimination (monitoring)
+- intact comprehension but impaired phoneme discrimination (monitoring)
+
+
+
+ventral stream: "what" - sound to meaning
+
+- lexical interface (bilateral pMTG and pITG): maps phonological structures onto semantic structures
+- combinatorial network (left lateral ATL): contirbutes to integration of sentence meaning
+
+
+Boatman, 2000
+- electrical stimulation in six patients
+  - syllable discrimination
+  - word and sentence repetition
+  - sentence comprehension
+  - spontaneous speech
+  - oral reading of words
+  - oral reading of paragraphs
+  - oral object naming
+- 29 sites where stimulation induced TcSA (transcortical sensory aphasia)
+  - intact syllable discrimination
+  - intact word and sentence repetition
+  - impaired sentence comprehension
+  - fluent but paraphasic production at 19 of 29 critical sites
+- 10/29 sites where TcSA was induced but with intact naming
+  - suggesting impaired mapping of sound to meaning
+  - but normal mapping of meaning to sound
+
+
+Dronker et al., 2004
+- 64 chronic stroke patients with LH lesions, 46 (72%)- aphasic
+- sentence picture matching task with 11 increasingly difficult sentence types
+  - most severe and pervasive deficits found in patients with lesions centered in the left pMTG
+  - the same patients also failed a separate test of single word comprehension, suggesting that the left pMTG plays a key role in understanding the meaning of words
+- Left pMTG - intermediary between the phonological and semantic structures of words as maintained by the dual stream model
+
+
+narain et al. 2003
+- intelligible vs unintelligible speech
+
+abrams et al. 2013
+- intelligible vs unintelligible speech
+
+davis and johnsrude's, 2003
+- normal, partially, and completely distorted speech
+- left lateral ATL responds more strongly to intelligible sound
+
+
+Rogalsky & hickock, 2009
+- ATL localizer task: passive listening to sentences > passive listening to noun lists
+- semantic task: detect semantic anomalies
+- syntactic task: detect syntactic anomalies
+- 80% of sentecnes were correct and identical in the two tasks
+- only a few voxels in the ATL had a task preference (semantic > syntactic)
+
+
+
+dorsal stream: "how" - sound to action
+
+- sonsorimotor interface (left Spt [sylvian parietal temporal]): maps phonological structures onto motor representations
+- articulatory network (left posterior frontal lobe): essential for speech production
+
+
+area Spt: Sylvian-parietal-temporal
+- area Spt resides in the posterior portion of the planum temporale (PT)
+- straddles at least four different cytoarchitectonic fields
+
+
+sensorimotor network (Spt):
+
+Hickok et al. 2003
+- 3s auditory stimulation (speech or tune)
+- 15s covert rehearsal (speech or humming)
+- 3s auditory stimulation
+- 15s rest
+- area Spt engaged during auditory stimulation
+- and to a lesser degree during covert rehearsal
+- middle STG engaged during only auditory stimulation
+- Spt - sensorimotor interface not only for speech, but for do-able oral sounds
+
+
+conduction aphasia:
+- results from damage to the left supramarginal gyrus and inferiorly adjacent tissue including Spt
+- comprehension is mostly intact because lesion spares the ventral stream
+- phonemic paraphasias are rampant (especially for long complex low-frequency words) because the motor programming of words can no longer be guided via area Spt
+  by the sound-based representations that specify the auditory "targets" of production
+- repetition severely impaired because it depends critically on area Spt, the neural relay station that translates what one hears
+  into how to say it
+
+
+logopenic progressive aphasia:
+- atrophy generally includes Spt
+- similar set of symptoms, but milder
+
+
+buchsbaum et al. 2003
+- compareison of 14 conduction aphasics & 105 healthy subjects
+- Spt - region of maximal overlap between lesions and active normal areas
+
+
+auditory-verbal short term memory (phonological loop)
+- perception of an utterance activates sound-based representations in the phonological network
+- these representations are kept "alive" by means of corresponding subvocal motor processes in the articulatory network
+- this reverberatory cycle is mediated by the sensorimotor interface
+- thus, auditory-verbal STM depends on the dorsal stream
+
+
+articulatory network in L post. frontal lobe: D'Ausilio et al., 2009: TMS
+- task: distinguish between 4 speech sounds presented in background noise
+  - two labial: /ba/ vs /pa/
+  - two dental: /da/ vs /ta/
+- results:
+  - TMS to LipsM1 sped up reaction times for labial sounds
+  - TMS to TongueM1 sped up reactions times for dental sounds
+
+
+
+Pulvermueller et al., 2006
+- articulatory network is also engaged in a somatotopic manner during passive perception
+
+although articulatory network might modulate speech perception in various ways, it is probably not a necessary resource for comprehension
+  - large left frontal lesions severely impair production but not comprehension
+  - deactivating the entire left hemisphere leads ot the same outcome
+  - failure ot develop speech production does not preclude normal receptive speech development
+  - infants as young as 1 -month old exhibit sophisticated speech perception ability, including categorical perception
+    well before they acquire the ability to speak
+
