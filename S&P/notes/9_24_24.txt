@@ -1,0 +1,64 @@
+sql
+
+mysql
+- open-source relational database management system
+
+relational dB
+- entities are tables
+- can have relationships
+e.g. employees table
+
+INSERT operation
+SELECT * FROM [table] WHERE [predicate]
+UPDATE operation
+
+
+databases and web apps
+basic stack architecture:
+  - browser
+    HTTP requests
+  - web app server
+    SQL statements
+  - database
+
+getting data from the user
+- browser sends an HTTP request to the server
+- server runs a script to handle the request
+- generates a SQL query
+- open connection to database, execute query, and get data back
+- server sends data back to client
+
+untrusted user input
+- developer intends for user to put data into forms
+- but everything from the user becomes part of the final SQL statement
+- possible for a user to manipulate the "meaning" of the SQL statement
+
+The main issue (like with most vulnerabilities): Mixing code and data
+- buffer overflows
+- XSS
+- SQL injection
+
+solutions
+- sanitize input
+- prepared statements
+
+
+switching gears: clickjacking and iframes
+
+iframe: inline frame
+- embeddable into webpages/documents
+- how can we abuse them?
+
+clickjacking
+- concept: iframe one page on top of another
+- pages are sufficiently similar so that interactive elements line up
+- top page is transparent, so interactions intended for the opaque page are absorbed by the top/transparent page
+- can do this with individual elements from pages as well (instead of an entire page)
+- interactions will be directed to the other page instead
+
+e.g. can iframe a login box over another page to steal login credentials
+
+protection: content security policy
+
+midterm next thursday Oct 3
+- allowed a double sided handwritten 8.5x11 cheat sheet
