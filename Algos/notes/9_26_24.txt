@@ -1,0 +1,93 @@
+hashing
+
+another approach to dictionaries
+- can improve operations to O(1), but with many caveats
+
+should have seen some discussion of hashing in data structures and CLRS
+- separate chaining vs open addressing
+
+today: discussing caveats and more advanced methods
+
+
+hashing basics:
+- keys from universe U (think very large)
+- set S subset of U of keys we actually care about (think relatively small) |S| = N
+- hash table A (array) of size M
+- hash function h:U --> [M]
+  - [M] = {1,2,3,...,M}
+- idea: store x in A[h(x)]
+
+one more component: collision resolution
+- today: separate chaining
+- A[i] is not an element, is actually a pointer to a linked list containing all x inserted where h(x) = i
+
+
+
+dictionary operations
+
+lookup(x): Walk down the list at A[h(x)] until we find x
+
+insert(x): add x to beginning of the list at A[h(x)]
+
+delete(x): walk down list at A[h(x)] until find x, then remove
+
+
+what should a hash function be?
+
+properties we want:
+- few collisions, time of lookup, delete for x is O(length of list at A[h(x)])
+- small M; ideally M = O(N)
+- h fast to compute
+
+
+bad news
+
+thm: for any hash function h, if |U| >= (N-1)M + 1, then there exists a set S of N elements that all hash to the same location
+
+proof using pigeon hole
+
+so worst case behavior always bad! how can we get around this?
+- option 1: don't worry about it, hope world isn't adversarial
+- option 2: radomness! random function h:U --> [M]
+  - for each x in U, choose y in [M] uniformly at random and set h(x) = y
+  - hopefully good behavior in expectation
+  - problem: how can we store/remember/create h?
+
+
+universal hashing
+
+def: a probability distribution H over hash functions {h:U --> [M]} is universal if 
+  Pr[h(x) = h(x)] <= 1/M
+
+  for all x,y in U with x != y
+
+thm: if H is universal, then for every set S subset of U with |S| = N and for every x in U, 
+  the expected number of collisions (when we draw h from H) between x and elements of S is at most N/M
+
+so lookup and delete has expected time N/M
+==> if M = big-omega(N), operations in O(1)
+
+pf: (see slide 7)
+
+
+universal hash families: def
+  if H is universal and is a uniform distribution over a set of functions {h1, h2, ...} then that set is called a universal hash family
+
+often use H to refer to both set of functions and uniform distribution over it
+
+
+perfect hashing:
+
+supppose you know S, never changes
+- build table, then do lookups; like a real dictionary!
+- care more about time to do lookup than time to build dictionary
+
+obvious approaches
+- sorted array: lookups O(log N)
+- balanced search tree: O(log N)
+
+can we do better? yes through universal hashing!
+
+(see slide 12)
+
+
