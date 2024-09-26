@@ -1,0 +1,149 @@
+parts of a test plan
+
+
+introducing a test
+- interested in learning about X
+- I did not develop X, I just want to learn about problems with it
+- I'll give you tasks, just do your best
+- it is X being tested, not you
+- think out loud while working with X
+- I will not be able to answer questions once you start using X, do you have questions now?
+
+task based scenario
+- set up overall scenario
+- prescribe tasks for users fitting the scenario
+- ask users to perform these during test
+  - improvision okay- just watch the time
+
+creating tasks
+- write a short, set the stage
+- write a numbered list of tasks
+- tasks should be realistic, doable, ethical, clear, succinct, and focused on uncertain aspects of the design
+- chain tasks so one leads into the next naturally
+
+running the test
+- give opening scenario
+- begin assigning tasks in order
+- observe task time, errors, breakdowns, workarounds, confusions, and success/failure
+- make notes, video-record, audio-records
+- give think aloud prompts
+  - but allow them to stray
+  - and don't answer questions- let them struggle
+
+types of data
+- objective measurements
+  - things can be measured objectively the same by everyone
+  - time, errors, confusions, breakdowns, workarounds, successes, failures
+- behavioral measurements
+  - mostly your observations and notes
+- subjective measurements
+  - users comments and feedback, questionnaire
+
+debriefing and data analysis
+- debrief
+  - give more detail about what you're interested in discovering
+    - answer questions they have
+    - thank them for time
+- analysis
+  - gather notes, etc
+  - distill main findings in a document
+
+
+non-task-based testing
+
+task vs open exploration
+- task based usability tests are easiest to control, focus, direct
+- open exploration tests can also be used to understand people's initial experiences
+
+co-discovery
+- two users work together and talk to each other out loud to accomplish assigned tasks
+- observers can learn a lot from hearing two people talk to each other
+- downsides?
+  - cost: no-shows are more problematic; group effects come in- one disruptive user ruins two
+
+how many users to test with
+- N(1-(1-L)^N)
+  - complicated
+- "zero users, zero thoughts"
+- fifteen users allow you to find all usability problems
+- five users allow you to find 85% of problems
+  - add more users, learn less
+- use your budget to run 3 tests with 5 users rather than 1 test with 15 users
+  - iterative design and testing might uncover all remaining problems
+
+where to start testing
+
+test moderator
+- grounding in basics of user-centered design
+- quick learner, good memory, long attention span
+- instant rapport with participants
+- comfortable with ambiguity, flexible
+- empathetic "people person"
+- good communicator, organizer, coordinator
+
+problems to avoid
+- leading rather than enabling
+- too involved with act of data collection
+- acting too knowledgable
+- too rigid with the test plan
+- not relating well to each participant
+- jumping to conclusions
+
+limitations of testing
+- testing is always an artificial situtation
+- test results do not prove a product works
+- participants are rarely fully representative of the target user population
+- testing is not always the best technique to use
+
+
+
+
+diary studies
+
+longitudinal UX
+- seek a holistic understanding of a persons particular activity across an extended period of time
+
+looking back to CI
+- what is the core of CI
+  - direct observatio
+  - what are some situations in which direct access is not possible
+- we use think aloud to prompt users to talk in CI
+  - if we are not in with the user, how do we prompt them?
+  - diaries!
+
+goal: ask people to observe and record their own actions. providing people with multiple ways of capturing data
+
+situations in which direct user observation is not easy
+- privacy sensitive tasks
+- spontaneous tasks
+- mobile situations
+- restricted access situations
+- tasks with high sampling rate
+
+diaries
+a diary is a document created by an individual who maintains regular recordings about events in their life, at the time those events occur
+- physical diaries
+- digital diaries
+- shared/public diaries
+
+types of diaries
+- feedback diary
+  - focus on events that interest researcher
+  - users record data when events occur or thresholds are met
+  - more accurate and objective
+- elicitation diary
+  - focus on events that are meaningful to user
+  - users reflect on what happened in a later interview
+  - more representative of users' feelings
+
+
+  cultural probes
+  - a way of capturing information in context
+
+  when to use
+  - users are...
+    - on the move
+    - experiencing events intermittently
+    - in unpredictable environments
+
+
