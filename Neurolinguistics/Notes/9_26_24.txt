@@ -1,0 +1,131 @@
+reading and writing: written language
+
+rendering of linguistic messages as graphic markings
+- arose ~5400 years ago
+- logograms, syllabary, alphabet
+- ~3 strokes per symbol (syllabary, alphabet)
+- shapes of symbols are often the most common shapes in the natural world
+
+
+local combination detector model: Dehaene et al., 2005
+- neurally based framework for reading
+- multiple leves of feature detectors
+- increasing receptive field size of cells -> greater spatial coverage of letters and words
+- increasing combinations of visual features -> greater complexity of representation
+- hierarchy of coding
+  
+
+vinckier et al., 2007
+- letter strings displayed for 100ms then ###### (mask)
+- press button when mask appears
+- types of stimuli
+  - false font
+  - infrequent letters
+  - frequent letters
+  - frequent bigrams
+  - frequent quadrigrams
+  - words
+components of stimulus strings
+  - features
+  - letters
+  - bigrams
+  - quadrigrams
+  - strings
+
+vinckier et al., 2007
+- six LH ROIs: as sites became more anterior, signals elicited by less word-like stimuli gradually dropped off
+  whereas those elicited by more word-like stimuli stayed relatively strong
+- six RH ROIs: no evidence for a similar hierarchy
+- consistent with local combination detector (LCD), the perception of letter strings depends on a hierarchy of ventral occipitotemporal 
+  regions, with increasingly complex combinations of features being detected at increasingly anterior levels of processing,
+  and with greater lateralization toward the left hemisphere
+
+
+VWFA (visual word form area)
+- responds to printed words in the following ways
+  - location invariant
+  - case invariant
+  - font invariant
+  - sensitive to both consciously and unconsciously perceived words
+  - more sensitive to real words than pseudo words
+  - more sensitive to printed words than spoken words
+  - equally sensitive to all familiar scripts
+  - less sensitive to unfamiliar scripts
+  - more sensitive to printed words than other categories of objects
+
+
+szwed et al., 2007
+- words and objects with 55% of contour retained
+- matched on several variables
+  - total contour length
+  - number of vertices
+  - height, width, luminance
+  - recognizability
+- factored out low-level visual processing by first contrasting word and object conditions against
+  scrambled conditions
+- then contrasted resulting activation map for words against one for objects
+
+
+alexia: reading disorder with two subcategories
+- patients who cannot recognize single letters, let alone complete words
+- patients who cannot read whole words with just one quick glance, but must instead decipher each sequential letter
+  in a slow and affortful manner and then put all pieces together
+- alexic patients in second category often have damage in or near VWFA
+
+gaillard et al., 2006
+- 46 y/o male
+- resection in L occipitotemporal cortex
+
+
+
+neuronal recycling
+
+paradox: reading and writing were created only around 5,400 years ago, and yet a single cortical region, VWFA,
+  seems to be specialized for perceiving printer words
+
+solution: Neuronal Recycling Hypothesis (Dehaene & Cohen, 2007)
+  - human brain organization is subject to strong anatomical connectional constraints inherited
+    from evolution. organized neural maps are present early on in infancy and bias subsequent learning
+  - cultural acquisitions (reading) must find their "neuronal niche" a set of circuits sufficiently close to the required function
+    and sufficiently plastic (...)
+
+  - the site of VWFA is ideally suited to represent the spelling patterns of printed words because it is
+    apparently designed to register complex combinations of spatially fine-grained shapes
+  - ventral occipitotemporal cortex subserves visual recognition of objects based largely on shapes
+  - small fine-grained stimuli that demand foveal processing tend to be processed in the more lateral areas
+  - LH is dominant for analytic, feature-based shaped processing and for language
+
+
+VWFA before reading
+
+dehaene et al., 2010 fMRI
+- literate, ex-illiterate, and illiterate subjects
+- reading sentences and letter strings
+
+
+VWFA in congenitally blind
+
+reich et al., 2011, 2012
+- fMRI study with congenitally blind subjects
+- reading real and pseudowords in braille
+- VWFA strong preferenc for real words than pseudowords
+- activation along L ventral occipitotemporal cortex, all the way to V1
+- peak voxel near central VWFA coordinates for sighted readers
+
+
+reading: cognitive model
+
+- reading aloud pseudowords like blicket requires grapheme-phoneme conversion route (sublexical)
+- reading aloud regular words like leg can be done by using either the grapheme-phoneme conversion route
+  or a central route that includes the orthographic and phonological lexicons as well as the semantic system
+- reading aloud irregular words like yacht can only be done by using the central route but there is controversy
+  about whether their proper pronunciation requires prior activation of their meaning
+
+reading: a cognitive model
+
+- phonological dyslexia: worse on pseudowords than real words
+- surface dyslexia: worse on irregular words than on regular words and pseudowords
+- deep dyslexia: impaired on pseudowords as well as real words, with errors on the latter
+  often being semantic in nature and worse for abstract items
+
+
