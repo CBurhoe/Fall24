@@ -1,0 +1,38 @@
+levels of control
+
+1. full automatic control
+  - no human operator
+  - problems not about human behavior but of machine production and maintenance
+2. automatic control w/ human monitoring
+  - human can take over in emergency
+  - main task of human: monitor, maintain, calibrate machine
+3. semiauto control w/ human operator performing critical functions
+  - machine performs major work
+  - human performs high-level mental functions (reasoning, judgment, planning, decision-making)
+4. no automatic control, only information presenting to the human operator
+  - human operator performs all tasks
+
+inconsistency across definitions of autonomy
+
+ironies of automation
+- the set of unintended consequences as a result of automation that could detrimentally affect human performance on critical tasks
+- automation might increase human performance issues, instead of eliminate them
+- if the goal is to prevent human performance issues, 'design out' the potential for human failure at the start
+- but we want improvements in safety and efficiency
+
+irony 1: designers are also human
+  - designers can introduce errors leading to system defects
+
+irony 2: tasks not automated rely on humans
+  - designers can leave a random collection of tasks to human input leading to incoherence
+
+irony 3: the human may have to 'take over' if the system fails
+  - designers can create a monitoring role not easily understood and accessible
+
+irony 4: retrofitting automation can add complexity
+  - designers can add a set of features creating confusions
+
+irony 5: once competent, now no longer
+  - designers can create highly-automated systems requiring new skill sets
+
+
