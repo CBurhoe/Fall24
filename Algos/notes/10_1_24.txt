@@ -1,0 +1,225 @@
+dynamic programming I
+
+divide and conquer++
+
+classical divide and conquer (quicksort, mergesort,...)
+- divide problem into subproblems
+- solve subproblems
+- combine solutions from subproblems into solution for problem
+- usually involves recursion
+
+issues that dynamic programming can help with
+- what if subproblems overlap?
+- what if recursion is too slow?
+
+dynamic programming used all over the place
+- originally in control theory
+- then many uses in graph theory, combinatorial optimization
+- currently: many uses in strings
+
+
+at JHU:
+- string algorithms: NLP!
+  - Jason Eisner: new programming language Dyna to automatically do dynamic programming
+- string algorithms: computational biology
+
+why "dynamic programming"?: Richard Bellman
+- programming: synonym for "planning"
+- dynamic: multistage, time-varying; as an adjective, cannot really be used perjoratively (in a negative context)
+
+
+weighted interval scheduling
+
+input:
+- n requests (intervals) {1,...,n}
+- for each request i:
+  - start time s
+  - finish time fi
+  - value vi
+- assume sorted by finish time
+feasible:
+- S is a subset of [n] feasible if no two intervals of S overlap
+goal:
+- find feasible set of S maximizing v(S) = sum of vi
+
+
+
+definition II:
+Let p(i) largest j < i s.t. fj <= si. If no such j exists, p(i) = 0
+
+
+obvious approach: greedy algorithm
+claim: no variation of greedy algorithm works
+
+
+simple observation:
+Let S* subset of [n] be optimal solution (unknown).
+What simple observation can we make about S*?
+  - fact: n either in S* or not in S*
+    if n not in S*: S* optimal solution for {1, 2, ..., n-1}
+    if n in S*: 
+      - nothing in (p(n), n-1] in S*: overlap with n
+      - S* = {n} U (optimal solution for {1, 2, ..., p(n)})
+
+
+def: Let OPT(i) denote value of optimal solution S*_i for {1,2,...,i}
+
+note:
+- S*_i not necessarily equal to S* n {1,2,...,i} (but S*_n = S*)
+- OPT(0) = 0 by convention
+
+
+if n not in S*: OPT(n) = OPT(n-1)
+
+if n in S*: OPT(n) = vn + OPT(p(n))
+
+don't know if n in S*, but can still say:
+  OPT(n) = max(OPT(n-1), vn + OPT(p(n)))
+
+need to prove more formally
+
+
+Structure Theorem:
+thm: OPT(j) = max(OPT(j-1), vj + OPT(p(j))) for all 1 <= j <= n
+
+>=: Know that there are feasible solutions to {1,2,...,j} of value:
+  - OPT(j-1) (S*_j-1 feasible for {1,2,...,j})
+  - vj + OPT(p(j)) (add j to S*_p(j))
+==> OPT(j) >= max(OPT(j-1), vj + OPT(p(j)))
+
+
+<=: Two cases
+  - if j not in S*_j, then S*_j subset of {1,2,...,j-1}
+  ==> S*_j feasible for [j-1] ==> OPT(j) <= OPT(j-1) (definition of OPT(j-1))
+
+  - if j in S*_j, then by definition S*_j - {j} feasible for {1,2,...,p(j)}
+  ==> OPT(j) - vj = v(S*_j - {j}) <= OPT(p(j)) (def of OPT(p(j)))
+  ==> OPT(j) <= OPT(p(j)) + vj
+
+taken together, imply the theorem above
+
+
+this theorem can be viewed as analogous to a recurrence relation: T(j) = max(T(j-1), vj + T(p(j)))
+
+
+obvious algorithm:
+
+previous thm a recurrence relation!
+  - suggest obv recursive algorithm for computing OPT(j)
+
+
+Schedule(j) {
+  if j = 0 return 0;
+  else return max(Schedule(j-1), vj + Schedule(p(j)))
+}
+
+
+thm: Schedule(j) returns OPT(j)
+pf by induction:
+  induction on j
+  - base case: j = 0. Then Schedule(j) returns 0 = OPT(j)
+  - inductive step: Schedule(j) returns
+    max(Schedule(j-1), vj + Schedule(p(j)))   def algorithm
+    = max(OPT(j-1), vj + OPT(p(j)))           induction
+    = OPT(j)                                  structure theorem
+
+
+
+Running time:
+
+Schedule(j) calls Schedule(j-1) and Schedule(j-2)
+
+Let T(n) be running time of Schedule(n) on this instance
+  T(n) = T(n-1) + T(n-2) + c
+  Fibonacci numbers: exponential in n
+
+key observation: algorithm does an enormous amount of repeated computation
+
+Fix: Memoization
+- idea: avoid recomputation
+
+table M of size n, initially all empty
+
+Schedule(j) {
+  if j = 0 return 0;
+  else if M[j] nonempty return M[j];
+  else {
+    M[j] = max(Schedule(j-1), vj + Schedule(p(j)));
+    return M[j];
+  }
+}
+
+
+Correctness: (basically) same as before
+- change inductive hypothesis to:
+  "Schedule(j) returns OPT(j) and after it returns, M[j] = OPT(j)"
+
+
+Running time:
+thm: the worst-case running time of Schedule(n) is at most O(n)
+
+pf:
+on call to Schedule(j):
+  - either return entry from table M[j] (O(1) time), or
+  - two recursive calls, then fill table entry that was empty
+  ==> running time = O(1) * # of recursive calls
+
+fill in one (previously empty) table entry after 2 recursive calls
+==> at most 2n recursive calls
+
+so running time at most O(n)
+Dynamic programming!
+
+
+
+
+finding the solution
+
+algorithm finds value of optimal solution, not solution itself: what if we want to find the optimal solution?
+- idea 1: keep track of solution in another table (or in M)
+  - uses lots of extra space, need to be careful about how much time spend copying/moving solutions
+- better idea: backtracking through completed table:
+
+Solution(j) {
+  if j = 0 return {};
+  else if vj + M[p(j)] > M[j-1] return {j} U Solution(p(j));
+  else return Solution(j-1);
+}
+
+
+correctness: directly from correctness for previous algorithm
+running time: O(n) (same as before)
+
+
+
+memoization vs iteration: top-down vs bottom-up
+previous technique: "memoization", "top-down dynamic programming"
+  - remember outcome of recursive calls
+  - starts at "top" problem, works way "down" via recursion
+
+alternative: "bottom-up dynamic programming"
+  - start at "bottom" of table, work way up
+  - every table entry we need already filled in!
+
+Schedule {
+  M[0] = 0;
+  for(i = 1 to n) {
+    M[i] = max(vi + M[p(i)], M[i-1]);
+  }
+  return M[n];
+}
+
+
+pros and cons of each
+
+top-down pros:
+  - if M[j] doesn't need to be computed (doesn't appear in recursion tree for M[n]), won't waste time on it
+  - algorithm design relatively easy: write recursive algorithm, remember (memoize) answers
+
+bottom-up pros:
+  - easier to analyze running time: sum over all table entries of time to compute entry
+  - often faster in practice (iteration vs recursion)
+
+use whatever you feel more comfortabe with (most experienced people use bottom-up)
+
+CLRS 15.3 on principles of dynamic programming
