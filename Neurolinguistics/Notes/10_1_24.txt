@@ -1,0 +1,94 @@
+written language (cont.)
+
+last time: cognitive model of reading
+
+reading
+- reading aloud pseudowords like blicket requires the grapheme-phoneme conversion route
+- reading aloud regular words like leg can be done by using either the grapheme-phoneme conversion route or a central route
+- reading aloud irregular words like yacht ...
+
+
+phonological dyslexia: worse on pseudowords than real words
+
+surface dyslexia: worse on irregular words than on regular words and pseudowords
+
+deep dyslexia: impaired on pseudowords as well as real words, with errors on the latter often being semantic
+  in nature and worse for abstract items
+
+
+
+reading: neural substrates
+
+model most supported by literature:
+1. visual form of written word processed in ventral occipitotemporal stream
+2. access to pronunciation is enabled by complex perisylvian network
+3. access to its meaning is enabled by a more inferior temporal-parietal-frontal network
+
+
+many phonological dyslexics have damage in various parts of the perisylvian network and also manifest general speech processing
+  deficits. those deficits presumably make it harder to read aloud pseudowords than real words
+- however, some phonological dyslexics have normal speech processing apart from reading aloud pseudowords, and may have selective
+  impairments of grapheme-phoneme conversion. their lesions tend to be in occipitotemporal areas or extrasylvian tempoparietal areas
+
+
+many surface dyslexics have semantic dementia due to ATL atrophy
+- some researchers have concluded that when reading aloud relatively uncommon words like yacht, we cannot pronounce them
+  correctly unless we first retrieve their meaning
+- however some patients with semantic deficits do not exhibit surface dyslexia, and a computer model suggests that surface dyslexia
+  can result from damage to just the orthographic lexicon. so maybe for those SD patients with surface dyslexia, the atrophy
+  has extended to the VWFA
+
+
+
+writing: a cognitive model
+
+- writing pseudowords like blicket requires the phoneme-grapheme conversion route
+
+- writing regular words like leg can be done by using either phoneme-grapheme conversion route or a central
+  route that includes the phonological and orthographic lexicons as well as the semantic system
+
+- writing irregular words like yacht can only be done by using the central route, but there is controversy
+  about whether the proper spelling of these words requires prior activation of their meaning
+
+
+graphemic buffer
+allographic conversion
+graphomotor planning
+
+
+phonological dysgraphia: worse on pseudowords than real words (damage in phoneme-grapheme conversion pathway)
+
+surface dysgraphia: worse on irregular words (yacht -> "yot") than on regular words and pseudowords (damage in central route, uses P-G route to normalize spelling)
+
+deep dysgraphia: impaired on pseudowords as well as real words, with errors on the latter often being semantic in nature
+  and worse for abstract items
+
+
+graphemic buffer impairment:
+- transposition, substitution, omission, additon of letters
+- errors tend to be in middle of word
+- errors more frequent for long than short words
+- errors occur relatively equally for pseudowords and real words
+- errors occur in handwriting and oral spelling as well as across tasks like naming and delayed copying
+
+
+
+different languages perform oral spelling differently depending on orthographic accuracy
+e.g. english spells letter by letter
+
+e.g. russian spells syllable by syllable
+
+purcell et al.'s (2011b) meta-analysis of 11 PET and fMRI studies:
+  - VWFA is engaged during both reading and writing, suggesting that it contains a single orthographic lexicon (...)
+
+
+when ventral occipitotemporal (VWFA) damage disrupts writing, the impairment usually takes the form of surface dysgraphia
+- many patients with semantic dementia also exhibit surface dysgraphia
+
+some researchers have concluded that when we write relatively uncommon irregular words like yacht, we cannot spell them correctly unless we first
+  retrieve their meanings
+- however as with surface dyslexia, it could be that for those semantic dementia patients who exhibit surface dysgraphia, the atrophy
+  has extended into the VWFA
+
+
+
