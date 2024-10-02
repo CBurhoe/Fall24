@@ -1,0 +1,24 @@
+AVs
+
+what are AVs
+- a vehicle capable of sensing its environment and moving safely with little or no human input from point A to B
+- ADAS - advanced driver assistance systems
+  - driving and parking assistance
+- CAV: connected autonomous vehicles
+
+why
+- the hype with AVs/CAVs: business models around
+  - driver safety
+  - sustainability
+  - democratic mobility, ride and car sharing
+  - economic development
+  - leaner AI powered supply chain, predictive maintenance, quality control, etc
+  - cyber attacks a problem for moving computers
+
+evo of ADAS
+- 70s: first ABS introduced
+- ADAS requires multiple tech working in conjunction with each other
+  - sensing suite acts as eyes of system
+  (see slides on canvas)
+
+
