@@ -1,0 +1,74 @@
+slide designs
+
+structure presentations like stories, not info dumps
+
+- story architecture
+- perspective
+- contrast/conflict/unexpected
+- STAR moments (situation task action result)
+
+have:
+- beginning
+- middle
+- end
+
+beginning
+- needs a "hook"
+  - shock factor (statistic)
+  - relatable (ask a question, fact relating to audience)
+
+e.g. "Scams against people over 60 years old were responsible for over 3 billion dollars in losses in 2023 alone."
+e.g. "In 2023, the FBI reported that scammers stole more than 3 billion dollars from people over 60 years old."
+e.g. "How many of your grandparents use a computer at home?"
+e.g. "People over 60 are the number one target for scammers"
+e.g. "Picture this: a person in a ski mask steals your grandmother's purse and runs off into the night, never to be seen again. 
+  This is what's happening to 30,000 of our grandparents every year online."
+
+
+WIFFY:
+  What
+  Is in it
+  For (chorus: for!)
+  Your audience
+
+design principles:
+  SNR: signal to noise ratio
+  picture superiority effect: we remember images more than text
+  empty space: helps amplify and emphasize
+  contrast: creates dynamism; lean in when necessary
+  repetition: unites your slides
+  alignment: visual connection; rule of thirds
+  proximity: related items grouped together
+
+SNR
+  simplify info on slide
+  emphasize what is important to focus on (bold, red font, etc)
+
+picture superiority effect
+  image as background to "set the stage" of the slide
+  images as the main visual feature
+
+empty space
+  draws eyes to visual elements that are important
+  too much clutter is BAD
+  too much text = too much reading ==> ignore speaker
+  use minimalism
+
+contrast
+  use colors that contrast well
+  use visually pleasing colors
+  red with blac/white/gray
+
+repetition
+  use the same style across slides
+  consistency
+
+alignment
+  
+minimalism
+  rule of thirds
+    slide is a 3x3 grid
+    visual elements should lie on the "lines" of the grid
+
+proximity
+  
