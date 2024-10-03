@@ -1,0 +1,114 @@
+speech production
+
+lemma model of lexical selection and form encoding
+- levelt, 2001
+- cognitive architecture
+- 
+
+
+lexical selection:
+  conceptual focusing
+  perspective-taking
+=> lexical concept
+  lemma selection
+=> lemma (abstract representation of a word)
+
+lemma fed into...
+
+form encoding:
+  retriving morphemic phonological codes
+=> phonological codes
+  prosodification
+  syllabification
+=> phonological word
+  phonetic encoding
+=> articulatory score
+
+
+1. lexical selection
+- thought must be converted into an appropriate "lexical concept"- a semantic structure that constitutes the meaning of a word
+- selection considerations
+  - cross-linguistic variation: messages must be tuned to the target language
+  - perspective: subjective construal; consideration of interlocutor's state of mind
+
+- lexical concepts - unitary nodes that lack complex internal structure but may afford access to semantic features
+  that "flesh out" the conceptual content of words
+- several semantically related lexical concepts are co-activated in parallel
+- the target - the node that is ultimately activated to a higher degree than the others
+
+
+2. lemma selection
+- once a lexical concept has been selected, it activates the corresponding lemma
+- lemma - abstract word node that intervenes between semantics and phonology
+- and points to various morpho-syntactic features
+
+
+crossing the "rift" between lexical encoding and form encoding
+- "tip of the tongue" states
+- anomia
+
+
+3. retrieve morphemic phonological codes
+- two subprocesses
+  - access morphemic representations
+  - "spell out" segmental phonemic content
+- only selected lemma activates the corresponding phonological code
+- phonological code retrieval is influenced by frequency
+  - high freq dog is retrieved faster than low freq broom
+  - the effect is at the phonological level, since homonyms that differ in frequency (more/moor) are
+    retrieved at the same rapid rate (moor is helped by more)
+
+4. prosodification and syllabification
+- syllabification is done incrementally on the fly
+  - transcends morpheme boundaries: horses -> hor-ses
+  - transcends word boundaries too: the last two words of "he'll escort us" are syllabified as e-scor-tus
+
+5. phonetic encoding
+- takes as input phonological representation that specifies the syllable boundaries of the item
+- matches each unit in that representation with the corresponding node in the syllabary; 
+  inventory of highly practices, precompiled syllabic gestures
+
+
+self-monitoring
+- underlies the capacity to detect and correct ones own speech errors
+- two feedback loops are posited
+  - external
+    - monitors auditory signals of self-produced speech
+  - internal
+    - monitors the covert process of generating phonological words
+
+
+neurobiological evidence: indefrey and levelt, 2004
+- meta-analysis of 82 brain mapping experiments that used any of the following tasks (table in slide 12)
+
+stage 1: conceptual focusing & perspective taking
+- evidence from semantic dementia, PET, fMRI, and TMS suggests that unitary lexical concept nodes may reside in the anterior temporal lobes
+  bilaterally but with a mild left bias
+- broca's area is critical for resolving conflicts between multiple co-activated lexical concepts and/or lemmas
+- in healthy subjects and brain-damaged patients, this region is linked with greater word retrieval interference
+
+stage 2: lemma selection
+- [picture naming + associative word generation] MINUS [word reading + pseudoword reading]
+damasio et al., 1996
+- patients with naming impairment
+- correlated lesions with word categories
+  - categories: persons, animals, tools
+  - areas: temporal pole, IT, IT+
+
+gallegos & tranel, 2005
+- 30 normal subjects
+- 8 patients with L anterior temporal lobotomies
+- 10 patients with R anterior temporal lobotomies
+- pts: significantly lower accuracy than normal subjects
+- happy faces named significantly faster than neutral for all groups
+
+stage 3: retrieving morphemic phonological codes
+- [picture naming + associative word generation + word reading] MINUS [pseudoword reading]
+- left posterior STG/STS/MTG exhibits word frequency effects
+- damage causes wernickes aphasia, hence phonological paraphasias and neologisms
+- degeneration found in logopenic progressive aphasia, which also involves phonological paraphasias
+
+corina et al., 2010
+- picture naming
+- regions where direct electrical stimulation induces phonological paraphasias or neologisms
+
