@@ -1,0 +1,115 @@
+AI in policing
+
+defining terms:
+
+- smart surveillance
+  - data, algorithms, etc -> automate surveillance
+  - who - individuals
+  - what - traffice, weather
+- profiling
+  - using "big data" -> "sort out" individuals
+  - make predictions about them
+- predictive policing
+  - forecast crime
+  - "areas of high risk"
+
+
+AI uses in criminal justice:
+
+- video image analysis
+  - data collection (FRT, audio detection)
+  - distinguish between a gun and a phone on video
+  - gunshot recognition
+
+- traffic safety systems
+  - accident detection
+  - light monitoring - traffic lights
+  - weather monitoring - rain, precipitation
+
+- investigative assistance
+  - crime forecastin - where to allocate police resources for "high risk" areas, people, timeframes -> pin-maps -> heat maps
+  - reoffending prediction - forecasting repeat offenses i.e. recidivism
+  - forensic analysis - fingerprinting, gunshot detection (gun and ammo types signatures), DNA matching, cellphone interceptors, aerial surveillance
+  - reat time and post crime scene understanding (object to text analysis) -> develop text that describes the relationship between objects (people, places, things)
+    in a series of images to provide context -> id crimes in progress
+  - license plate readers
+  - security cameras - CCTV, surveillance
+
+why is AI appealing to LE?
+- scale
+- speed
+  - find patterns to quickly predict, detect
+- performance
+- distance
+  - remote surveillance, don't need deployed resources
+
+
+ethics issues and questions:
+
+- transparency: decisions made by ai system must not be black box -> explainable
+  - Q: if an ai system instructs police as to where they should be patrolling in order to prevent violent crime,
+    will the basis of these recommendations (possibly the factors weighed and how they were weighed) be clear to human users?
+
+- explainability: ensure decisions made by ai system are understandable by humans
+  - Q: if an ai system flags certain communication channels as high risk or worth investigating, can it lay out the reasons
+    why one message (or person) was flagged but not another? can a user ask "why?" or prompt a breakdown of the machines conclusions?
+
+- fairness: refraining from breaching rights such as freedom of expression, presumption of innocence
+  - Q: if an ai system determines men (or men of a specific race) more likely to have been the perpetrators of a crime, should
+    that training data be used to follow up with potential perpetrators? is it fair to predict a possible crime in the future?
+    how do we deal with historic discriminatory policing? the complexity of "likelihood"...
+
+- accountability: humans and machines must be accountable at an institutional and organizational level
+  - Q: if an ai system aides in a wrongful accusation, or if errors in an ai surveillance systen result in personal
+    losses to an innocent individual, who will be accountable for the error?
+
+
+presumption of innocence:
+
+- fundamental principle of common law -> every person should be presumed innocent until proven guilty following a fair trial
+- use of algorithmic tools in criminal procedures can lead to violations of the right to a fair trial, particularly in regard to
+  - right to a randomly selected judge
+  - right to an independent and impartial tribunal
+  - right to the presumption of innocence
+
+
+
+risk assessment tools:
+
+why?
+- because of human biases, variabilities, and differences in opinion, many sentencing decisions can be skewed or impacted by unrelated factors,
+  leading to unintentional unjust outcomes
+  e.g. each judge has their preferred sentencing methods
+
+COMPAS: correctional offender management profiling for alternative sanctions -> became prominent summer 2016
+- using various data points regarding the individual can predict an offender's:
+  - rate of recidivism
+  - rate of violent recidivism
+  - failure to appear in court
+    - static factors: prior arrests
+    - dynamic factors: substance abuse, employment history, pessimism
+- based entirely on past data (earlier cases) and not on any subjective or opinion-based factors -> problem: incorrect or incomplete due 
+  to unfair treatment in the 1st place, the complexity of reoffending behavior
+- risk score built on abstracting behavioral data about past populations -> problem: location matters, policing behavior matters,
+  arrest patterns matter, comparing populations matters
+- keeps its method of determining an offender's risk confidential
+
+
+why is propublica article so significant?
+- worked so swift and complete due to availability of open access info
+- propublica published their methods and data so others could replicate their results
+- what is the definition of fairness
+  - treating everyone the same
+  - giving everyone similar outcomes
+(see lecture slides)
+
+
+midterm
+- wednesday, all of class time
+- take home portion, 1 week to complete
+- research and design stuff
+
+wednesday: know all definitions from day 1, be able to apply them
+apply across situations, apply to different cultures and their goals
+don't necessarily need to know historical facts; focus on applying theory to example situations
+be savvy: keyword search the document provided in the exam
