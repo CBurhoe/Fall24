@@ -38,6 +38,7 @@ machine ethics: behaviors of machines with respect to humans and each other
 - as robots become more intelligent, robots or artificially intelligent agents should behave morally and
   exhibit moral values.
 - issac asimov's 3 rules address this 
+- create AI that behave ethically
 
 artificial moral agents:
 - AI with the capability to make moral judgements and reasoning
@@ -68,4 +69,130 @@ autonomy, intentionality, responsibility:
 - responsibility means that machines fulfill some social role that carries with it some assumed responsibility
 
 accountability:
-- who takes responsibility for an action made by AI 
+- who takes responsibility for an action made by AI
+
+
+ethical standards:
+- ultimate goal of machine ethics is to create a machine that itself follows ideal ethical principles
+
+accessibility:
+- whether systems, products, services, are available, accessible, and suitable for all people
+
+democracy and civil rights:
+
+
+motivations for machine ethics:
+  - individual machine decisions
+  - fit of machines with moral system
+  - individual human decisions
+  - fit of humans with moral systems
+
+risks of machine ethics:
+  - failure and corruptibility
+  - value incommensurability, pluralisms, imperialism
+  - creation of moral patients
+  - undermining responsibility
+
+
+agency:
+- a capacity for intentional action
+  - intentional: caused by agent's internal mental states
+- 
+
+
+taxonomy of approaches:
+  - principle-based
+  create principles from a consensus to guide approach
+  - standards-based
+  entities come up with sets of rules and best practices
+  - experimental-based
+  regulatory sandbox/testbed for controlled innovation in collab with policy makers
+  - enablement-based
+  create environments for development
+  - adapting existing laws
+  - transparency
+  developers should disclose technology and algorithms, and be able to explain decisions
+  - risk-based
+  base framework around potential risks
+  - liability
+  know where to assign responsibility in the case of failures
+
+
+southern cultural cluster
+- prioritize the young
+- all life forms more equal, not as much human priority
+- prioritize women and fit people
+- prioritize potential
+
+eastern cultural cluster
+- prioritize the old
+
+
+individualistic cultures
+- emphasize distinct value of individuals
+- prefer sparing the most people possible
+- personal freedoms
+- social status
+- independence
+
+
+collectivist cultures
+- emphasize value of elders
+- emphasize needs of the group as a whole; society focused
+
+- ubuntu: self as it relates to your community; interconnectedness
+
+- confucianism: personhood requires certain kind of community
+  need rich social relations
+  different circles of commitments
+
+7 principles of AI ethics (roboethics)
+1. safety and reliability
+2. transparency
+3. privacy and security
+4. bias, discrimination
+5. responsibility and accountability
+6. environment, sustainability
+7. enablement, accessibility
+
+
+international policy stances:
+
+  UK
+  - not concerned with regulating technology
+  - principle based approach
+  - sandbox approach
+  - enable business and economic development
+
+  US
+  - not business centric
+  - human centric, concerned with civil rights and liberties
+  - government wants to play a large role
+  - states: regulatory approaches; new laws and adapting laws
+
+  EU/EC
+  - comprehensive law-based approach
+  - lay out principles
+  - regulate based on risks
+
+
+
+human centric considerations
+- physical ergonomics
+- cognitive ergonomics
+  - make systems user friendly 
+
+
+western tools for ethics and AI
+- virtue ethics
+  performing the right actions that align with goals
+- deontological
+  follow moral law
+  what is my duty
+  kantianism
+  law based
+  axioms
+- utilitarianism
+  harm reduction to maximize good
+  outcome more important than intent
+  maximize positive outcomes
