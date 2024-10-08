@@ -1,0 +1,71 @@
+digital assistants:
+- produce unscripted output that is not explicitly coded or otherwise specified
+by humans, but rather is determined by AI and its complex architecture of
+self-learning and human-guided machine algorithms;
+- attempt to support a wide range of user queries
+
+voice assistants:
+- speaks to use through auditory formats
+- not embodied by physical form
+
+chatbots:
+- communicates with user via written format
+- may or may not be embodied by physical representation
+
+virtual agent:
+- communicates to uses through audible speech
+- projects a virtual physical form
+
+
+ethics:
+- Ethics can be defined as the moral principles
+  governing the behaviors or actions of an individual or a group of individuals (Nalini, 2019)
+- In other words, ethics are a system of principles or rules or guidelines that help determine what is good or
+  right
+- Broadly speaking, ethics can be defined as the discipline dealing with right versus wrong, and
+  the moral obligations and duties of entities (e.g., humans, intelligent robots, etc.)
+
+roboethics: behaviors of humans with respect to machines
+- ethics of AI, which deal with ethical issues related to AI, including 
+  - ethical issues that may arise when designing and developing AI (e.g., human biases that exist in data, data privacy,
+    and transparency)
+  - ethical issues caused by AI (e.g., unemployment and wealth distribution)
+- as machines become more intelligent and may one day gain consciousness, we should consider
+robot rights -- the concept that people should have moral obligations towards intelligent machines. It
+is similar to human rights and animal rights
+
+machine ethics: behaviors of machines with respect to humans and each other
+- as robots become more intelligent, robots or artificially intelligent agents should behave morally and
+  exhibit moral values.
+- issac asimov's 3 rules address this 
+
+artificial moral agents:
+- AI with the capability to make moral judgements and reasoning
+
+
+
+ethics of AI
+- AI: principles of developing AI to intereact with other AI ethically
+- Humans: principles of developing AI to interact wiht humans ethically
+- Society: principles of developing AI to function ethically in society
+
+
+AI ethics
+- AI: how AI should interact with other AI ethically?
+- Humans: how AI should interact with humans ethically?
+- society: how AI should operate ethically in society?
+
+transparency:
+- ability for anyone to be able to understand and explain the technology
+
+data privacy and security:
+- manage data properly to prevent malicious use and misuse
+- record and detail each action on data
+
+autonomy, intentionality, responsibility:
+- with respect to moral agency, autonomy means machines are not under the direct control of any other agents
+- intentionality means to act in a way that is morally harmful or beneficial and the actions are seemingly deliberate and calculated
+- responsibility means that machines fulfill some social role that carries with it some assumed responsibility
+
+accountability:
+- who takes responsibility for an action made by AI 
