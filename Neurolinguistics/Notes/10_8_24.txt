@@ -1,0 +1,102 @@
+lemma model not a neuroarchitectural model
+
+stage 5: prosodification and syllabification
+- intersection analysis including all word production experimenets with over and covert responses and silent control conditions
+- plus
+  - SMA
+  - Cerebellum
+  - thalamus
+  - midbrain
+- self monitoring
+  - external feedback loop: intersection analysis including studeis that employed overt word production tasks (which involve 
+    hearing ones own voice) and studies that emploed auditory word perception tasks
+
+challenges with the lemma model
+- some brain-damaged pts make semantic errors in just one modality of output
+  - how can these dissociations be accommodated
+- discreet vs interactive processing
+
+
+DIVA model of speech motor control
+- computational framework of speech motor control
+- starts where lemma model left off - phonetic coding and articulation
+- more detaiks of feedback mechanisms 
+
+
+located in posterior inferior frontla gyrus
+
+
+articulator velocity and position maps
+- ventral primary motor cortex; somatotopically mapped
+- represent articulatory "score"
+- damage causes spastic dysarthria (severe if bilateral lesions)
+- stimulation cause speech arrest
+- engaged during both production and perception
+
+initiation map
+- SMA (supplementary bimodal area) bilaterally
+- each unit in SSM (speech sound map) has a cerresponding unit in the initiation map, and all of these units project to AV&PM
+- IM provides a "go" signal that causes a fully prepared speech motor pattern to be put into action
+- damage causes akinetic mutism of a form of transcortical motor aphasis
+- stimulation causes speech arrest or involuntary vocalizations
+
+auditory feedback control
+- ssm activates auditory target map
+- actual auditory feedback activates auditory state map
+- the expected and actual auditory feedbacks as compared by the auditory error map:
+  - units corresponging to the expected feedback are inhibited by the target map
+  - units corresponding to the actual feedback are excited by the state map
+  - units that end up inhibited or excited indicate error
+- the error map projects to the feedback control map,
+
+
+tourville et al, 2008
+- read aloud one-syllable words
+- 1/4 of trials have F1 of speakers auditory feedback is perturbed
+- behavioral results
+  - subjects compensated in speech production
+fMRI results
+- shift vs no-shift comparison: post STG, PT bilaterally
+
+somatosensory feedback loop
+- ssm activates the somatosensory target map, which represents the expected tactile/proprioceptive feedback
+- actual feedbac activates the somatosensory state map
+- expected and actual fedback are compared by the somatosensory error map:
+  - units corresponding to ...(see slide 35)
+
+golfinopolous et al, 2011
+- read allwd two syllable pseudowords
+- 1/7 trials balloon in mouth
+- fMRI
+  - perturbed vs unperturbed comparisons: bilateral SMG, R ventral PMC
+
+need to know 
+SSM left
+articulator velocity and position maps
+auditory feedback systems
+- target map
+- error map
+- state map
+somatosensory feedback loop (same three parts)
+
+
+
+prosody
+two main kinds
+  - emotional
+  - linguistic
+two main proposals for cerebral lateralizations
+  - prop 1: the key factor involves acoustic features
+    - right lateralized
+      - long duration
+      - pitch variation
+    left lateralized
+      - short duration
+      - temporal variation
+  proposal 2:
+    - right lateralized
+      - emotional prosody
+    - left lateralized
+      - linguistic prosody
+
+
