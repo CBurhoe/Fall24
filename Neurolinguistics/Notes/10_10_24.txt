@@ -1,0 +1,127 @@
+two main kinds of prosody
+  - emotional
+  - linguistic
+
+two main proposals for cerebral lateralizaiton:
+  #1: key factor involves acoustic features
+    right lateralized
+      - long duration
+      - pitch variation
+    left lateralized
+      - short duration
+      - temporal variation
+  #2: key factor involves functional features
+    right lateralized
+      - emotional prosody
+    left lateralized
+      - linguistic prosody
+each proposal received support, but neither can account for all data
+
+
+emotional prosody:
+perception
+  R mid to anterior superior temporal cortex (STC)
+    - auditory integration
+  amygdala
+    - personal relevance
+  R ventral fronto-parietal cortex
+    - emotional simulation
+  basal ganglia (also production)
+    - emotional simulation
+    - sequence decoding
+    - response triggering
+  bilateral orbito-frontal and inferior frontal cortices
+    - cognitive evaluation
+
+
+linguistic prosody:
+perception
+  syntactic
+    - "sam is going to the party too." vs "sam is going to the party too?"
+    - "The boy said, 'the girl is cute'" vs "The boy, said the girl, is cute"
+  lexical
+    - object vs object
+    - green house vs greenhouse
+  tonal
+    - ma (flat tone) = "mother"
+    - ma (rising tone) = "numbness", "hemp"
+    - ma (falling-rising) = "horse"
+    - ma (falling tone) = "scold"
+
+
+linguistic prosody, syntactic perception: meyer et al., 2003
+  - anterior STR engaged bilaterally during perception of normal, pseudo, and degraded speech
+    - prosodic processing
+  - pseudo and degraded speech activated several frontal areas bilaterally
+    - effortful top-down processing
+  - lesions studies support that perception of prosodic cues for declarative/interrogative mood is subserved bilaterally
+    - but may be mild RH bias
+
+
+linguistic prosody, syntactic perception: ischebeck et al., 2008
+  - listening to natural and hummed sentences with one or two prosodic (syntactic phrase) boundaries
+  - two boundaries MINUS one boundary: 
+    - bilateral ST activation for natural sentences
+    - but just left mid ST activation for hummed sentences
+
+
+linguistic prosody, lexical perception: wildgruber et al., 2004
+  - 5 versions of sentence with varying emphatic stress
+  - 5 versions of the same sentence with varying degrees of excitement
+  - focus position - expresiveness
+  - broca's area
+
+
+linguistic prosody, lexical perception: walker et al., 2002
+  - 24 participants
+    - 8 RBD pts
+    - 8 LBD pts
+    - 8 healthy controls
+  - determine meanigns and grammatical categories of two-syllable words that could only be disambiguated by stress cues
+
+
+linguistic prosody, tone perception: wong at al., 2004
+  - chinese speakers and english speakers
+  - chinese - L anterior insula
+  - english - R anterior insula
+
+
+linguistic prosody, tone perception: xu et al., 2006
+  - discrimination task
+    - chinese words (C^C): chinese tones super-imposed on chinese syllables
+    - tonal chimeras (C^T): thai tones superimposed on chinese syllables
+  - contrasts to identify regions most responsive to native tones
+    - chinese group: C^C > C^T
+    - thai group: C^T > C^C
+  - overlapping activation for both contrasts was found in the left planum temporale
+  - PT displayed a double dissociation
+    - chinese group: stronger response to chinese than thai tones
+    - thai group: stronger response to thai than chinese tones
+
+linguistic prosody: tone perception
+  - neuropsychological studies support left-himesphere dominance for linguistic tone perception
+  - the size of left primary auditory cortex may even be relevant (wong et al., 2008)
+
+
+
+linguistic prosody, perception:
+  - prosodic perception in the syntactic domain appears to be bilateral
+    - mild RH bias for declarative/interrogative distinctions
+    - mild LH bias for intonational phrase boundaries
+  - prosodic perception in lexical domain appears to be primarily governed by LH
+  - prosodic perception in the tonal domain appears to be primairly governed by the LH
+
+
+  - acoustic considerations can explain most of these patterns of hemispheric asymmetry
+  - functional considerations must be invoked to explain why linguistic tone perception is strongly left lateralized 
+    whereas non-linguistic tone perception is strongly right lateralized
+
+
+lignuistic prosody, production:
+  - prosodic production in the syntactic domain appears to be bilateral
+  - prosodic production in the lexical domain appears governed primarily by the LH
+  - prosodic production in the tonal domain appears to be governed primarily by the LH
+
+
+
+
