@@ -1,0 +1,51 @@
+first ai winter
+  - grand expectations in 50s, birth of ai
+  - if we can precisely describe human thinking, we can replicate it
+
+mid-late 70s
+  - MYCIN
+  - management of patients with infections
+  - used rule based methods
+  - "If/then" rules
+  - very transparent- backtrack to last if/then statement
+  - but failed at the time, unable to look into every possible case (if no rule exists)
+  - couldn't function beyond the level of a human physician
+
+when MYCIN fails
+  - IBM Watson Oncology
+  - 2012
+  - very grand expectations leading up to 2013 release
+  - as it hit market, reality set in
+    - no publications of POC
+    - no new insights generated
+    - difficulty with different types of cancer
+    - no ID of new approaches- same issue with MYCIN
+    - many culture-specific recommendations
+    - no diversity of opinion, only considered opinions of clincial from MSK in NYC
+
+
+healthcare data is:
+  - biased
+  - insufficiently representative and diverse
+  - protected by HIPAA
+
+defining/giving meaning to race is a fraught issue
+  - racial and ethnic categories reflect underlying population genetics and can be clinically useful
+  - potential harms arise form long history of racism in medicine
+  - "race-based medicine has potential" ehhh
+
+racial bias in healthcare algorithms
+  - key goal of algorithms: analytical tool to assess risk and guide care for patients
+  - racial bias displayed via:
+    - explicit use of race to predict outcomes and assess risk for particular groups of patients
+    - use of data that inadvertently captures systemic racism -> leads to additional inequities
+
+
+  why use algorithms
+    - individualize risk assessment
+    - guide clinical decisions
+    - why do algorithms incorporate race?
+      - if race is not a reliable proxy for genetics
+
+
+
