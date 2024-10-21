@@ -1,0 +1,95 @@
+Social Robots
+
+Example:
+
+Hanson Robotics - Sophia
+
+Begs the question...
+Should we create systems in our likeness?
+  - create psychological expectations
+    - if a system looks and behaves like us, shouldn't we treat them like us?
+  - how do we treat each other?
+  - how do they integrate into the legal system?
+  - what role do these systems take in society?
+    - equivalent to humans? analogues?
+
+More examples:
+
+Hiroshi Ishigura @ Osaka University Intelligent Robotics Laboratory - Erica - Japanese competitor to Sophia
+  - most advanced humanoid robot system to date
+  - ~15 years old
+  - taking roles in movies, news anchoring, etc.
+  - widely accepted reception in Japan
+
+
+Sony - aibo - robopets
+  - uncanny valley
+
+Robokind - Milo, Carver, Vela, etc
+  - educational assistants
+
+
+Question 1: What is a social robot?
+  - human-like representation
+  - animal-like
+  - assistive (cartoon-like)
+
+Question 2: What role is it trying to fulfill/what should it do?
+  - "role in society" -> carries a set of expectations
+
+Question 3: What type of interaction do we want?
+  - should they interact with people?
+  - should they interact with each other? only each other and not with humans?
+
+Question 4: should we distinguish between what's used for scientific or therapeutic purposes vs commercial?
+
+Defining Social Robots:
+
+- need to make a distinction between a tangible, physical manifestation and a non-physical manifestation
+- social components
+  - interactive component
+  - non-interactive component
+  - emotion (detection, comprehension, portrayal)
+  - speech
+  - listener
+  - bodylanguage, gestures
+- context
+  - relational AI
+    - leads to certain social dynamics
+  - affective AI
+    - emotionas
+
+*note: autonomy in these systems is implied - able to act of own volition without requiring explicit human prompting
+
+
+Why make these?
+1. workforce
+  - replace human for tasks
+  - companion to human
+  - complement human in tasks
+  - surveil/monitor human
+2. (-) cost, (+) productivity
+3. entertainment
+4. dull, dirty, and dangerous environments
+
+
+report on affective AI computing - tasks
+- sense signals and process data related to emotion
+- find patterns and correlations between emotion and physiological responses
+- recognize outward expressions associated with emotion, i.e. body language
+- recognize overt and covert emotions
+- replicate an outside observer's perception and predictions about someone else's emotional states 
+  using everything the observer knows including context
+- recognize or influence the emotion a person feels, both short term like happiness
+  or sadness and longer term states like depression or anxiety
+- recognize or influence other affective states including interest, engagement, or alertness
+- measure levels of arousal and negativity/positivity rather than describe a specific emotion
+- simulate emotion or expressions of emotion, e.g. social robot with gestures meant to convey situationally appropriate emotional responses
+
+ethical issues
+- bias, discrimination
+  - FRTs already fail to recognize certain populations- the stakes are potentially even higher with affective robots
+- accountability
+  - should the user or the company be responsible for the results of usage of these systems
+- transparency
+- privacy and security
