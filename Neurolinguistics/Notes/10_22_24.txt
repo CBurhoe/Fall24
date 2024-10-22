@@ -1,0 +1,162 @@
+Lexicon
+
+Nouns:
+  - person
+  - place
+  - thing
+
+
+Object Nouns
+  - specifically things (and to some degree people)
+  - concrete nouns (as opposed to abstract or intangible nouns)
+
+
+perceptual and motor features of object concepts: background
+  - amodal symbolic model: concepts consist of abstract symbols that are represented in a semantic system completely
+    separate from modality-specific systems for perception and action
+    - e.g. banana = [fruit], [long], [curved], [yellow]
+  - grounded cognition model (embodied cognition or simulation): concepts are anchored in modality-specific systems, s.t. 
+    understanding word meanings involves activating high-level perceptual and motor representations
+
+
+
+color features
+  - neural substrates of color processing
+    - V4 (lingual gyrus)
+      - passive sensation
+      - engaged when gazing at a garden
+      - damage causes achromatopsia
+    - V4 alpha (middle fusiform gyrus)
+      - active perception
+      - engaged when sorting colors
+      - damage causes color agnosia
+
+
+simmons et al., 2007:
+  - color property verification
+  - motor property verification
+  - concept-only trial
+  - localize color perception areas
+  results
+    - color processing: yellow = color > grayscale
+      wheels in perceptiual task
+    - word processing (color property verification task): purple = color > motor judgements in conceptual task
+    - overlap: L mid-fusiform gyrus (V4-alpha)
+  - consistent with grounded cognition model
+  - could be due to explicit color imagery?
+    - maybe, but no reason for that according to amodal symbolic model
+
+
+shape features
+  - neural substrates
+    - ventral temporal (fusiform) cortex underlies perception of object shape, with adjacent areas for different categories
+      - faces (FFA)
+      - body parts
+      - animals
+      - tools
+      - places (PPA)
+      - printed words (VWFA)
+    - many studies suggest that it also represents the shape features of object concepts again with adjacent areas responsible for diff categories
+
+
+chao et al., 1999: picture naming and property verification ("forest animal?", "kitchen tool?"")
+
+wheatley et al., 2005: adaptation (priming) effects suggest automatic word activation
+  - word reading
+    - celery giraffe
+    - horse goat
+    - camel camel
+  - fast presentation (150ms for a word, 100ms ISI)
+  - as semantic relatedness increases, activity evoked by second word decreases in lateral fusiform cortex
+    - informally, a "caching" effect
+  - supports grounded cognition model
+
+shape features
+  - shape features of the meanings of object nouns are captured by populations of neurons in the ventral temporal cortex that
+    - not only overlap partially with those that subserve visual perception of the same features
+    - but are also segregated according tto the semantic category
+
+motion features
+  - posterolateral temporal cortex underlies the perception of object motion, with adjacent areas for different categories
+    - MT+ (anterior occipital, lateral occipital sulci)
+      - passive perception of moving stimuli
+      - damage causes akinetopsia
+      - projects to pSTS & pMTG
+  - some studies suggest that is also represents the motion of features of object concepts, again with adjacent areas for different categories
+
+
+chao et al., 1999
+  - picture naming
+  - object noun property verification
+  - pSTS & pMTG were engaged in (...)
+
+
+Motor features
+  - anterior intraparietal sulcus (aIPS) and supramarginal gyrus (SMG) as well as the ventral premotor cortex (vPMC) are essential for motor programming
+    during tool use
+  - schematic gestural representations how tools should be grasped and manipulated
+  - activated when using, pantomiming, imagining, seeing, hearing a tool used
+  - damage causes conceptual apraxia(?)
+
+  - many studies suggest these regions also represent the motor features of object concepts, especially for tool nouns like
+    hammer, screwdriver, knife
+  - naming tools activates aIPS/SMG and vPMS more than naming animals
+  - naming manipulable artifacts (key) > non-manipulable (balcony)
+  - naming artifacts manipulated in a particular way (cup) > those with no particular way to manipulate (clock)
+  - regions engaged within 150ms (too fast for imagination to be a factor)
+  - in aIPS: simular manipulation (piano and keyboard) > similar function (match and lighter)
+
+  processing the meaning of words for manipulable objects involves covertly simulating
+    actions performed with those objects
+  - but: apraxic patients can;t use tools correctly, but can name tools and retrieve semantic info abbout them
+  - tool nouns normally trigger motor simulations, but simulations are not necessary to understand words?
+
+
+auditory features
+  - environmental sound processing involves pSTG/S, pMTG bilaterally
+
+kiefer et al., 2008
+  - listen to env sounds
+  - LD (lexical decision) on words with auditory features (telephone) vs words without (cup)
+  - lexical decision task, hence mostly automatic semantic processing
+  - words with auditory features are proccessed in L pSTG/S, pMTG, overlapping with the area processing sounds of animals and tools
+  - BOLD signal increases with rating of words audioty semantic featues
+  - also damage to impairs processing of audiotry feature wrods more than non-AF words
+
+
+gustatory and olfactory features
+  - both depend on medial orbitofrontal cortex bulaterally
+
+goldberg et al., 2006
+  - the corresponding features of object concepts are also represented partly in that area
+
+
+summary
+  - overall considerable amoutn fo research supports the grounded cognition model
+  - understanding object nouns involves accessing high level perceptual and motor representations that capture generalizations
+  (...)
+
+
+semantic hub for object concepts
+  - hub and spoke model
+    - concepts based not only on modality specific brain systems for perception and action but also on modality invariant
+      integrative mechanisms in the ATLs
+    - combines aspects of the grounded cognition model and the amodal symbolic model
+
+semantic hub needed because
+  - feature from all modalities are not experience simultaneously 
+  - features differ greatly in their typicality
+
+semantic dementia
+  - conceptual knowledge deteriorates gradually
+  - patient EK (bright et al., 2008), 3 testing times over 2 years
+    - atrophy begins in TP bilaterally, spreads posteriorly
+    - performance on semantic tasks declines accordingly
+
+lambdon ralph et al., 2010
+  - 6 SD patients
+  - hub and spoke model predicts that when ATL hub is damaged, "performance will become dominated by modality-specific surface
+    similarities and be less reflective of higher-order semantic structure"
+
+
+
