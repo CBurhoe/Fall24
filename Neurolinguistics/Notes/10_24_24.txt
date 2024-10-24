@@ -1,0 +1,130 @@
+semantic hub
+
+amodal model
+
+grounded-cognition (embodied model)
+
+hub and spoke model
+  - particular parts of the brain that process types of stimuli are involved with processing words that are related to these characteristics or attributes
+  - also modality-invariant integrative mechanisms in ATL
+
+Lambon Ralph et al., 2010
+  - normal boundary of "cat" category
+  - amodal hub allows us to distinguish between closely related members of other categories (e.g. hyenas which are qudrapedal mammals)
+  - reduced boundary of "cat" category concept determined by the atrophied ATL
+
+
+Limitations of Hub-and-spoke model
+  - hard to rule out undetected damage outside ATL (semantic hub)
+  - not possible to determine differential contributions to conceptual processing of different parts of ATL
+
+
+Semantic Hub: evidence from fMRI
+  Binney et al., 2010
+    - semantic judgement task: rogue: polka scoundrel gasket
+      - choose synonym
+    - two key parts of ATL: inferolateral and anterior fusiform
+    - whole brain analysis
+    - ROI comparison with semantic dementia and rTMS data
+    - anterior fusiform gyrus most activated in normal subjects during semantic judgement task is also ATL region that happens to be most 
+      atrophied in SD patients
+    - due to sinus air-pockets, artifacts in fMRI data makes visualizing ATL regions difficult
+
+ evidence from TMS 
+  Lambon Ralph et al., 2010
+    - rTMS to anterior ITG/MTG bilaterally
+    - synonym judgement (experimental) and number judgement (control)
+    - TMS to left or right temporal pole slows down synonym judgement, doesn't significantly affect number judgement
+    - semantic hub depends on both left and right ATL
+
+semantic hub summary
+  - according to hub and spoke model, meanings of object nouns depend not only on modality specific systems for perception and action
+    (spokes) but also on amodal integrative system that resides in ATL bilaterally (hub)
+  - ATL hub has two main functions
+(see slides)
+
+
+Domains of Object Concepts
+  - object concepts usually grouped together to form multilayered taxonomies
+    physical objects
+    living things
+    etc
+
+
+Animals
+  Blundo et al., 2006
+    - pt KC: 25 y/o female, 11 years of education
+    - herpes simplex encephalitis damage
+    - severe impairment on animal image naming relative to controls
+      - intact for vegetable and artifact categories
+    - impaired on oral definition of animals
+      - intact for other categories
+    - impaired on drawing animals from memory
+    - etc.
+    
+Fruits & Veggies
+  Samson & Pillon, 2003
+    - Case RS: 64 y/o male
+    - stroke damaged L ventral/medial temporal areas, some medial occipital areas, and part of the thalamus
+    - impaired across tasks for fruits and veggies
+
+Tools
+  Warrington & McCarthy, 1987
+    - Case YOT: 50 y/o female
+    - stroke damaged L frontoparietal region
+    - propositional language production and comprehension severely impaired
+    - retained some ability to understand single words
+    - intact for animals, fruits and veggies
+      - spoken word picture matching on artifacts (objects) impaired for 2s RSI, intact for 5s RSI
+      specifically, concepts themselves are intact, but retrieving those concepts is impaired
+      - selective impairment of tool concept access
+    - further selective impairment for accessing concepts of small manipulable artifacts (tools) but not large non-manipulable artifacts (non-tool objects)
+    - YOT's knowledge retrieval deficit was significantly worse for tool-like than for non-tool-like objects
+
+    - patterning of body parts with tools in other neuropsychological studies may reflect the fact that like tools, body parts are defined
+      to some extent according to the semantic dimensions of function, action, and spatial relationships
+
+summary:
+  selective impairment to specific semantic categories is possible
+
+
+differential weighting hypothesis
+  - different domains of object concepts are characterized by different mixtures and "weightings" of modality-specific features,
+    and this causes them to gravitate, over the course of cognitive development, toward different networks of brain regions
+  - as a consequence, disrupting a particular region that is functionally more important for one conceptual Domain than for others
+    may be sufficient to generate category-specific deficits
+  challenges
+  - some pts with category-specific deficits for living things have impairments for all types of knowledge - visual/perceptual as
+    well as funcitonal/associative - about the affected concepts
+  - even if a sensory/motor channel is important for a partiuclar category, it is not always impaired in pts with a deficit for that category
+  - even if a sensory/motor channel is important for a particular category, damage to it is not always associated with a deficit for that category
+
+distributed domain specific hypothesis
+  - major factor driving the neural architecture of object concepts is domain, with the three most evolutionarily relevant
+    domains- animals, fruits/veggies, and tools - being innately programmed
+  - factor of domain shapes (see slides)
+
+  Farah & Rabinowitz, 2003
+    - Adam
+    - suffered bilateral occipital and occipitotemporal lesions at one day of age
+    - at 16, had impaired knowledge of living things, but intact knowledge of non-living things
+    - implies that (see slides) representation of living vs non-living things in distinct neural substrates
+    
+    challenges
+    - no evidence for an additional level of representation
+    - if such level did exist, it woud constitute a this representational (see slides)
+
+summary
+  - see slides
+
+
+
+Action Verbs
+
+perceptual and motor features of action concepts
+  - grounded cognition model says concepts are anchored in modality specific systems s.t. understanging word meanings involves 
+    activating high-level perceptual and motor representations
+  (see slides)
+
+
+
