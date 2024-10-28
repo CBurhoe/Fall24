@@ -1,0 +1,83 @@
+Wearable devices
+
+Definition
+  - mobile
+  - body worn
+  - dynamic data collection
+  - network enabled
+  - multi-device data transfer/ecosystem
+
+
+examples
+  - wrist mounted devices e.g. smart watches
+    - step counters
+    - HR
+    - SpO2
+    - stride length
+    - location
+    - exercise metrics
+    - environmental data
+    - sleep metrics
+    - notifications
+    - body temp
+    - acceleration
+  - head mounted
+    - glasses/google glass
+  - ornamental wearables
+    - rings
+
+AI Risk Management
+  - security
+    - number of connected devices
+    - chargers
+  - bias
+    - calibration data
+    - data
+    - disabilities
+  - transparency
+    - data collection
+    - data deletion
+    - 3rd party access to data
+    - model
+  - accountability
+    - over-dependency
+    - early warning
+  - sustainability
+    - robustness
+    - environmental
+
+
+2016
+  - app domains dominated by
+    - lifestyle
+    - fitness
+    - medical
+  - target body parts
+    - head
+    - torso
+    - neck
+
+
+privacy:
+fundamental human right since 1890s
+- right to be let alone
+- right to be free from intrusion
+- often subjective and relies on context to determine whether something is private
+
+4 categories for privacy breaches
+  - info collection
+    - surveillance - monitoring and collecting activities of an individual
+    - monitoring
+    - interrogation - probing for more info
+  - info processing
+  - info dissemination
+  - invasion
+
+challenges
+  - bystanders privacy - record bystanders and their activities without their consent
+    - solution - obtain consent to record ppl in public; wear tags on clothing; certain gestures - hard to implement in practice
+  - re-identification and linkage - recognize an individuals identity from a data of daily activities
+  - workplace adaptation - fear of employees being tracked by employers; safety of device in critical environments; 
+    interference or distraction caused by device; recording sensitive info
+  - self tracking - can lead to control but also obsession
+  - data jurisdiction and privacy policy - from stringent surveillance laws to no data privacy laws at all; patchwork laws
