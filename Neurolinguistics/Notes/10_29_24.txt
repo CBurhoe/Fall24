@@ -1,0 +1,155 @@
+Motor features
+
+start at slide 55
+
+while we normally activate motor features when processing action verbs, it may not be necessary
+  - to understand a verb, not necessary to actually simulate it
+  - consistent with the fact that we can at least partially understant descriptions of actions which we can't perform ourselves
+
+fault tolerant theory of conceptual knowledge
+  - as a person's capacity to mentally simulate actions decreases, ability to understant linguistic descriptions of actions does not
+    suddenly disappear, but gradually degrades
+  - e.g. I can appreciate what piano playing is like, but I don't have the same degree of understanding that a concert pianist does
+    - I can visualize a pianist performing, but I can't simulate myself performing with high acuity
+  - brain damaged patients who can't perform still have some understanding conceptually
+
+summary on slide 57
+
+motion features - what an object does
+  - e.g. a bunny hopping
+  - relies at least in part on L PLTC
+motor features - what we do
+  - e.g. petting a bunny
+  - relies at least partially on 
+
+
+
+semantic hub for action concepts
+  - amodal symbolic hub in ATL
+  - modality specific spokes in motion and motor regions
+
+several studies report that meanings of action verbs deteriorate in SD patients 
+  - manifested across a wide range of tasks
+
+evidence that action concepts depends on ATLs
+  - so far all come from SD patients
+
+3000 english verbs in roughly 50 classes and 200 subclasses
+  - verbs as putting; verbs as removing; etc
+
+
+transitive and intransitive verbs
+
+transitive verbs
+  - actor and undergoer of action
+    - the woman [actor] kissed [action] the mailman [undergoer]
+
+intransitive verbs
+  - only an actor OR an undergoer
+    - the mailman [actor] bolted [action]
+    - the mailman [undergoer] blushed [action]
+
+transitivity is a lexical rather than a real-world property
+  - bill ate the lasagna - bill ate
+  - bill devoured the lasagna - *bill devoured
+  - *bill dined the lasagna - bill dined
+
+  "ate", "devoured", "dined" all in "consume" class, but each have different transitivity
+
+transitive verbs depends more than instransitive verbs on certain temporal and parietal regions
+  - transitive verbs engage angular gyrus and posterior supramarginal gyrus (BA 39 and 40) more than intransitive
+  - transitive verbs engage frontal, temporal, and parietal regions more than intransitive
+
+  extent of voxels in and near intraparietal sulcus may be due to perception of object-directed actions
+  cluster including angular gyrus, PLTC, and lateral occipital cortex
+
+understanding energy flow and causal relations between the two core participants in transitive sentences is especially
+  important when both participants are animate
+  - portion of PLTC that extends into angular gyrus engaged more when both participants are animate than when only one is animate
+    - implies more cognitively intensive when differentiating the causal relation
+  - as predicted, damage to this cortical territory impairs comprehension of these kinds of sentences
+
+studies suggest that Broca's area is vital for processing action concepts
+  - especially BA 44 seems to contribute more to processing transitive than intransitive verbs
+  - agrammatic aphasics have more trouble producing transitive than intransitive verbs
+    - lesions often affect Broca's area
+  - hypothesis: Broca's area contributes more to transitive than intransitive verbs/sentences because it is essential for
+    understanding the spatiotemporal organization of the kinds of volitional goal-oriented actions that transitive verbs consist of
+
+  lesions in BA44 selectively impairs comprehension of object directed human actions, preserving nonhuman physical events
+
+summary on slide 74
+
+
+
+abstract words
+
+start slide 76
+
+dual coding model
+  - word meanings based on both modality-specific (nonverbal codes) and lexical associations (verbal codes)
+  - concrete concepts draw equally on both systems
+  - abstract concepts rely primarily on verbal system (lexical associations)
+
+evidence
+  - concreteness effects
+    - recognize concrete words faster and better than abstract words
+
+also proposed
+  - experiential system
+  - distributional system
+
+context availability model
+  - all word meanings are amodal in format but differ with regard to how hard they are to interpret
+  - concrete concepts tend to be fairly stable and insensitive to context
+  - abstract concepts tend to be more variable and sensitive to context
+
+  evidence
+    - abstract words
+      - appear in a wider range of linguistic contexts on diverse topics
+      - have a larger number of distinct sense and meanings
+      - recognized and understood just as efficietly as concrete words when a conceptually constraining context is provided
+
+ROIs
+  concrete > abstract
+  - L fusiform
+  - bilateral posterior cingulate
+  - left angular gyrus
+  generally more consistent with dual coding model than context availability model
+
+  abstract > concrete
+  - left middle/superior ATL
+  - Broca's area
+  could be consistent with either proposed model depending on interpretation
+
+
+role of Broca's area in understanding abstract words
+  - stroke patients (damage max overlap in Broca's area) worse overall for abstract than for concrete words
+  - but accuracy for abstract words was significantly boosted by relevant contextual cues compared to no cues
+  - irrelevant contextual cues had only minor negative impact on comprehension of abstract words
+    but had major one on comprehension of concrete words
+  - concrete words are less able to accomodate competing information because their meanings are more rigid?
+  - results suggest that Broca's area helps us understand abstract words by finding the right interpretation when cues aren't present
+  supports the context availability model
+
+  - healthy subjects with TMS to Broca's area slower overall for abstract than concrete words
+  - TMS slowed down reaction times for abstract (but not concrete words) EVEN MORE when relevant contextual
+    cues were NOT provided
+  - TMS did not affect concrete words (with or without context) or abstract words when context was provided
+  - TMS effect on abstract words could not be due to their being "hard" since no effect occurred for hard number control condition
+  supports context availability model
+
+
+summary on slide 83
+
+
+semantic hub for abstract concepts
+
+L middle/superior ATL engaged more for abstract than concrete words
+
+some SD and HSE patients display "reverse concreteness effects"
+  - much better performance for abstract words than concrete words
+  inconsistent with normal concreteness effects
+  inconsistent with findings that abstract words depend more than concrete words on left ATL (which is damaged in both SD and HSE)
+
+
