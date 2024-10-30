@@ -1,0 +1,77 @@
+BCIs
+
+cognitive neuroengineering
+
+BCIs
+  - noninvasive
+    - head mount
+      - mood regulation
+      - augmenting focused attention
+      - emotion augmenting
+      - mental states
+    - used in workforce
+      - monitoring employees
+    - education
+      - monitoring students
+    - leisure
+  - semiinvasive
+    - brain waves
+    - electrical activity
+    - blood flow
+  - invasive
+    - neuralink
+      - therapeutic/clinicla use -> restricted
+      - paralytic disorders
+      - dementia
+      - mood disorders
+      - neurological/psychological disorders
+
+
+clinical, academic
+  - semiinvasive
+  - invasive
+  - noninvasive
+
+commercial
+  - noninvasive
+
+
+BCI definition:
+  - building of a system that acts as direct channel between human mind/brain and a computer to
+    - assist, restoring sensory behavioral capacity
+    - transmit sensory info to brain, monitor
+    - activating sensory integration
+      - PFC -> mood regulation
+    - manipulate brain states
+
+
+cognitive augmentation
+  - digital divide
+  - individuality
+
+
+
+
+5 neurorights:
+
+1. personal identity
+  - manipulation of the self
+  - 
+
+2. free will
+  - autonomy
+  - agency
+  - volitional action
+
+3. mental privacy
+  - consent to data use
+  - what is collected
+  - why it is collected
+  - capacity to delete
+
+4. equal access to mental augmentation
+  - availability to all
+
+5. protection from algorithmic bias
+  - discriminating against groups of people
+
