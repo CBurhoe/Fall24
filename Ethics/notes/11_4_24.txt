@@ -1,0 +1,85 @@
+Explainability - XAI
+
+Pillar of Transparency in 7 Ethical Pillars
+
+Question 1: why do we have explainability? i.e. what is it's function?
+  - understand context, logic, process
+    - decision making
+  - gain trust -> use
+  - truth of process -> scientific process, legal process
+  - persuasion, agency
+  - reproducability -> enable auditing
+
+Question 2: how did explainability come about?
+  1. commercial
+    - consumer demand and scalability
+      - ChatGPT Nov '22
+      - Asilomar conf, AlphaGO 2017
+  2. legal
+    - accountability
+      - GDPR, 2017
+      - CCPA, 2016
+  3. technical
+    - 
+      - DARPA 2017
+
+DARPA - 3 challenges to R&D
+  - XAI
+    1. more XAI -> new ML techniques (scientific question)
+    2. design X interfaces -> human factor integration
+    3. effective explanations 
+      - decomposable
+      - model info
+      - simplification & relevance -> stakeholder matters
+      - examples -> metaphors
+  
+
+definitions
+
+understandability 
+  - how the model works
+  - level of understanding of such by a human
+
+comprehensibility
+  - systems ability to represent knowledge/inner workings to a human
+    posthoc explanations
+    - text
+    - features
+    - model
+    - parameters
+    - heat map
+    - data graphic
+
+explainability
+  - all of the above
+
+interpretability
+
+
+Transparency
+  - umbrella term
+
+
+stakeholders
+
+stakeholder: doctor - domain expert
+question: what is the use of XAI to a domain expert?
+  - decision making -> reasonable judgement
+  - new information -> increase knowledge
+
+stakeholder: FDA - regulatory agency
+question: why is XAI important for a regulatory agency?
+  - check for compliance to current standards/laws
+  - system safety and efficacy; is the system doing what it's supposed to be
+
+stakeholder: engineer/data scientist
+question: why is XAI important for engineers and data scientist?
+  - system improvement -> advancement
+
+stakeholder: board members/executives
+question: what is the value of XAI to executives and board members?
+  - profitability, profitable applications
+
+stakeholder: general user
+question: why is XAI to a general user?
+  - trust/confidence in use -> choice to use
