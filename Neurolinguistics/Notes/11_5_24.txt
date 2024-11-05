@@ -1,0 +1,29 @@
+two aspects of inflection separated in the brain both spatially and temporally
+
+morphosyntax
+
+noun and verb inflection share a common pathway in Broca's (late, category neutral processing)
+
+but noun and verb inflection can be differentially impaired by damage to separate regions of the brain (early, category specific processing)
+
+noun specific regions not yet understood, but verb specific regions seem to include L MFG
+
+double dissociation between noun and verb inflection
+
+noun specific morphosyntactic circuitry for selecting features like singular vs plural
+  - superior part of Broca's?
+
+verb specific morphosyntactic circuitry for selecting features like present vs past tense
+  - posterior part of L MFG?
+  - shapiro et al., 2006
+
+verb specific ...
+  - anterior part of L MFG
+  - finocchiaro et al., 2010
+
+
+rTMS data
+  - anterior MFG 
+
+
+
