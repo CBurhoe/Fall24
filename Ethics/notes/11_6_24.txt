@@ -1,0 +1,48 @@
+Superintelligence
+
+ASI - artificial superintelligence
+
+demand for 
+  - human informed ethics principles
+  - + ? informed ethics principles
+
+definition:
+  - a computational system that surpasses all human intelligence and living systems intelligence
+
+ANI 
+  - systems designed for a specific task
+  - surpass humans in some respect, but not "perfect" systems
+
+vvv
+
+AGI
+  - system that is "equivalent" to human intelligence
+    - cognitive
+    - perceptual
+    - behavioral
+  - transfer knowledge from one domain to another domain
+  - adaptability
+  - spontaneity
+
+vvv
+
+ASI
+  - computational system that surpasses all human + living intelligence
+
+
+Surpassing AGI directly from ANI to ASI
+  - give ANI extrasensory capability
+  - learn about and move in environment
+  - give more memory/bandwidth
+  - mind uploading and downloading
+
+
+singleton/singularity
+  - "one world order"; a single governing body (global dictator, global democratic order, etc.)
+
+preventing a singularity
+  - legal
+    - treaty
+    - global governing committee
+  - technologically
+    - 
