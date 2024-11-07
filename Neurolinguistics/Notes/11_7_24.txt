@@ -1,0 +1,149 @@
+agrammatism - 5 main symptoms
+  - paucity of main verbs
+  - syntactic simplification
+  - omission of free-standing closed-class elements (i.e. functors)
+    - "an apple" : an is a free-standing closed-class element -> omission becomes "apple"
+  - substitution of bound closed-class elements (i.e. inflections)
+    - "he walks": walk + -s : -s is a bound element -> could substitute to "he walking"
+  - reliance on canonical word order
+    - SVO in English (Subject - Verb - Object)
+
+all of these symptoms dissociate from each other
+  - Caramazza: "no grounds on which to support the claim that agrammatism constitutes a natural kind category representing those patients with deficit
+    to a single, well-defined component of the language processing system (or even common and equivalent deficits to multiple components)"
+
+model:
+  message
+  grammatical encoding
+    1. functional    - word exchanges
+      - lexical selection
+      - function assignment
+    2. positional    - stranding errors
+      - constituent assembly
+      - inflection 
+  phonological encoding - sound errors
+
+
+two operations at functional level
+  - accessing argument structure properties associated with the lemmas of verbs
+  - mapping participant roles onto grammatical relations
+
+two main operations at the positional level
+  - assembling hierarchical constituent
+  - inserting free-standing and bound closed-class items in the proper place
+
+
+accessing argument structure
+  - berndt et al., 1997
+    - 10 pts, 4 with V<N impairment (verb retrieval), single-word production tasks
+    - in elicited narratives, impaired verb retrieval correlated with syntactic simplification
+    - in constrained sentence production task, 2/4 verb impaired pts had trouble generating not only target verbs, but also the second noun
+      - S = NP + VP = NP1 + V + NP2
+      - 2/4 pts have difficulty with just the verb, not the nouns (only V impairment)
+      - 2/4 pts have difficulty with the whole verb phrase (VP = V + NP2 impairment)
+    - their performance for both verbs (V) and second nouns (NP2) improved when the verbs were provided
+    - suggests that the problem involved accessing the argument structure (e.g. transitivity) at the functional level of syntactic encoding
+
+  - schwarts et al., 1985 - reversal errors
+    - attempts to describe a picture of a girl running toward a man with outstretched arms
+    - attempts to describe a picture of a boy being hit on the head by a ball
+
+assembling hierarchical constituents
+  - some pts are deficient at generating syntactically complex expressions, but are nevertheless capable of supplying the correct
+    closed-class elements
+
+inserting closed-class items
+  - some pts can still formulate sentences of normal complexity, but are deficient at providing the appropriate closed-class elements
+  - nadeau & gonzalez rothi 1992
+    - pt mean sentence length = 9.8 words (long sentences), 64% of his sentences contained embedded clauses
+    - but he omitted
+      - 43% of articles
+      - 40% of complementizers
+      - 43% of syntactically determined prepositions
+      - 27% of semantically determined prepositions
+      - 23 of conjunctions
+      - 22% of auxiliary verbs
+      - 20% of pronouns
+      numerous errors involving verb and noun inflections
+
+deficits involving positional level
+  - the two main subtypes of closed-class elements - free standing functors and bound inflections - can be differentially disrupted
+    - suggests further distinctions may need to be incorporated into theoretical model of the positional level
+  - more fine grained double-dissociations between categories of closed-class elements have also been reported
+    - e.g. syntactically vs semantically determined prepositions 
+      - she called up her friend   she ran up the stairs
+      - she called her friend up  *she ran the stairs up
+      - *up her friend she called  up the stairs she ran
+
+sentence production deficits in PPA
+  - three vars
+    - PNFA
+      - impairment of grammar
+      - atrophy in L ventrolateral PF region, including Brocas area
+    - SD
+      - impairment of conceptual knowledge
+    - LPA
+      - impairment of word retrieval 
+  - PNFA most relevant to issues involving syntactic encoding
+    - Patients have significant sentence production deficits.
+    - Severity correlates with degree of cortical thinning in Broca’s area
+      as well as the L posterior MFG and lateral PrCG
+
+  - sapolsky et al., 2010
+    - evaluated language capacity with PASS
+    - relationship between PASS scores and regions of atrophy
+    - significant correlation of thinning and degree of impairment in posterior part of brocas area, posterior MFG, and lateral PrCG 
+
+  - wilson et al., 2010
+    - PPA, bvFTD, 10 healthy controls
+    - only PNFA - syntactic impairment
+    - PNFA
+      - lowest MLU (mean length of utterance)
+      - most fragments
+      - most syntactic errors
+      - fewest embedded clauses
+    - all PPA
+      - more semantic errors than those with frontal temporal dementia bvFTD
+    - lower syntactic scores - lower tissues volume in L posterior IFG and MFG
+
+
+summary on slide 19
+
+
+neuroimaging
+
+- indefrey et al., 2001 and 2004, PET
+  - restrictive scene description
+  - training 1 week before scanning to learn how exactly to describe the scenes
+
+  (S, sentence): The red square launches the blue ellipse
+    - Das rote viereck stosst die blaue ellipse weg
+
+  (NP, noun phrase): red square, blue ellipse, launch
+    - rotes viereck, blaue ellipse, wegstossen
+    need: agreement on adjective inflection
+    don't need: articles, verb inflection (infinitive here)
+
+  (W, words): square, red; ellipse, blue; launch
+    - viereck, rot; ellpse, blau; wegstossen
+    don't need any syntax encoding 
+
+  - sentence condition engaged posterior broca's area significantly more than word condition
+  - NP condition
+    - 2004 NP~S (not significantly different)
+    - 2001 NP < S (significantly different)
+  
+- haller et al., 2005, fMRI
+  - sentence generation, word reading, sentence reading conditions
+  - word reading = sentence reading
+  - sentence generation - word reading
+    - higher signal strength and greater cluster size in Broca's area
+  - sentence generation - sentence reading
+    - very similar to sentence generation - word reading
+
+summary
+  - serious methodological challenges restricting hemodynamic studies on neural substrates of syntactic encoding during sentence production
+  - available data suggests syntactic encoding relies heavily on Broca's area, consistent with PNFA findings
+  - still, none of the studies were designed to tease apart the two different levels of syntactic encoding - functional and positional levels
+
+
