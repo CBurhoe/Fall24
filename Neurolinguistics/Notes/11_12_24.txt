@@ -1,0 +1,65 @@
+Sentence Comprehension
+
+processing operations and resources
+
+1. the reporter [who attacked the senator] admitted the error
+
+2. the reporter [who the senator attacked] admitted the error
+
+[] = embedded clause
+"the reporter - admitted the error" = matrix clause 
+
+- access lexical properties: as each word heard, phono, semantic, and grammatical properties must be accessed
+
+- assemble constituent structures: based largely on their grammatical category specifications, the words must be
+  grouped into hierarchically organized phrases and clauses
+
+- link NPs with participant roles: based on both syntactic cues and the inherent argument structures of verbs, determine which NP
+  is the actor and which NP is the undergoer of each clause
+
+- short-term memory: keep linguistic material in activated state until the whole utterance has been understood
+
+- cognitive control: deliberately reflect on the structure of the utterance to make sure it is processed correctly
+
+
+Large scale neural network: anatomical organization
+
+dronkers et al., 2004
+  - 72 stroke patients
+  - various impairment profiles across aphasic categories
+  - brain regions where damage linked with sentence comprehension deficits
+    - pMTG
+    - aSTG
+    - pSTS & BA39
+    - BA47
+    - BA46
+  - the pMTG damage group also had sig worse scores than other groups on single word comprehension test in western aphasia battery
+    - suggests pMTG necessary for accessing stored semantic and syntactic properties of words
+
+turkens & dronkers, 2011: connectivity study
+  - two measures of connectivity
+    - structural: diffusion tensor imaging (DTI)
+    - functional: resting-state fMRI (rs-fMRI)
+
+vigneau et al., 2006
+  - meta-analysis of 36 functional neuroimaging studies of receptive sentence processing
+
+pallier et al., 2011
+  - in brain regions sensitive to size of syntactic constituents, neural response increases by one unit each time a new word incorporated into a phrase
+
+
+functional considerations: pMTG
+  - dronkers et al., 2004: pMTG maps phono forms of words onto semantic and syntactic featues
+  - hickok and poeppel 2007: "lexical interface" of dual stream model of speech perception
+  - may be the earliest stage of sentence comprehension
+
+contributions of pMTG
+  - snijders et al., 2009, fMRI
+  - syntactically ambiguous conditions engaged pMGT more than the syntactically unambiguous conditions, suggesting
+    that the pMTG represents the multiple syntactic frames triggered by words like bewijzen
+  - lexically triggered syntactic frames must be kept active longer during the processing of real sentences than during processing of random strings of words
+  - in sentence conditions, pMTG interacted with BA44/6 most likely via the arcuate fasciculus
+    - pMTG represents competing syntactic frams
+    - BA44/6 picks the most appropriate one
+
+
