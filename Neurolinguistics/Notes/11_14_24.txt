@@ -1,0 +1,131 @@
+contributions of aSTG
+
+- dronkers et al., 2004
+  - aSTG essential for basic syntactic processing
+    e.g. grouping words into hierarchically organized phrases and clauses
+
+- hickock & poeppel., 2007
+  - immediately inferior region aSTS/aMTG
+(see slides)
+
+- obleser et al., 2011
+  - auditorily presented german sentences
+  - 3 versions: same words, different syntactic complexity
+    - low
+    - medium
+    - high
+  - as syntactic complexity increased, so did activation in the aSTG near the boundary between BA22 and BA38
+  - similar complexity effects also found in BA44 and pSTS
+
+- brennan et al., 2012
+  - listen to segment of Alice in Wonderland
+  - look for correlations between BOLD signals and two linguistic variables:
+    - frequency of each open-class word
+    - the number of syntactic structure building operations required by each word
+  - significant correlations between BOLD signals and the syntactic metric emerged in only one region- the aSTG near the boundayr between BA22 and BA38
+  - several other fMRI studies reported aSTG sensitivity to violations of syntactic structure
+  - aSTG appears to house neural mechanisms involved in resolving a conflict arising when a word is encountered
+    whose grammatical specifications are incompatible with the syntactic structure that has already been built up
+  - aSTG operates in concert with BA 44 (broca's area)
+
+- humphries et al., 2006: 
+  - fMRI study with four conditions
+    - congruent sentences
+    - congruent word lists
+    - random sentences
+    - random word lists
+  - difference between congruent and random sentences: congurent sentence has semantic meaning at the sentence level, random sentence does not
+  - lateral ATL exhibited a main effect of syntactic structure, a main effect of semantic structure, and an interaction between the two
+  - support combinatorial network hypothesis
+
+- patients with SD suffer from atrophy in ATL, yet retain their appreciation of most grammatical rules until very late stage illness
+
+ogar et al., 2011
+  - administered CYCLE-R to a group of wernicke's aphasics and a group of SD patients
+  - found that wernicke's aphasics severely impaired, SD patients performed quite well
+
+
+kho et al., 2008
+  - surgical removal of ATL does not significantly impair sentence comprehension
+
+breedin & saffran, 1999
+  - SD patient
+  - couldn't distinguish between "pig" and "cow" in single word comprehension tasks
+  - but was able to after seeing a picture of a pig chasing a cow and then hearing "the cow is being chased by the pig"
+  - contrary to findings of dronkers et al., 2004
+  - unsure of whether the relevant sectors of ATL (aSTG, aSTS, aMTG, BA38) are or are not necessary for sentence comprehension
+
+
+contributions of aSTS/BA39
+
+dronkers et al., 2004
+  - storage component of auditory-verbal short-term memory (STM)
+
+hickok & poeppel, 2007
+  - ditto
+  - also rehearsal component relies on the articulatory network and the two components interact via sensorimotor interface
+  - other evidence suggests that the pSTS/BA39 essential for linking NPs with participant roles in "hard to understand" sentences
+    - sentences which are semantically reversable & syntactically noncanonical
+
+
+aSTS/BA39: auditory-verbal STM & sentence comprehension
+
+- digit span correlates with amount of gray matter in pSTS
+- patients with significantly reduced digit span have greatest lesion overlap in pSTS/pSTG
+
+leff et al., 2009
+  - 210 stroke patients
+  - for each voxel in each patient, determine probability that it had normal gray matter, white matter, lesioned brain, non-lesioned brain 
+
+  - administered a variety of tasks 
+    - digit span to probe STM capacity
+    - several lexical tasks
+      - word and pseudoword recognition
+      - picture naming
+      - verbal fluency
+    - auditory and written sentence comprehension tasks
+
+  - lesion correlates of reduced digit span taken as sole behavioral factor
+  - lesion correlates of reduced digit span with performance on the other lexical tasks factored out
+  - as gray matter density in pSTS/pSTG cluster declined, so did patients scores on both digit span tasks and 
+    auditory sentence comprehension task
+  - however no such correlation was found for written sentence comprehension task
+  - there is an STM component in auditory sentence comprehension that is not present in written sentence comprehension tasks
+  - but comprehension requirements stays the same, so isolates STM component
+
+richardson et al., 2009: fMRI with 47 healthy subjects
+  - focus on contrast between semantically reversible and nonreversible sentences
+  - one "hot spot" centered at the temporoparietal boundary
+  - importantly the very same region was also engaged during a task requiring auditory-verbal STM
+
+  - similarly, newhart found that among stroke patients, impaired comprehension of sentences that were both
+    semantically reversible and syntactically noncanonical was associated with hypoperfusion in BA39
+    - same cases tended to have significantly reduced digit span
+
+not all pts with auditory-verbal STM deficits have impaired sentence comprehension
+
+butterworth et al., 1986
+  - case could not hear words in her head
+  - could nevertheless understand long complex sentences and make grammmatical judgements requiring an 
+    appreciation of relationships between distantly separated words
+  
+such findings challenge the view that in order for syntactic processing to be successful, it is necessary for auditory-verbal STM to (...)
+
+in addition, some pts have sentnece comprehension deficits that are independent of their auditory-verbal STM capabilities
+
+damage to BA39 associated with worse performance on noncanonical sentences as opposed to canonical sentences
+  - association remains valid even after factoring out STM scores
+
+perhaps sectors of pSTS/BA39 contribute to auditory-verbal STM on the one hand, and determination of "whos doing what to whom" on the other
+
+
+is broca's area necessary for sentence comprehension?
+  - dronkers says no
+  - thothathiri says no
+  - papoutsi says yes
+  - newhart says yes
+  - kinno says yes
+  - several PNFA studies say yes
+
+
+
