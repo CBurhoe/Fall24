@@ -1,0 +1,60 @@
+Sentence comprehension ERP components
+
+N400 & P600
+
+N400
+  waveform properties
+  - semantic anomaly
+  - spoken and written sentences
+  - negative polarity plotted at top
+  - 250ms onset; 400ms peak
+  - strongest over central and parietal electrodes
+  - amplitude reflects the degree of difficulty of integrating the meaning of the word in context
+
+encountering a semantic anomaly results in a negative peak 400 ms after stimulus
+
+
+N400
+  - amplitude sensitive to number of semantic features that an unexpected word shares with the expected word
+  - sensitive to violations of not only language-specific semantic structure but also general world knowledge
+
+P600
+  waveform properties
+  - sensitive to syntactic violations
+  - printed and spoken sentences
+  - positive polarity
+  - 500-600ms onset, 500ms duration
+  - strongest over central and parietal electrodes
+
+P600
+  - evoked by many different kinds of syntactic violations
+  - can also be elicited by at least three types of grammatically well-formed sentences
+    - garden path sentences
+    - complex sentences
+    - sentences in which the meanings of the NPs and the verb lead the the reader/hearer to expect an arrangement
+      of participant roles that would be plausible in the read world, but the syntactic cues (...)
+
+ELAN
+  waveform properties
+  - syntactic violation
+  - biphasic: ELAN + P600
+  - ELAN
+  - negative polarity
+  - 100-300ms post onset
+  - seems to index initial, automatic detection of an error
+
+ELAN and sustained negativity
+
+
+that's all folks. thank you for taking neurolinguistics!
+
+
+Notes from presentations:
+
+---
+
+mapping brain activation patterns in syntactic vs lexical tone processing
+
+question: how do syntactic tones in Teso engage distinct or overlapping regions compared to lexical tones in Mandarin
+
+
