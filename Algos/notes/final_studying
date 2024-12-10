@@ -1,0 +1,104 @@
+Single Source, Shortest Paths
+
+  Bellman-Ford (bottom-up DP approach)
+    ```
+    M[u,0] = infinity for all u in V, u != v
+    M[v,0] = 0
+
+    for(k=1 : n-1) {
+      for(u in V) {
+        M[u,k] = min_{w:(w,u) in E} (M[w,k-1] + length(w,u))
+      }
+    }
+    ```
+    Running Time: 
+      - Outer loop = O(n)
+      - Inner loop = O(m)
+      => Total = O(mn)
+
+  Notes on B-F:
+    - works with negative weights, but NOT negative weight cycles
+    - detecting negative weight cycles: rerun B-F
+
+  Relaxation Primitive:
+    - d-hat(u): upper bound on d(u)
+    - initially: d-hat(v) = 0, d-hat(u) = infinity for all u != v
+    - relax(x,y): improve d-hat(y) by going through x
+    ```
+    relax(x,y) {
+      if(d-hat(y) > d-hat(x) + length(x,y)) {
+        d-hat(y) = d-hat(x) + length(x,y)
+        y.parent = x
+      }
+    }
+    ```
+
+  Bellman-Ford (as relaxations)
+    ```
+    for(i=1:n) {
+      foreach(u in V) {
+        foreach(edge (x,u)) {
+          relax(x,u)
+        }
+      }
+    }
+    ```
+    Not exactly the same
+      - freezing/parallelism
+      - after n iterations have SSSPs, but not on each iteration
+
+
+  Dijkstra's
+    - intuition: "greedy starting at v"
+      - BFS but with edge lengths: use priority queue (heap) instead of queue
+    Pros: faster than B-F (can be super fast with appropriate data structures)
+    Cons: doesn't work at all with negative edge weights
+
+    ```
+    T = emptyset
+    d-hat(v) = 0
+    d-hat(u) = infinity for all u != v
+
+    while(not all nodes in T) {
+      let u be node not in T with minimum d-hat(u)
+      Add u to T
+      foreach edge (u,x) with x not in T {
+        relax(u,x)
+      }
+    }
+    ```
+    Thm:
+      Throughout the algorithm:
+      1. T is a shortest path tree from v to the nodes in T
+      2. d-hat(u) = d(u) for every u in T
+
+    Pf: induction on |T| (iterations of algorithm)
+      Base: after first iteration (|T| = 1), added v to T with d-hat(v) = d(v) = 0
+      Inductive step:
+        consider iteration when u added to T, let w = u.parent
+        ==> d-hat(u) = d-hat(w) + length(w,u) = d(w) + length(w,u) (induction)
+
+        consider P actual shortest path, S path found by Dijkstra
+        w' predecessor of u on P. Can't be in T
+          if it was, would have d-hat(w') = d(w') by induction
+          would have relaxed (w',u), so would have w' = u.parent
+        x first node of P outside T, previous node y in T
+        d-hat(x) <= d-hat(y) + length(y,x) = d(y) + length(y,x) < length(P) = d(u) <= d-hat(u)
+        contradiction: would have chosen x before u
+
+    Running time:
+      - select node with minimum d-hat value n times
+      - decrease a d-hat value at most once per relaxtion => at most m times
+      - keep d-hat(u) in adjacency list: selecting min d-hat values takes O(n) time
+      ==> O(n^2 + m) = O(n^2) total
+
+      - keep d-hat values in a heap
+        - insert n times
+        - Extract-Min n times
+        - Decrease-Key m times
+        Binary Heap: O(logn) per operation (amortized)
+        ==> O((m+n)logn) running time
+        Fibonacci Heap: 
+          Insert, Decrease-Key O(1) amortized
+          Extract-Min O(logn) amortized
+        ==> O(m + nlogn) running time
