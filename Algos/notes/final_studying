@@ -1,6 +1,7 @@
 Single Source, Shortest Paths
 
   Bellman-Ford (bottom-up DP approach)
+    subproblems: length of shortest path with at most k edges
     ```
     M[u,0] = infinity for all u in V, u != v
     M[v,0] = 0
@@ -102,3 +103,58 @@ Single Source, Shortest Paths
           Insert, Decrease-Key O(1) amortized
           Extract-Min O(logn) amortized
         ==> O(m + nlogn) running time
+
+
+All pairs, shortest paths
+  Floyd-Warshall (dynamic programming)
+    subproblems:
+      intuition: "shortest path from u to v either goes through node w or it doesn't"
+      if it doesn't: shortest uses only first nodes in {1,2,...,n-1}
+      if it does: consists of a path P_1 from u to w and a path P_2 from w to v, neither of which uses w (internally)
+      
+      subproblems: shortest path from u to v that only uses nodes in {1,2,...,k} for all u,v,k
+      formally:
+        given a path P u->v: "intermediate nodes" are all nodes in P other than u,v
+        d^k_{ij}: distance from i to j using only i->j paths with intermediate vertices in {1,2,...,k}
+        Goal: compute d^k_{ij} for all i,j,k in [n]
+        Return: d^n_{ij} for all i,j in V
+
+        d^k_{ij} = 
+          length(i,j) if k = 0
+          min(d^{k-1}_{ij}, d^{k-1}_{ik} + d^{k-1}_{kj}) if k >= 1
+
+    ```
+    M[i,j,0] = length(i,j) for all i,j in [n]
+    for(k = 1 : n) {
+      for(i = 1 : n) {
+        for(j = 1 : n) {
+          M[i,j,k] = min(M[i,j,k-1], M[i,k,k-1] + M[k,j,k-1])
+        }
+      }
+    }
+    ```
+    Correctness:
+      obvious for k=0
+      For k >= 1:
+        M[i,j,k] = min(M[i,j,k-1], M[i,k,k-1] + M[k,j,k-1]) (def of algorithm)
+        = min(d^{k-1}_{ij}, d^{k-1}_{ik} + d^{k-1}_{kj}) (induction)
+        = d^k_{ij} (optimal substructure)
+    
+    Running Time: O(n^3) (triple nested loop, indexes 1 to n)
+
+  Johnson's
+    new approach: can we "fix" negative weights so Dijkstra from every node works
+    time would be O(n(m + nlogn)) = O(mn + n^2logn), better than Floyd-Warshall
+
+    Vertex Reweighting
+      - Let h:V->R be node weights
+      - Let length_h(u,v) = length(u,v) + h(u) - h(v)
+      
+      Add new node s to graph, edges (s,v) for all v in V of length 0
+      Run Bellman-Ford from s, then for all u in V set h(u) = d(s,u)
+      * Note h(u) <= 0 for all u in V
+      Remove s, run Dijkstra from every node u in V to get d_h(u,v) for all u,v in V
+    
+    Running Time: O(n) + O(mn) + O(n(m + nlogn)) = O(mn + n^2logn)
+
+

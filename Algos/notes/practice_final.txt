@@ -1,0 +1,31 @@
+1) DP Freight
+  
+  Step 1: OPT[i] = "min cost from day 1 to day i"
+  Step 2: 
+    Choose A: OPT[i] = r*s_i + OPT[i-1]
+    Choose B: OPT[i] = 4c + OPT[i-4]
+    Bellman equation: OPT[i] = 0 : i <= 0; min(r*s_i + OPT[i-1], 4c + OPT[i-4]) : otherwise
+
+
+
+
+
+
+2) DP Astronomy
+  
+  Step 1: OPT[i] = "Max number of events observed until ith minute, given you observe ith event"
+
+  Step 2: 
+    can observe an event iff |d_j - d_i| <= |j - i|
+    Bellman equation: 
+      OPT[i] = max_{j : |d_j - d_i| <= |i - j|}(OPT[j]) + 1
+      
+
+
+Dynamic Programming
+  define OPT table, i.e. what does OPT[i] represent
+
+
+3) Network flow
+
+  
