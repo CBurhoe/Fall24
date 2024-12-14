@@ -158,3 +158,36 @@ All pairs, shortest paths
     Running Time: O(n) + O(mn) + O(n(m + nlogn)) = O(mn + n^2logn)
 
 
+Minimum Spanning Trees
+  Generic-MST {
+    A = emptyset
+    while(A not a spanning tree) {
+      find an edge e safe for A
+      A = A u {e}
+    }
+    return A
+  }
+  
+  Need to prove that a particular edge is safe and how to find it
+
+  Prim
+    A = emptyset
+    Let u be an arbitrary node and let S = {u}
+    while(A not a spanning tree) {
+      Find an edge {x,y} with x in S and y not in S that is light for (S,S')
+      A <- A u {{x,y}}
+      S <- S u {y}
+    }
+    return A
+
+  Running Time:
+    Trivial analysis:
+    Every spanning tree has n-1 edges => n-1 iterations
+    In each iteration, look through all edges to find min-weight edge crossing (S,S') => O(m) time
+    => O(mn) time total
+    
+    Better analysis:
+      Use priority queue/heap to keep track of minimum weight edge across (S,S')
+      Heap of vertices in S'. Key of v is min-weight edge from v to S
+        when new vertex y added to S, need to update keys of nodes adjacent to y
+          happens at most m times total

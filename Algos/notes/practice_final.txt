@@ -28,4 +28,50 @@ Dynamic Programming
 
 3) Network flow
 
-  
+ 
+
+
+
+1. 
+a) True
+b) False
+c) False
+d) False
+e) False
+f) True
+
+2.
+a) True
+b) Forests in a Graph, Linearly Independent Vectors in a Vector space
+c) False
+d) False
+e) True
+
+3. 
+a) Split the array on each of the partitions.
+Perform mergesort on each partition of the array.
+Concatenate the partitions of the array together.
+
+b) SHould be big theta not big omega
+
+c) 
+
+4. 
+a) 
+
+5. 
+a) c' = c_i + delta(Phi)
+
+  Case 1: c' = 1 + 2 = O(1)
+  Case 2: c' = (a + 1) + |2(a+1) - 2|D|| - |2a - |D|| = a+1 + 2 - a = O(1)
+
+b) 
+  Case 1: c' = 1 + |2(a-1) - |D|| - |2a - |D|| = 1 + 2 = O(1)
+  Case 2: c' = (a+1) + |2(a-1) - |D|*2/3| - |2a - |D||
+    = (a+1) + |2(a-1) - |D|*2/3| - |2|D|/3 - |D|| = O(1)
+
+
+6. 
+a) False
+b) 
+
