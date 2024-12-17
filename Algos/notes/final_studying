@@ -180,14 +180,90 @@ Minimum Spanning Trees
     }
     return A
 
-  Running Time:
-    Trivial analysis:
-    Every spanning tree has n-1 edges => n-1 iterations
-    In each iteration, look through all edges to find min-weight edge crossing (S,S') => O(m) time
-    => O(mn) time total
-    
-    Better analysis:
-      Use priority queue/heap to keep track of minimum weight edge across (S,S')
-      Heap of vertices in S'. Key of v is min-weight edge from v to S
-        when new vertex y added to S, need to update keys of nodes adjacent to y
-          happens at most m times total
+  Kruskal
+    True greedy approach
+
+
+
+Matroids and Greedy
+  Weighted set system:
+  - Universe U
+  - Collection I subset of 2^U called independent sets
+  - Weights w: U -> R+
+  Problem: find max weight independent set
+
+  MST as Weighted Set
+    MST: weighted graph G = (V,E,w). Find MST
+    Set system:
+    - Universe U = E edges
+    - I = {F subset of E : (V,F) a forest}
+    - Weights w: Let w-bar > w(e) for all e in E, let w'(e) = w-bar - w(e) for all e in E
+    Under weights w', max-weight IS = max-weight forest = max-weight spanning tree
+      = min-weight spanning tree under weights w
+
+  Useful properties of Forests:
+    1. emptyset is in I independent set
+    2. If F in I and F' subset of F, then F' in I
+    3. Augmentation Property: 
+      If F_1 in I and F_2 in I with |F_2| > |F_1|, then there is some edge
+        e in F_2\F_1 such that F_1 U {e} is in I
+
+  (U,I) is a matroid if each of these three properties hold
+
+  Matroids
+    - Forests in a graph
+    - Linearly independent vectors in vector space
+      - U a finite set of vectors in R^d
+      - I = {F subset of U: F linearly independent}
+
+  To do algorithms on Matroids, need to be able to determine if a built up
+    set is still an independent set
+    - in MST: does F have any cycles? DFS/BFS, union-find
+    - in general: Independence oracle which takes F subset of U and returns
+      YES is F in I, NO if F not in I
+
+  Kruskal generalized to Matroids:
+    F = emptyset
+    Sort U by weight (largest to smallest)
+    For each u in U in sorted order {
+      If F U {u} in I, add u to F 
+    }
+    Return F
+
+Max-flow, max-bipartite matching
+  graph G is bipartite if V can be partitioned into two parts L and R s.t.
+    every edge in E has one endpoint in L and one endpoint in R
+  a Matching is a subset M of E s.t. e intersect e' = emptyset for all
+    e,e' in M with e != e' (no two edges shair an endpoint)
+
+  Bipartite Maximum Matching: given bipartite graph G = (V,E), find matching
+    M maximizing |M|
+    - extremely important problem, doesn't seem to have much to do with flow
+
+  Algorithm:
+    Make edges from a source s to each node in L
+    Make edges from each node in R to a sink t
+    Direct edges from from L to R
+    Give all edges capacity 1
+
+    Run Ford-Fulkerson to get flow f
+    Return M = {e in L x R: f(e) > 0}
+
+  If capacities are integers, flow returned by FF is an integer
+  Therefor M is a matching
+  
+  Running time: O(mn) time
+
+  Altering FF to be faster:
+
+  Edmonds-Karp 1
+    idea: use FF but choose a better augmenting path to push flow to
+    path to pick: argmax min c_f(e)
+    running time: O(m^2 * logn * logF)
+
+  Edmonds-Karp 2
+    path to pick: shortest augmenting path, path with fewest edges
+    easy to compute, use BFS
+    running time: O(m^2 * n) time ( O(mn) iterations )
+
+
